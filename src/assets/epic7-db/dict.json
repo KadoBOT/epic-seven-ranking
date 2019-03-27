@@ -3,427 +3,597 @@
     "abyssal-crown": {
       "path": "@/epic7-db/artifact/abyssal-crown.json",
       "name": "Abyssal Crown",
-      "id": "abyssal-crown"
+      "id": "abyssal-crown",
+      "pve": null,
+      "pvp": null
     },
     "adamant-shield": {
       "path": "@/epic7-db/artifact/adamant-shield.json",
       "name": "Adamant Shield",
-      "id": "adamant-shield"
+      "id": "adamant-shield",
+      "pve": null,
+      "pvp": null
     },
     "alexas-basket": {
       "path": "@/epic7-db/artifact/alexas-basket.json",
       "name": "Alexa's Basket",
-      "id": "alexas-basket"
+      "id": "alexas-basket",
+      "pve": null,
+      "pvp": null
     },
     "alsacian-spear": {
       "path": "@/epic7-db/artifact/alsacian-spear.json",
       "name": "Alsacian Spear",
-      "id": "alsacian-spear"
+      "id": "alsacian-spear",
+      "pve": null,
+      "pvp": null
     },
     "ambrote": {
       "path": "@/epic7-db/artifact/ambrote.json",
       "name": "Ambrote",
-      "id": "ambrote"
+      "id": "ambrote",
+      "pve": null,
+      "pvp": null
     },
     "ancient-sheath": {
       "path": "@/epic7-db/artifact/ancient-sheath.json",
       "name": "Ancient Sheath",
-      "id": "ancient-sheath"
+      "id": "ancient-sheath",
+      "pve": null,
+      "pvp": null
     },
     "aqua-rose": {
       "path": "@/epic7-db/artifact/aqua-rose.json",
       "name": "Aqua Rose",
-      "id": "aqua-rose"
+      "id": "aqua-rose",
+      "pve": null,
+      "pvp": null
     },
     "ascending-axe": {
       "path": "@/epic7-db/artifact/ascending-axe.json",
       "name": "Ascending Axe",
-      "id": "ascending-axe"
+      "id": "ascending-axe",
+      "pve": null,
+      "pvp": null
     },
     "atmas-portal": {
       "path": "@/epic7-db/artifact/atmas-portal.json",
       "name": "Atma's Portal",
-      "id": "atmas-portal"
+      "id": "atmas-portal",
+      "pve": null,
+      "pvp": null
     },
     "aurius": {
       "path": "@/epic7-db/artifact/aurius.json",
       "name": "Aurius",
-      "id": "aurius"
+      "id": "aurius",
+      "pve": null,
+      "pvp": null
     },
     "biting-wind-star": {
       "path": "@/epic7-db/artifact/biting-wind-star.json",
       "name": "Biting Wind Star",
-      "id": "biting-wind-star"
+      "id": "biting-wind-star",
+      "pve": null,
+      "pvp": null
     },
     "bloodbead-dagger": {
       "path": "@/epic7-db/artifact/bloodbead-dagger.json",
       "name": "Bloodbead Dagger",
-      "id": "bloodbead-dagger"
+      "id": "bloodbead-dagger",
+      "pve": null,
+      "pvp": null
     },
     "bloodstone": {
       "path": "@/epic7-db/artifact/bloodstone.json",
       "name": "Bloodstone",
-      "id": "bloodstone"
+      "id": "bloodstone",
+      "pve": null,
+      "pvp": null
     },
     "border-coin": {
       "path": "@/epic7-db/artifact/border-coin.json",
       "name": "Border Coin",
-      "id": "border-coin"
+      "id": "border-coin",
+      "pve": null,
+      "pvp": null
     },
     "bottle-of-knowledge": {
       "path": "@/epic7-db/artifact/bottle-of-knowledge.json",
       "name": "Bottle of Knowledge",
-      "id": "bottle-of-knowledge"
+      "id": "bottle-of-knowledge",
+      "pve": null,
+      "pvp": null
     },
     "butterfly-mandolin": {
       "path": "@/epic7-db/artifact/butterfly-mandolin.json",
       "name": "Butterfly Mandolin",
-      "id": "butterfly-mandolin"
+      "id": "butterfly-mandolin",
+      "pve": null,
+      "pvp": null
     },
     "card-of-small-miracles": {
       "path": "@/epic7-db/artifact/card-of-small-miracles.json",
       "name": "Card of Small Miracles",
-      "id": "card-of-small-miracles"
+      "id": "card-of-small-miracles",
+      "pve": null,
+      "pvp": null
     },
     "celestine": {
       "path": "@/epic7-db/artifact/celestine.json",
       "name": "Celestine",
-      "id": "celestine"
+      "id": "celestine",
+      "pve": null,
+      "pvp": null
     },
     "chatty": {
       "path": "@/epic7-db/artifact/chatty.json",
       "name": "Chatty",
-      "id": "chatty"
+      "id": "chatty",
+      "pve": null,
+      "pvp": null
     },
     "cursed-compass": {
       "path": "@/epic7-db/artifact/cursed-compass.json",
       "name": "Cursed Compass",
-      "id": "cursed-compass"
+      "id": "cursed-compass",
+      "pve": null,
+      "pvp": null
     },
     "daydream-joker": {
       "path": "@/epic7-db/artifact/daydream-joker.json",
       "name": "Daydream Joker",
-      "id": "daydream-joker"
+      "id": "daydream-joker",
+      "pve": null,
+      "pvp": null
     },
     "deadly-sword": {
       "path": "@/epic7-db/artifact/deadly-sword.json",
       "name": "Deadly Sword",
-      "id": "deadly-sword"
+      "id": "deadly-sword",
+      "pve": null,
+      "pvp": null
     },
     "demons-pistol": {
       "path": "@/epic7-db/artifact/demons-pistol.json",
       "name": "Demon's Pistol",
-      "id": "demons-pistol"
+      "id": "demons-pistol",
+      "pve": null,
+      "pvp": null
     },
     "devils-brand": {
       "path": "@/epic7-db/artifact/devils-brand.json",
       "name": "Devil's Brand",
-      "id": "devils-brand"
+      "id": "devils-brand",
+      "pve": null,
+      "pvp": null
     },
     "dream-scroll": {
       "path": "@/epic7-db/artifact/dream-scroll.json",
       "name": "Dream Scroll",
-      "id": "dream-scroll"
+      "id": "dream-scroll",
+      "pve": null,
+      "pvp": null
     },
     "durandal": {
       "path": "@/epic7-db/artifact/durandal.json",
       "name": "Durandal",
-      "id": "durandal"
+      "id": "durandal",
+      "pve": null,
+      "pvp": null
     },
     "dust-devil": {
       "path": "@/epic7-db/artifact/dust-devil.json",
       "name": "Dust Devil",
-      "id": "dust-devil"
+      "id": "dust-devil",
+      "pve": null,
+      "pvp": null
     },
     "egg-of-delusion": {
       "path": "@/epic7-db/artifact/egg-of-delusion.json",
       "name": "Egg of Delusion",
-      "id": "egg-of-delusion"
+      "id": "egg-of-delusion",
+      "pve": null,
+      "pvp": null
     },
     "elbris-ritual-sword": {
       "path": "@/epic7-db/artifact/elbris-ritual-sword.json",
       "name": "Elbris Ritual Sword",
-      "id": "elbris-ritual-sword"
+      "id": "elbris-ritual-sword",
+      "pve": null,
+      "pvp": null
     },
     "elfs-bow": {
       "path": "@/epic7-db/artifact/elfs-bow.json",
       "name": "Elf's Bow",
-      "id": "elfs-bow"
+      "id": "elfs-bow",
+      "pve": null,
+      "pvp": null
     },
     "els-fist": {
       "path": "@/epic7-db/artifact/els-fist.json",
       "name": "El's Fist",
-      "id": "els-fist"
+      "id": "els-fist",
+      "pve": null,
+      "pvp": null
     },
     "elyhas-knife": {
       "path": "@/epic7-db/artifact/elyhas-knife.json",
       "name": "Elyha's Knife",
-      "id": "elyhas-knife"
+      "id": "elyhas-knife",
+      "pve": null,
+      "pvp": null
     },
     "enhanced-gauntlet": {
       "path": "@/epic7-db/artifact/enhanced-gauntlet.json",
       "name": "Enhanced Gauntlet",
-      "id": "enhanced-gauntlet"
+      "id": "enhanced-gauntlet",
+      "pve": null,
+      "pvp": null
     },
     "envoys-pipe": {
       "path": "@/epic7-db/artifact/envoys-pipe.json",
       "name": "Envoy's Pipe",
-      "id": "envoys-pipe"
+      "id": "envoys-pipe",
+      "pve": null,
+      "pvp": null
     },
     "eticas-scepter": {
       "path": "@/epic7-db/artifact/eticas-scepter.json",
       "name": "Etica's Scepter",
-      "id": "eticas-scepter"
+      "id": "eticas-scepter",
+      "pve": null,
+      "pvp": null
     },
     "exorcists-tonfa": {
       "path": "@/epic7-db/artifact/exorcists-tonfa.json",
       "name": "Exorcist's Tonfa",
-      "id": "exorcists-tonfa"
+      "id": "exorcists-tonfa",
+      "pve": null,
+      "pvp": null
     },
     "fairys-grimoire": {
       "path": "@/epic7-db/artifact/fairys-grimoire.json",
       "name": "Fairy's Grimoire",
-      "id": "fairys-grimoire"
+      "id": "fairys-grimoire",
+      "pve": null,
+      "pvp": null
     },
     "firm-shield": {
       "path": "@/epic7-db/artifact/firm-shield.json",
       "name": "Firm Shield",
-      "id": "firm-shield"
+      "id": "firm-shield",
+      "pve": null,
+      "pvp": null
     },
     "forest-totem": {
       "path": "@/epic7-db/artifact/forest-totem.json",
       "name": "Forest Totem",
-      "id": "forest-totem"
+      "id": "forest-totem",
+      "pve": null,
+      "pvp": null
     },
     "goblins-lamp": {
       "path": "@/epic7-db/artifact/goblins-lamp.json",
       "name": "Goblin's Lamp",
-      "id": "goblins-lamp"
+      "id": "goblins-lamp",
+      "pve": null,
+      "pvp": null
     },
     "grail-of-blood": {
       "path": "@/epic7-db/artifact/grail-of-blood.json",
       "name": "Grail of Blood",
-      "id": "grail-of-blood"
+      "id": "grail-of-blood",
+      "pve": null,
+      "pvp": null
     },
     "hell-cutter": {
       "path": "@/epic7-db/artifact/hell-cutter.json",
       "name": "Hell Cutter",
-      "id": "hell-cutter"
+      "id": "hell-cutter",
+      "pve": null,
+      "pvp": null
     },
     "hilag-lance": {
       "path": "@/epic7-db/artifact/hilag-lance.json",
       "name": "Hilag Lance",
-      "id": "hilag-lance"
+      "id": "hilag-lance",
+      "pve": null,
+      "pvp": null
     },
     "holy-sacrifice": {
       "path": "@/epic7-db/artifact/holy-sacrifice.json",
       "name": "Holy Sacrifice",
-      "id": "holy-sacrifice"
+      "id": "holy-sacrifice",
+      "pve": null,
+      "pvp": null
     },
     "idols-cheer": {
       "path": "@/epic7-db/artifact/idols-cheer.json",
       "name": "Idol's Cheer",
-      "id": "idols-cheer"
+      "id": "idols-cheer",
+      "pve": null,
+      "pvp": null
     },
     "iela-violin": {
       "path": "@/epic7-db/artifact/iela-violin.json",
       "name": "Iela Violin",
-      "id": "iela-violin"
+      "id": "iela-violin",
+      "pve": null,
+      "pvp": null
     },
     "infinity-basket": {
       "path": "@/epic7-db/artifact/infinity-basket.json",
       "name": "Infinity Basket",
-      "id": "infinity-basket"
+      "id": "infinity-basket",
+      "pve": null,
+      "pvp": null
     },
     "iron-fan": {
       "path": "@/epic7-db/artifact/iron-fan.json",
       "name": "Iron Fan",
-      "id": "iron-fan"
+      "id": "iron-fan",
+      "pve": null,
+      "pvp": null
     },
     "justice-for-all": {
       "path": "@/epic7-db/artifact/justice-for-all.json",
       "name": "Justice for All",
-      "id": "justice-for-all"
+      "id": "justice-for-all",
+      "pve": null,
+      "pvp": null
     },
     "kaladra": {
       "path": "@/epic7-db/artifact/kaladra.json",
       "name": "Kal'adra",
-      "id": "kaladra"
+      "id": "kaladra",
+      "pve": null,
+      "pvp": null
     },
     "labyrinth-cube": {
       "path": "@/epic7-db/artifact/labyrinth-cube.json",
       "name": "Labyrinth Cube",
-      "id": "labyrinth-cube"
+      "id": "labyrinth-cube",
+      "pve": null,
+      "pvp": null
     },
     "love-potion": {
       "path": "@/epic7-db/artifact/love-potion.json",
       "name": "Love Potion",
-      "id": "love-potion"
+      "id": "love-potion",
+      "pve": null,
+      "pvp": null
     },
     "magarahas-tome": {
       "path": "@/epic7-db/artifact/magarahas-tome.json",
       "name": "Magaraha's Tome",
-      "id": "magarahas-tome"
+      "id": "magarahas-tome",
+      "pve": null,
+      "pvp": null
     },
     "mighty-yaksha": {
       "path": "@/epic7-db/artifact/mighty-yaksha.json",
       "name": "Mighty Yaksha",
-      "id": "mighty-yaksha"
+      "id": "mighty-yaksha",
+      "pve": null,
+      "pvp": null
     },
     "moonlight-dreamblade": {
       "path": "@/epic7-db/artifact/moonlight-dreamblade.json",
       "name": "Moonlight Dreamblade",
-      "id": "moonlight-dreamblade"
+      "id": "moonlight-dreamblade",
+      "pve": null,
+      "pvp": null
     },
     "noble-oath": {
       "path": "@/epic7-db/artifact/noble-oath.json",
       "name": "Noble Oath",
-      "id": "noble-oath"
+      "id": "noble-oath",
+      "pve": null,
+      "pvp": null
     },
     "oath-key": {
       "path": "@/epic7-db/artifact/oath-key.json",
       "name": "Oath Key",
-      "id": "oath-key"
+      "id": "oath-key",
+      "pve": null,
+      "pvp": null
     },
     "otherworldly-machinery": {
       "path": "@/epic7-db/artifact/otherworldly-machinery.json",
       "name": "Otherworldly Machinery",
-      "id": "otherworldly-machinery"
+      "id": "otherworldly-machinery",
+      "pve": null,
+      "pvp": null
     },
     "prophetic-candlestick": {
       "path": "@/epic7-db/artifact/prophetic-candlestick.json",
       "name": "Prophetic Candlestick",
-      "id": "prophetic-candlestick"
+      "id": "prophetic-candlestick",
+      "pve": null,
+      "pvp": null
     },
     "purple-talisman": {
       "path": "@/epic7-db/artifact/purple-talisman.json",
       "name": "Purple Talisman",
-      "id": "purple-talisman"
+      "id": "purple-talisman",
+      "pve": null,
+      "pvp": null
     },
     "radiant-forever": {
       "path": "@/epic7-db/artifact/radiant-forever.json",
       "name": "Radiant Forever",
-      "id": "radiant-forever"
+      "id": "radiant-forever",
+      "pve": null,
+      "pvp": null
     },
     "ranons-memorandum": {
       "path": "@/epic7-db/artifact/ranons-memorandum.json",
       "name": "Ranon's Memorandum",
-      "id": "ranons-memorandum"
+      "id": "ranons-memorandum",
+      "pve": null,
+      "pvp": null
     },
     "rhianna-luciella": {
       "path": "@/epic7-db/artifact/rhianna-luciella.json",
       "name": "Rhianna & Luciella",
-      "id": "rhianna-luciella"
+      "id": "rhianna-luciella",
+      "pve": null,
+      "pvp": null
     },
     "rod-of-amaryllis": {
       "path": "@/epic7-db/artifact/rod-of-amaryllis.json",
       "name": "Rod of Amaryllis",
-      "id": "rod-of-amaryllis"
+      "id": "rod-of-amaryllis",
+      "pve": null,
+      "pvp": null
     },
     "rosa-hargana": {
       "path": "@/epic7-db/artifact/rosa-hargana.json",
       "name": "Rosa Hargana",
-      "id": "rosa-hargana"
+      "id": "rosa-hargana",
+      "pve": null,
+      "pvp": null
     },
     "santa-muerte": {
       "path": "@/epic7-db/artifact/santa-muerte.json",
       "name": "Santa Muerte",
-      "id": "santa-muerte"
+      "id": "santa-muerte",
+      "pve": null,
+      "pvp": null
     },
     "sashe-ithanes": {
       "path": "@/epic7-db/artifact/sashe-ithanes.json",
       "name": "Sashe Ithanes",
-      "id": "sashe-ithanes"
+      "id": "sashe-ithanes",
+      "pve": null,
+      "pvp": null
     },
     "shimadra-staff": {
       "path": "@/epic7-db/artifact/shimadra-staff.json",
       "name": "Shimadra Staff",
-      "id": "shimadra-staff"
+      "id": "shimadra-staff",
+      "pve": null,
+      "pvp": null
     },
     "sigurd-scythe": {
       "path": "@/epic7-db/artifact/sigurd-scythe.json",
       "name": "Sigurd Scythe",
-      "id": "sigurd-scythe"
+      "id": "sigurd-scythe",
+      "pve": null,
+      "pvp": null
     },
     "sira-ren": {
       "path": "@/epic7-db/artifact/sira-ren.json",
       "name": "Sira-Ren",
-      "id": "sira-ren"
+      "id": "sira-ren",
+      "pve": null,
+      "pvp": null
     },
     "song-of-stars": {
       "path": "@/epic7-db/artifact/song-of-stars.json",
       "name": "Song of Stars",
-      "id": "song-of-stars"
+      "id": "song-of-stars",
+      "pve": null,
+      "pvp": null
     },
     "staff-of-wisdom": {
       "path": "@/epic7-db/artifact/staff-of-wisdom.json",
       "name": "Staff of Wisdom",
-      "id": "staff-of-wisdom"
+      "id": "staff-of-wisdom",
+      "pve": null,
+      "pvp": null
     },
     "strak-gauntlet": {
       "path": "@/epic7-db/artifact/strak-gauntlet.json",
       "name": "Strak Gauntlet",
-      "id": "strak-gauntlet"
+      "id": "strak-gauntlet",
+      "pve": null,
+      "pvp": null
     },
     "sword-of-ezera": {
       "path": "@/epic7-db/artifact/sword-of-ezera.json",
       "name": "Sword of Ezera",
-      "id": "sword-of-ezera"
+      "id": "sword-of-ezera",
+      "pve": null,
+      "pvp": null
     },
     "sword-of-judgment": {
       "path": "@/epic7-db/artifact/sword-of-judgment.json",
       "name": "Sword of Judgment",
-      "id": "sword-of-judgment"
+      "id": "sword-of-judgment",
+      "pve": null,
+      "pvp": null
     },
     "sword-of-the-morning": {
       "path": "@/epic7-db/artifact/sword-of-the-morning.json",
       "name": "Sword of the Morning",
-      "id": "sword-of-the-morning"
+      "id": "sword-of-the-morning",
+      "pve": null,
+      "pvp": null
     },
     "sword-of-the-sun": {
       "path": "@/epic7-db/artifact/sword-of-the-sun.json",
       "name": "Sword of the Sun",
-      "id": "sword-of-the-sun"
+      "id": "sword-of-the-sun",
+      "pve": null,
+      "pvp": null
     },
     "tagehels-ancient-book": {
       "path": "@/epic7-db/artifact/tagehels-ancient-book.json",
       "name": "Tagehel's Ancient Book",
-      "id": "tagehels-ancient-book"
+      "id": "tagehels-ancient-book",
+      "pve": null,
+      "pvp": null
     },
     "time-matter": {
       "path": "@/epic7-db/artifact/time-matter.json",
       "name": "Time Matter",
-      "id": "time-matter"
+      "id": "time-matter",
+      "pve": null,
+      "pvp": null
     },
     "timeless-anchor": {
       "path": "@/epic7-db/artifact/timeless-anchor.json",
       "name": "Timeless Anchor",
-      "id": "timeless-anchor"
+      "id": "timeless-anchor",
+      "pve": null,
+      "pvp": null
     },
     "uberiuss-tooth": {
       "path": "@/epic7-db/artifact/uberiuss-tooth.json",
       "name": "Uberius's Tooth",
-      "id": "uberiuss-tooth"
+      "id": "uberiuss-tooth",
+      "pve": null,
+      "pvp": null
     },
     "venus-orb": {
       "path": "@/epic7-db/artifact/venus-orb.json",
       "name": "Venus Orb",
-      "id": "venus-orb"
+      "id": "venus-orb",
+      "pve": null,
+      "pvp": null
     },
     "waters-origin": {
       "path": "@/epic7-db/artifact/waters-origin.json",
       "name": "Water's Origin",
-      "id": "waters-origin"
+      "id": "waters-origin",
+      "pve": null,
+      "pvp": null
     },
     "wind-rider": {
       "path": "@/epic7-db/artifact/wind-rider.json",
       "name": "Wind Rider",
-      "id": "wind-rider"
+      "id": "wind-rider",
+      "pve": null,
+      "pvp": null
     },
     "wondrous-potion-vial": {
       "path": "@/epic7-db/artifact/wondrous-potion-vial.json",
       "name": "Wondrous Potion Vial",
-      "id": "wondrous-potion-vial"
+      "id": "wondrous-potion-vial",
+      "pve": null,
+      "pvp": null
     }
   },
   "buff-debuff": {
@@ -815,13 +985,8 @@
       "path": "@/epic7-db/hero/blaze-dingo.json",
       "name": "Blaze Dingo",
       "id": "blaze-dingo",
-      "pvp": {
-        "arenaOffense": "",
-        "arenaDefense": "",
-        "gwOffense": "",
-        "gwDefense": "",
-        "average": ""
-      }
+      "pve": null,
+      "pvp": null
     },
     "blood-blade-karin": {
       "path": "@/epic7-db/hero/blood-blade-karin.json",
@@ -864,7 +1029,9 @@
     "captain-rikoris": {
       "path": "@/epic7-db/hero/captain-rikoris.json",
       "name": "Captain Rikoris",
-      "id": "captain-rikoris"
+      "id": "captain-rikoris",
+      "pve": null,
+      "pvp": null
     },
     "carmainerose": {
       "path": "@/epic7-db/hero/carmainerose.json",
@@ -984,13 +1151,8 @@
       "path": "@/epic7-db/hero/cermia.json",
       "name": "Cermia",
       "id": "cermia",
-      "pvp": {
-        "arenaOffense": "",
-        "arenaDefense": "",
-        "gwOffense": "",
-        "gwDefense": "",
-        "average": ""
-      }
+      "pve": null,
+      "pvp": null
     },
     "challenger-dominiel": {
       "path": "@/epic7-db/hero/challenger-dominiel.json",
@@ -1451,7 +1613,9 @@
     "giga-phantasma": {
       "path": "@/epic7-db/hero/giga-phantasma.json",
       "name": "Giga-Phantasma",
-      "id": "giga-phantasma"
+      "id": "giga-phantasma",
+      "pve": null,
+      "pvp": null
     },
     "gloomyrain": {
       "path": "@/epic7-db/hero/gloomyrain.json",
@@ -1741,7 +1905,9 @@
     "kikirat-v2": {
       "path": "@/epic7-db/hero/kikirat-v2.json",
       "name": "Kikirat v2",
-      "id": "kikirat-v2"
+      "id": "kikirat-v2",
+      "pve": null,
+      "pvp": null
     },
     "kiris": {
       "path": "@/epic7-db/hero/kiris.json",
@@ -1860,7 +2026,9 @@
     "lidica": {
       "path": "@/epic7-db/hero/lidica.json",
       "name": "Lidica",
-      "id": "lidica"
+      "id": "lidica",
+      "pve": null,
+      "pvp": null
     },
     "lorina": {
       "path": "@/epic7-db/hero/lorina.json",
@@ -2017,7 +2185,9 @@
     "mega-phantasma": {
       "path": "@/epic7-db/hero/mega-phantasma.json",
       "name": "Mega-Phantasma",
-      "id": "mega-phantasma"
+      "id": "mega-phantasma",
+      "pve": null,
+      "pvp": null
     },
     "mercedes": {
       "path": "@/epic7-db/hero/mercedes.json",
@@ -2136,7 +2306,9 @@
     "nilgal": {
       "path": "@/epic7-db/hero/nilgal.json",
       "name": "Nilgal",
-      "id": "nilgal"
+      "id": "nilgal",
+      "pve": null,
+      "pvp": null
     },
     "otillie": {
       "path": "@/epic7-db/hero/otillie.json",
@@ -2559,7 +2731,9 @@
     "silver-blade-aramintha": {
       "path": "@/epic7-db/hero/silver-blade-aramintha.json",
       "name": "Silver Blade Aramintha",
-      "id": "silver-blade-aramintha"
+      "id": "silver-blade-aramintha",
+      "pve": null,
+      "pvp": null
     },
     "specimen-sez": {
       "path": "@/epic7-db/hero/specimen-sez.json",
@@ -2716,7 +2890,9 @@
     "tera-phantasma": {
       "path": "@/epic7-db/hero/tera-phantasma.json",
       "name": "Tera-Phantasma",
-      "id": "tera-phantasma"
+      "id": "tera-phantasma",
+      "pve": null,
+      "pvp": null
     },
     "tieria": {
       "path": "@/epic7-db/hero/tieria.json",
@@ -2932,447 +3108,625 @@
     "abyss-drake-claw": {
       "path": "@/epic7-db/item/abyss-drake-claw.json",
       "name": "Abyss Drake Claw",
-      "id": "abyss-drake-claw"
+      "id": "abyss-drake-claw",
+      "pve": null,
+      "pvp": null
     },
     "abyss-guide-beta": {
       "path": "@/epic7-db/item/abyss-guide-beta.json",
       "name": "Abyss Guide β",
-      "id": "abyss-guide-beta"
+      "id": "abyss-guide-beta",
+      "pve": null,
+      "pvp": null
     },
     "ancient-coin": {
       "path": "@/epic7-db/item/ancient-coin.json",
       "name": "Ancient Coin",
-      "id": "ancient-coin"
+      "id": "ancient-coin",
+      "pve": null,
+      "pvp": null
     },
     "ancient-creature-nucleus": {
       "path": "@/epic7-db/item/ancient-creature-nucleus.json",
       "name": "Ancient Creature Nucleus",
-      "id": "ancient-creature-nucleus"
+      "id": "ancient-creature-nucleus",
+      "pve": null,
+      "pvp": null
     },
     "arc-drake-claw": {
       "path": "@/epic7-db/item/arc-drake-claw.json",
       "name": "Arc Drake Claw",
-      "id": "arc-drake-claw"
+      "id": "arc-drake-claw",
+      "pve": null,
+      "pvp": null
     },
     "archers-vision": {
       "path": "@/epic7-db/item/archers-vision.json",
       "name": "Archers Vision",
-      "id": "archers-vision"
+      "id": "archers-vision",
+      "pve": null,
+      "pvp": null
     },
     "baby-mouse-insignia": {
       "path": "@/epic7-db/item/baby-mouse-insignia.json",
       "name": "Baby Mouse Insignia",
-      "id": "baby-mouse-insignia"
+      "id": "baby-mouse-insignia",
+      "pve": null,
+      "pvp": null
     },
     "black-curse-powder": {
       "path": "@/epic7-db/item/black-curse-powder.json",
       "name": "Black Curse Powder",
-      "id": "black-curse-powder"
+      "id": "black-curse-powder",
+      "pve": null,
+      "pvp": null
     },
     "blazing-essence": {
       "path": "@/epic7-db/item/blazing-essence.json",
       "name": "Blazing Essence",
-      "id": "blazing-essence"
+      "id": "blazing-essence",
+      "pve": null,
+      "pvp": null
     },
     "blazing-rage": {
       "path": "@/epic7-db/item/blazing-rage.json",
       "name": "Blazing Rage",
-      "id": "blazing-rage"
+      "id": "blazing-rage",
+      "pve": null,
+      "pvp": null
     },
     "blazing-soul": {
       "path": "@/epic7-db/item/blazing-soul.json",
       "name": "Blazing Soul",
-      "id": "blazing-soul"
+      "id": "blazing-soul",
+      "pve": null,
+      "pvp": null
     },
     "blessing-of-orbis": {
       "path": "@/epic7-db/item/blessing-of-orbis.json",
       "name": "Blessing Of Orbis",
-      "id": "blessing-of-orbis"
+      "id": "blessing-of-orbis",
+      "pve": null,
+      "pvp": null
     },
     "blood-flaked-bone": {
       "path": "@/epic7-db/item/blood-flaked-bone.json",
       "name": "Blood Flaked Bone",
-      "id": "blood-flaked-bone"
+      "id": "blood-flaked-bone",
+      "pve": null,
+      "pvp": null
     },
     "brave-crest": {
       "path": "@/epic7-db/item/brave-crest.json",
       "name": "Brave Crest",
-      "id": "brave-crest"
+      "id": "brave-crest",
+      "pve": null,
+      "pvp": null
     },
     "bright-essence": {
       "path": "@/epic7-db/item/bright-essence.json",
       "name": "Bright Essence",
-      "id": "bright-essence"
+      "id": "bright-essence",
+      "pve": null,
+      "pvp": null
     },
     "cold-look": {
       "path": "@/epic7-db/item/cold-look.json",
       "name": "Cold Look",
-      "id": "cold-look"
+      "id": "cold-look",
+      "pve": null,
+      "pvp": null
     },
     "conquest-points": {
       "path": "@/epic7-db/item/conquest-points.json",
       "name": "Conquest Points",
-      "id": "conquest-points"
+      "id": "conquest-points",
+      "pve": null,
+      "pvp": null
     },
     "covenant-bookmarks": {
       "path": "@/epic7-db/item/covenant-bookmarks.json",
       "name": "Covenant Bookmarks",
-      "id": "covenant-bookmarks"
+      "id": "covenant-bookmarks",
+      "pve": null,
+      "pvp": null
     },
     "cursed-ashes": {
       "path": "@/epic7-db/item/cursed-ashes.json",
       "name": "Cursed Ashes",
-      "id": "cursed-ashes"
+      "id": "cursed-ashes",
+      "pve": null,
+      "pvp": null
     },
     "dark-rune": {
       "path": "@/epic7-db/item/dark-rune.json",
       "name": "Dark Rune",
-      "id": "dark-rune"
+      "id": "dark-rune",
+      "pve": null,
+      "pvp": null
     },
     "dark-steel": {
       "path": "@/epic7-db/item/dark-steel.json",
       "name": "Dark Steel",
-      "id": "dark-steel"
+      "id": "dark-steel",
+      "pve": null,
+      "pvp": null
     },
     "demon-blood-gem": {
       "path": "@/epic7-db/item/demon-blood-gem.json",
       "name": "Demon Blood Gem",
-      "id": "demon-blood-gem"
+      "id": "demon-blood-gem",
+      "pve": null,
+      "pvp": null
     },
     "dragons-wrath": {
       "path": "@/epic7-db/item/dragons-wrath.json",
       "name": "Dragon's Wrath",
-      "id": "dragons-wrath"
+      "id": "dragons-wrath",
+      "pve": null,
+      "pvp": null
     },
     "dream-time-circuit": {
       "path": "@/epic7-db/item/dream-time-circuit.json",
       "name": "Dream Time Circuit",
-      "id": "dream-time-circuit"
+      "id": "dream-time-circuit",
+      "pve": null,
+      "pvp": null
     },
     "energy": {
       "path": "@/epic7-db/item/energy.json",
       "name": "Energy",
-      "id": "energy"
+      "id": "energy",
+      "pve": null,
+      "pvp": null
     },
     "epic-dark-rune": {
       "path": "@/epic7-db/item/epic-dark-rune.json",
       "name": "Epic Dark Rune",
-      "id": "epic-dark-rune"
+      "id": "epic-dark-rune",
+      "pve": null,
+      "pvp": null
     },
     "epic-flame-rune": {
       "path": "@/epic7-db/item/epic-flame-rune.json",
       "name": "Epic Flame Rune",
-      "id": "epic-flame-rune"
+      "id": "epic-flame-rune",
+      "pve": null,
+      "pvp": null
     },
     "epic-frost-rune": {
       "path": "@/epic7-db/item/epic-frost-rune.json",
       "name": "Epic Frost Rune",
-      "id": "epic-frost-rune"
+      "id": "epic-frost-rune",
+      "pve": null,
+      "pvp": null
     },
     "epic-life-rune": {
       "path": "@/epic7-db/item/epic-life-rune.json",
       "name": "Epic Life Rune",
-      "id": "epic-life-rune"
+      "id": "epic-life-rune",
+      "pve": null,
+      "pvp": null
     },
     "epic-light-rune": {
       "path": "@/epic7-db/item/epic-light-rune.json",
       "name": "Epic Light Rune",
-      "id": "epic-light-rune"
+      "id": "epic-light-rune",
+      "pve": null,
+      "pvp": null
     },
     "erikion-carapace": {
       "path": "@/epic7-db/item/erikion-carapace.json",
       "name": "Erikion Carapace",
-      "id": "erikion-carapace"
+      "id": "erikion-carapace",
+      "pve": null,
+      "pvp": null
     },
     "eternal-forest-dust": {
       "path": "@/epic7-db/item/eternal-forest-dust.json",
       "name": "Eternal Forest Dust",
-      "id": "eternal-forest-dust"
+      "id": "eternal-forest-dust",
+      "pve": null,
+      "pvp": null
     },
     "fighter-medal": {
       "path": "@/epic7-db/item/fighter-medal.json",
       "name": "Fighter Medal",
-      "id": "fighter-medal"
+      "id": "fighter-medal",
+      "pve": null,
+      "pvp": null
     },
     "flag": {
       "path": "@/epic7-db/item/flag.json",
       "name": "Flag",
-      "id": "flag"
+      "id": "flag",
+      "pve": null,
+      "pvp": null
     },
     "flame-of-soul": {
       "path": "@/epic7-db/item/flame-of-soul.json",
       "name": "Flame of Soul",
-      "id": "flame-of-soul"
+      "id": "flame-of-soul",
+      "pve": null,
+      "pvp": null
     },
     "flame-rune": {
       "path": "@/epic7-db/item/flame-rune.json",
       "name": "Flame Rune",
-      "id": "flame-rune"
+      "id": "flame-rune",
+      "pve": null,
+      "pvp": null
     },
     "friendship-bookmarks": {
       "path": "@/epic7-db/item/friendship-bookmarks.json",
       "name": "Friendship Bookmarks",
-      "id": "friendship-bookmarks"
+      "id": "friendship-bookmarks",
+      "pve": null,
+      "pvp": null
     },
     "friendship-points": {
       "path": "@/epic7-db/item/friendship-points.json",
       "name": "Friendship Points",
-      "id": "friendship-points"
+      "id": "friendship-points",
+      "pve": null,
+      "pvp": null
     },
     "frost-rune": {
       "path": "@/epic7-db/item/frost-rune.json",
       "name": "Frost Rune",
-      "id": "frost-rune"
+      "id": "frost-rune",
+      "pve": null,
+      "pvp": null
     },
     "fused-nerve": {
       "path": "@/epic7-db/item/fused-nerve.json",
       "name": "Fused Nerve",
-      "id": "fused-nerve"
+      "id": "fused-nerve",
+      "pve": null,
+      "pvp": null
     },
     "gold-transmit-stone": {
       "path": "@/epic7-db/item/gold-transmit-stone.json",
       "name": "Gold Transmit Stone",
-      "id": "gold-transmit-stone"
+      "id": "gold-transmit-stone",
+      "pve": null,
+      "pvp": null
     },
     "gold": {
       "path": "@/epic7-db/item/gold.json",
       "name": "Gold",
-      "id": "gold"
+      "id": "gold",
+      "pve": null,
+      "pvp": null
     },
     "greater-dark-rune": {
       "path": "@/epic7-db/item/greater-dark-rune.json",
       "name": "Greater Dark Rune",
-      "id": "greater-dark-rune"
+      "id": "greater-dark-rune",
+      "pve": null,
+      "pvp": null
     },
     "greater-flame-rune": {
       "path": "@/epic7-db/item/greater-flame-rune.json",
       "name": "Greater Flame Rune",
-      "id": "greater-flame-rune"
+      "id": "greater-flame-rune",
+      "pve": null,
+      "pvp": null
     },
     "greater-frost-rune": {
       "path": "@/epic7-db/item/greater-frost-rune.json",
       "name": "Greater Frost Rune",
-      "id": "greater-frost-rune"
+      "id": "greater-frost-rune",
+      "pve": null,
+      "pvp": null
     },
     "greater-life-rune": {
       "path": "@/epic7-db/item/greater-life-rune.json",
       "name": "Greater Life Rune",
-      "id": "greater-life-rune"
+      "id": "greater-life-rune",
+      "pve": null,
+      "pvp": null
     },
     "greater-light-rune": {
       "path": "@/epic7-db/item/greater-light-rune.json",
       "name": "Greater Light Rune",
-      "id": "greater-light-rune"
+      "id": "greater-light-rune",
+      "pve": null,
+      "pvp": null
     },
     "green-drake-claw": {
       "path": "@/epic7-db/item/green-drake-claw.json",
       "name": "Green Drake Claw",
-      "id": "green-drake-claw"
+      "id": "green-drake-claw",
+      "pve": null,
+      "pvp": null
     },
     "hellish-essence": {
       "path": "@/epic7-db/item/hellish-essence.json",
       "name": "Hellish Essence",
-      "id": "hellish-essence"
+      "id": "hellish-essence",
+      "pve": null,
+      "pvp": null
     },
     "horn-of-desire": {
       "path": "@/epic7-db/item/horn-of-desire.json",
       "name": "Horn of Desire",
-      "id": "horn-of-desire"
+      "id": "horn-of-desire",
+      "pve": null,
+      "pvp": null
     },
     "howling-drake-claw": {
       "path": "@/epic7-db/item/howling-drake-claw.json",
       "name": "Howling Drake Claw",
-      "id": "howling-drake-claw"
+      "id": "howling-drake-claw",
+      "pve": null,
+      "pvp": null
     },
     "labyrinth-compass": {
       "path": "@/epic7-db/item/labyrinth-compass.json",
       "name": "Labyrinth Compass",
-      "id": "labyrinth-compass"
+      "id": "labyrinth-compass",
+      "pve": null,
+      "pvp": null
     },
     "leather-sheath": {
       "path": "@/epic7-db/item/leather-sheath.json",
       "name": "Leather Sheath",
-      "id": "leather-sheath"
+      "id": "leather-sheath",
+      "pve": null,
+      "pvp": null
     },
     "leif": {
       "path": "@/epic7-db/item/leif.json",
       "name": "Leif",
-      "id": "leif"
+      "id": "leif",
+      "pve": null,
+      "pvp": null
     },
     "life-rune": {
       "path": "@/epic7-db/item/life-rune.json",
       "name": "Life Rune",
-      "id": "life-rune"
+      "id": "life-rune",
+      "pve": null,
+      "pvp": null
     },
     "light-rune": {
       "path": "@/epic7-db/item/light-rune.json",
       "name": "Light Rune",
-      "id": "light-rune"
+      "id": "light-rune",
+      "pve": null,
+      "pvp": null
     },
     "lucky-rabbit-cookie": {
       "path": "@/epic7-db/item/lucky-rabbit-cookie.json",
       "name": "Lucky Rabbit Cookie",
-      "id": "lucky-rabbit-cookie"
+      "id": "lucky-rabbit-cookie",
+      "pve": null,
+      "pvp": null
     },
     "mana-drake-claw": {
       "path": "@/epic7-db/item/mana-drake-claw.json",
       "name": "Mana Drake Claw",
-      "id": "mana-drake-claw"
+      "id": "mana-drake-claw",
+      "pve": null,
+      "pvp": null
     },
     "mana-essence": {
       "path": "@/epic7-db/item/mana-essence.json",
       "name": "Mana Essence",
-      "id": "mana-essence"
+      "id": "mana-essence",
+      "pve": null,
+      "pvp": null
     },
     "mercenarys-medicine": {
       "path": "@/epic7-db/item/mercenarys-medicine.json",
       "name": "Mercenary's Medicine",
-      "id": "mercenarys-medicine"
+      "id": "mercenarys-medicine",
+      "pve": null,
+      "pvp": null
     },
     "mithril": {
       "path": "@/epic7-db/item/mithril.json",
       "name": "Mithril",
-      "id": "mithril"
+      "id": "mithril",
+      "pve": null,
+      "pvp": null
     },
     "molagora-seed": {
       "path": "@/epic7-db/item/molagora-seed.json",
       "name": "MolaGora Seed",
-      "id": "molagora-seed"
+      "id": "molagora-seed",
+      "pve": null,
+      "pvp": null
     },
     "molagora": {
       "path": "@/epic7-db/item/molagora.json",
       "name": "MolaGora",
-      "id": "molagora"
+      "id": "molagora",
+      "pve": null,
+      "pvp": null
     },
     "molagorago": {
       "path": "@/epic7-db/item/molagorago.json",
       "name": "MolaGoraGo",
-      "id": "molagorago"
+      "id": "molagorago",
+      "pve": null,
+      "pvp": null
     },
     "molagoragora": {
       "path": "@/epic7-db/item/molagoragora.json",
       "name": "MolaGoraGora",
-      "id": "molagoragora"
+      "id": "molagoragora",
+      "pve": null,
+      "pvp": null
     },
     "mysterious-flash": {
       "path": "@/epic7-db/item/mysterious-flash.json",
       "name": "Mysterious Flash",
-      "id": "mysterious-flash"
+      "id": "mysterious-flash",
+      "pve": null,
+      "pvp": null
     },
     "nightmare-mask": {
       "path": "@/epic7-db/item/nightmare-mask.json",
       "name": "Nightmare Mask",
-      "id": "nightmare-mask"
+      "id": "nightmare-mask",
+      "pve": null,
+      "pvp": null
     },
     "order-of-the-shield-insignia": {
       "path": "@/epic7-db/item/order-of-the-shield-insignia.json",
       "name": "Order Of The Shield Insignia",
-      "id": "order-of-the-shield-insignia"
+      "id": "order-of-the-shield-insignia",
+      "pve": null,
+      "pvp": null
     },
     "orichalcum": {
       "path": "@/epic7-db/item/orichalcum.json",
       "name": "Orichalcum",
-      "id": "orichalcum"
+      "id": "orichalcum",
+      "pve": null,
+      "pvp": null
     },
     "path-power-loop": {
       "path": "@/epic7-db/item/path-power-loop.json",
       "name": "Path Power Loop",
-      "id": "path-power-loop"
+      "id": "path-power-loop",
+      "pve": null,
+      "pvp": null
     },
     "proof-of-courage": {
       "path": "@/epic7-db/item/proof-of-courage.json",
       "name": "Proof of Courage",
-      "id": "proof-of-courage"
+      "id": "proof-of-courage",
+      "pve": null,
+      "pvp": null
     },
     "reingar-student-id": {
       "path": "@/epic7-db/item/reingar-student-id.json",
       "name": "Reingar Student ID",
-      "id": "reingar-student-id"
+      "id": "reingar-student-id",
+      "pve": null,
+      "pvp": null
     },
     "ring-of-glory": {
       "path": "@/epic7-db/item/ring-of-glory.json",
       "name": "Ring of Glory",
-      "id": "ring-of-glory"
+      "id": "ring-of-glory",
+      "pve": null,
+      "pvp": null
     },
     "ruinous-essence": {
       "path": "@/epic7-db/item/ruinous-essence.json",
       "name": "Ruinous Essence",
-      "id": "ruinous-essence"
+      "id": "ruinous-essence",
+      "pve": null,
+      "pvp": null
     },
     "sharp-spearhead": {
       "path": "@/epic7-db/item/sharp-spearhead.json",
       "name": "Sharp Spearhead",
-      "id": "sharp-spearhead"
+      "id": "sharp-spearhead",
+      "pve": null,
+      "pvp": null
     },
     "shiny-enchantment": {
       "path": "@/epic7-db/item/shiny-enchantment.json",
       "name": "Shiny Enchantment",
-      "id": "shiny-enchantment"
+      "id": "shiny-enchantment",
+      "pve": null,
+      "pvp": null
     },
     "silver-transmit-stone": {
       "path": "@/epic7-db/item/silver-transmit-stone.json",
       "name": "Silver Transmit Stone",
-      "id": "silver-transmit-stone"
+      "id": "silver-transmit-stone",
+      "pve": null,
+      "pvp": null
     },
     "skystone": {
       "path": "@/epic7-db/item/skystone.json",
       "name": "Skystone",
-      "id": "skystone"
+      "id": "skystone",
+      "pve": null,
+      "pvp": null
     },
     "slime-jelly": {
       "path": "@/epic7-db/item/slime-jelly.json",
       "name": "Slime Jelly",
-      "id": "slime-jelly"
+      "id": "slime-jelly",
+      "pve": null,
+      "pvp": null
     },
     "small-sun-badge": {
       "path": "@/epic7-db/item/small-sun-badge.json",
       "name": "Small Sun Badge",
-      "id": "small-sun-badge"
+      "id": "small-sun-badge",
+      "pve": null,
+      "pvp": null
     },
     "special-alarm-loop": {
       "path": "@/epic7-db/item/special-alarm-loop.json",
       "name": "Special Alarm Loop",
-      "id": "special-alarm-loop"
+      "id": "special-alarm-loop",
+      "pve": null,
+      "pvp": null
     },
     "steel": {
       "path": "@/epic7-db/item/steel.json",
       "name": "Steel",
-      "id": "steel"
+      "id": "steel",
+      "pve": null,
+      "pvp": null
     },
     "stigma": {
       "path": "@/epic7-db/item/stigma.json",
       "name": "Stigma",
-      "id": "stigma"
+      "id": "stigma",
+      "pve": null,
+      "pvp": null
     },
     "strange-jelly": {
       "path": "@/epic7-db/item/strange-jelly.json",
       "name": "Strange Jelly",
-      "id": "strange-jelly"
+      "id": "strange-jelly",
+      "pve": null,
+      "pvp": null
     },
     "terraria-ore": {
       "path": "@/epic7-db/item/terraria-ore.json",
       "name": "Terraria Ore",
-      "id": "terraria-ore"
+      "id": "terraria-ore",
+      "pve": null,
+      "pvp": null
     },
     "the-heart-of-hypocrisy": {
       "path": "@/epic7-db/item/the-heart-of-hypocrisy.json",
       "name": "The Heart of Hypocrisy",
-      "id": "the-heart-of-hypocrisy"
+      "id": "the-heart-of-hypocrisy",
+      "pve": null,
+      "pvp": null
     },
     "twisted-fang": {
       "path": "@/epic7-db/item/twisted-fang.json",
       "name": "Twisted Fang",
-      "id": "twisted-fang"
+      "id": "twisted-fang",
+      "pve": null,
+      "pvp": null
     },
     "ultra-fang": {
       "path": "@/epic7-db/item/ultra-fang.json",
       "name": "Ultra Fang",
-      "id": "ultra-fang"
+      "id": "ultra-fang",
+      "pve": null,
+      "pvp": null
     },
     "wagon-grass": {
       "path": "@/epic7-db/item/wagon-grass.json",
       "name": "Wagon Grass",
-      "id": "wagon-grass"
+      "id": "wagon-grass",
+      "pve": null,
+      "pvp": null
     }
   }
 }

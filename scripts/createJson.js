@@ -26,8 +26,11 @@ function insertTier(name) {
           "raid": heroPve.Raid,
           "average": parseFloat(heroPve['PvE Average'].toFixed(2)),
         }
+    } else {
+      result.pve = null
     }
-    if(heroPvp) {
+    
+    if(heroPvp && heroPvp['PvP Average']) {
       result.pvp = {
         arenaOffense: heroPvp['Arena\nOffense'],
         arenaDefense: heroPvp['Arena \nDefense'],
@@ -35,6 +38,8 @@ function insertTier(name) {
         gwDefense: heroPvp['GW\nDefense'],
         average: heroPvp['PvP Average']
       }
+    } else {
+      result.pvp = null
     }
 
     return result

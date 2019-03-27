@@ -20,7 +20,6 @@ const nameStartsWith = (name: string, input: string): boolean => {
 
 export default new Vuex.Store({
   state: {
-    count: 0,
     heroes: dict.hero as IHeroesDict,
     hero: {},
     ownedHeroes: {} as IHeroesDict,
