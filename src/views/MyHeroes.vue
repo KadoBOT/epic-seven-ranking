@@ -21,7 +21,7 @@
     </div>
   </div>
   <h2>All Heroes</h2>
-  <div v-for="hero in myHeroes" :key="`my-${hero.id}`">
+  <div v-for="hero in Object.values(ownedHeroes)" :key="`my-${hero.id}`">
     <router-link :to="`/hero/${hero.id}`">{{ hero.name}}</router-link><span v-if="hero.pve"> - PvE: ({{hero.pve.average}}), PvP: ({{hero.pvp.average}})</span>
   </div>
 </div>
@@ -29,7 +29,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapState } from 'vuex';
 
 @Component({
   data() {
@@ -42,7 +42,8 @@ import { mapGetters } from 'vuex';
     next((vm) => vm.$store.dispatch('setOwnedHeroes'));
   },
   computed: {
-    ...mapGetters(['myHeroes', 'getBestPve', 'getBestPvp', 'getBestBoth']),
+    ...mapState(['ownedHeroes']),
+    ...mapGetters(['getBestPve', 'getBestPvp', 'getBestBoth']),
   },
 })
 export default class MyHero extends Vue {}
