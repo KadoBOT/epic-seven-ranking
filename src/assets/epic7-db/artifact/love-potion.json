@@ -1,0 +1,23 @@
+{
+    "name": "Love Potion",
+    "rarity": 4,
+    "exclusive": [],
+    "event": "so-the-roses-may-bloom",
+    "loreDescription": [
+        "It is said to be a magic potion of love, but in reality it is a potion that makes people honest about their innermost feelings."
+    ],
+    "skillDescription": {
+        "base": "Increases the effect of all healing received by an ally by 5.0%. If the effect overlaps, only the effect with higher rate will be applied.",
+        "max": "Increases the effect of all healing received by an ally by 10.0%. If the effect overlaps, only the effect with higher rate will be applied."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}

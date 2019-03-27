@@ -1,0 +1,24 @@
+{
+    "name": "Uberius's Tooth",
+    "rarity": 5,
+    "exclusive": [
+        "warrior"
+    ],
+    "loreDescription": [
+        "Treasure of the Wintenberg royal family made from the remains of wicked dragon Uberius. It's said to be capable of ripping dragon scale armor."
+    ],
+    "skillDescription": {
+        "base": "50.0% chance to inflict additional damage if a critical hit is made upon a Single Attack. Additional damage is proportional to the caster's Attack.",
+        "max": "100.0% chance to inflict additional damage if a critical hit is made upon a Single Attack. Additional damage is proportional to the caster's Attack."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

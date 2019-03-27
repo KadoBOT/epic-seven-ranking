@@ -1,0 +1,695 @@
+{
+  "gameId": "c2028",
+  "name": "Kitty Clarissa",
+  "rarity": 4,
+  "classType": "warrior",
+  "element": "dark",
+  "zodiac": "virgo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "The Holy Order of the Blue Cross requested that Reingar find a way to calm Clarissa down. Instead, the researchers focused on how cats can still be loved after wreaking havoc. Then they turned her into a cat to eliminate everyone's complaints about her violence.",
+  "relations": [
+    {
+      "hero": "montmorancy",
+      "relationType": "trust"
+    },
+    {
+      "hero": "angelica",
+      "relationType": "longing"
+    },
+    {
+      "hero": "lots",
+      "relationType": "rival"
+    },
+    {
+      "hero": "achates",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1240,
+      "atk": 76,
+      "hp": 262,
+      "spd": 108,
+      "def": 89,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10990,
+      "atk": 647,
+      "hp": 3688,
+      "spd": 108,
+      "def": 477,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12383,
+      "atk": 767,
+      "hp": 4028,
+      "spd": 112,
+      "def": 477,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13717,
+      "atk": 807,
+      "hp": 4637,
+      "spd": 108,
+      "def": 592,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15782,
+      "atk": 957,
+      "hp": 5057,
+      "spd": 112,
+      "def": 592,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Get Away, Meow!",
+      "soulAcquire": 1,
+      "description": "Attacks with a morning star. Damage dealt increases proportional to the caster's max Health. If the caster is granted loveliness, triggers Dual Attack from the ally with the highest Attack.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.8,
+          "soulburn": 0.8
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "hp",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.06,
+          "soulburn": 0.06
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 3,
+      "name": "Meow I'm Angry!",
+      "soulAcquire": 1,
+      "description": "Attacks all enemies with a morning star while raging, with a 60% chance to decrease buff duration by 1 turn and make them unhealable for 2 turns. If the caster is granted loveliness, effect chance increases by 20%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_heal_impossible"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 1.05
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 6,
+      "name": "I'm So Cute, Meow♡",
+      "soulAcquire": 2,
+      "description": "Wiggles tail cutely, decreasing debuff duration on all allies by 2 turns, and granting the caster immunity and loveliness for 3 turns.",
+      "enhancement": [
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 8
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 60000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_lovely",
+        "stic_debuf_impossible"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Cat's Nature",
+    "description": "She's very violent, but she's too adorable to be hated.",
+    "dispatch": "[Battle] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 45,
+      "charm": 99,
+      "politics": 20
+    }
+  },
+  "camping": {
+    "options": [
+      "cute-cheer",
+      "happy-memory"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": -1,
+      "bizarre-story": 1,
+      "comforting-cheer": 3,
+      "complain": 2,
+      "criticism": -1,
+      "cute-cheer": 4,
+      "dream": 6,
+      "food-story": 5,
+      "gossip": 2,
+      "happy-memory": 3,
+      "heroic-cheer": 3,
+      "heroic-tale": 2,
+      "horror-story": -4,
+      "interesting-story": 6,
+      "joyful-memory": 3,
+      "myth": 3,
+      "occult": "Unknown",
+      "reality-check": -3,
+      "sad-memory": 3,
+      "self-indulgent": 3,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "dac",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "dac",
+        "increase": 0.007
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "dac",
+        "increase": 0.01
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "dac",
+        "increase": 0.014
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "dac",
+        "increase": 0.018
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "dac",
+        "increase": 0.021
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "dac",
+        "increase": 0.025
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 5
+        },
+        {
+          "item": "eternal-forest-dust",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "demon-blood-gem",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8.5,
+    "hunt11": 8.5,
+    "abyss": 8,
+    "raid": 8.5,
+    "average": 8.42
+  },
+  "pvp": {
+    "arenaOffense": 7.5,
+    "arenaDefense": 7.5,
+    "gwOffense": 7.5,
+    "gwDefense": 7.5,
+    "average": 7.5
+  }
+}

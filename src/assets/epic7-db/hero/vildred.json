@@ -1,0 +1,706 @@
+{
+  "gameId": "c1007",
+  "name": "Vildred",
+  "rarity": 5,
+  "classType": "thief",
+  "element": "earth",
+  "zodiac": "leo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Due to his humorous style of speaking, many mistake Vildred as being light-hearted, but he has a serious side that leads him to stubbornly push ahead with what he thinks is right.",
+  "relations": [
+    {
+      "hero": "ras",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "iseria",
+      "relationType": "rival"
+    },
+    {
+      "hero": "aither",
+      "relationType": "trust"
+    },
+    {
+      "hero": "ruele-of-light",
+      "relationType": "trust"
+    },
+    {
+      "hero": "judge-kise",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1342,
+      "atk": 96,
+      "hp": 283,
+      "spd": 116,
+      "def": 65,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11324,
+      "atk": 771,
+      "hp": 3752,
+      "spd": 116,
+      "def": 421,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13012,
+      "atk": 983,
+      "hp": 4092,
+      "spd": 116,
+      "def": 421,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14130,
+      "atk": 961,
+      "hp": 4718,
+      "spd": 116,
+      "def": 522,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16525,
+      "atk": 1283,
+      "hp": 5138,
+      "spd": 116,
+      "def": 522,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Sweep",
+      "soulAcquire": 1,
+      "description": "Rapidly attacks two enemies with a swordstorm. Damage dealt increases proportional to the caster's Speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.85,
+          "soulburn": 0.85
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.00075,
+          "soulburn": 0.00075
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Dancing Blade",
+      "soulAcquire": 0,
+      "description": "Increases Attack of the caster for 2 turns and attacks all enemies one more time when an enemy is defeated by Sweep or Blade Ascent. Increases Combat Readiness of the caster by 20% when an enemy is defeated.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt by additional skill",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt by additional skill",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt by additional skill",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt by additional skill",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt by additional skill",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_att_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.5,
+          "soulburn": 0.5
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Blade Ascent",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with a swordstorm, dealing damage proportional to the caster's Speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.85,
+          "soulburn": 1.1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.00075,
+          "soulburn": 0.0009
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Legendary Gladiator",
+    "description": "Under his sword, every ill will is brought to light.",
+    "dispatch": "[Hidden Clue] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 80,
+      "charm": 67,
+      "politics": 64
+    }
+  },
+  "camping": {
+    "options": [
+      "belief",
+      "horror-story"
+    ],
+    "reactions": {
+      "advice": 4,
+      "belief": -4,
+      "bizarre-story": -3,
+      "comforting-cheer": 6,
+      "complain": -4,
+      "criticism": -6,
+      "cute-cheer": 2,
+      "dream": 3,
+      "food-story": 4,
+      "gossip": -5,
+      "happy-memory": 5,
+      "heroic-cheer": 8,
+      "heroic-tale": 6,
+      "horror-story": 2,
+      "interesting-story": 1,
+      "joyful-memory": 5,
+      "myth": 4,
+      "occult": -2,
+      "reality-check": -2,
+      "sad-memory": 6,
+      "self-indulgent": -3,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 8
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 10
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 12
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 6
+        },
+        {
+          "item": "ultra-fang",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "blazing-soul",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9.5,
+    "hunt11": 10,
+    "abyss": 7,
+    "raid": 7.5,
+    "average": 8.58
+  },
+  "pvp": {
+    "arenaOffense": 8.5,
+    "arenaDefense": 8,
+    "gwOffense": 8.5,
+    "gwDefense": 8,
+    "average": 8.25
+  }
+}

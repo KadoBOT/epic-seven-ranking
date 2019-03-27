@@ -1,0 +1,676 @@
+{
+  "gameId": "c3075",
+  "name": "Requiemroar",
+  "rarity": 3,
+  "classType": "soul-weaver",
+  "element": "dark",
+  "zodiac": "sagittarius",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A Banshee formed from a corrupted soul. She sings a bizarrely pleasant song of brutal murder and mourning. Her funeral dirge is for the enemy she is about to kill.",
+  "relations": [
+    {
+      "hero": "gloomyrain",
+      "relationType": "love"
+    },
+    {
+      "hero": "carmainerose",
+      "relationType": "trust"
+    },
+    {
+      "hero": "chloe",
+      "relationType": "trust"
+    },
+    {
+      "hero": "celeste",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1029,
+      "atk": 52,
+      "hp": 192,
+      "spd": 100,
+      "def": 67,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 9425,
+      "atk": 473,
+      "hp": 2884,
+      "spd": 100,
+      "def": 494,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 10581,
+      "atk": 635,
+      "hp": 3224,
+      "spd": 106,
+      "def": 494,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 11751,
+      "atk": 589,
+      "hp": 3626,
+      "spd": 100,
+      "def": 613,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 13345,
+      "atk": 827,
+      "hp": 4046,
+      "spd": 106,
+      "def": 613,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Insanity",
+      "soulAcquire": 1,
+      "description": "Claws the enemy, with a 50% chance to decrease Attack for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_att_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Blood Feast",
+      "soulAcquire": 0,
+      "description": "All allies absorb 5% of the damage they each inflict as Health and recover 15% Health every time an enemy dies. Health recovery upon enemy death can only be activated once per turn.",
+      "enhancement": [
+        {
+          "description": "+0.5% Healing relative to damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+0.5% Healing relative to damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+1% Healing relative to damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+1% Healing relative to damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+2% Healing relative to damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Dirge",
+      "soulAcquire": 2,
+      "description": "Attacks with magic, with a 75% chance to decrease Defense for 2 turns, and increases Combat Readiness of all allies by 20%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.8,
+          "soulburn": 2.7
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Impossible Request",
+    "description": "Her requests, which you can never refuse, are becoming more and more unreasonable.",
+    "dispatch": "[Gourmet] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 44,
+      "charm": 55,
+      "politics": 33
+    }
+  },
+  "camping": {
+    "options": [
+      "advice",
+      "complain"
+    ],
+    "reactions": {
+      "advice": 4,
+      "belief": 2,
+      "bizarre-story": 7,
+      "comforting-cheer": 4,
+      "complain": -4,
+      "criticism": 4,
+      "cute-cheer": 2,
+      "dream": 6,
+      "food-story": -2,
+      "gossip": -2,
+      "happy-memory": -1,
+      "heroic-cheer": -2,
+      "heroic-tale": -3,
+      "horror-story": 6,
+      "interesting-story": 6,
+      "joyful-memory": 1,
+      "myth": -2,
+      "occult": 4,
+      "reality-check": 1,
+      "sad-memory": 5,
+      "self-indulgent": 2,
+      "unique-comment": 7
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 120
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 180
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 240
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 300
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 360
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 420
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 480
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 2
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 4
+        },
+        {
+          "item": "cold-look",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 6
+        },
+        {
+          "item": "mercenarys-medicine",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8.5,
+    "hunt11": 8.5,
+    "abyss": 8,
+    "raid": 8.5,
+    "average": 8.42
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 7,
+    "gwOffense": 8,
+    "gwDefense": 7,
+    "average": 7.5
+  }
+}

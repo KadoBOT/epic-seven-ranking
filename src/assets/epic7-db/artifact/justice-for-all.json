@@ -1,0 +1,24 @@
+{
+    "name": "Justice for All",
+    "rarity": 5,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "A gauntlet made the year the first member of the Sharon family was knighted. It represents the pursuit of justice to be shared by all who follow the Goddess and the kingdom, rather than just for the sake of oneself."
+    ],
+    "skillDescription": {
+        "base": "Grants the caster a random buff for 1 turn with a 50.0% chance at the end of the turn.",
+        "max": "Grants the caster a random buff for 1 turn with a 100.0% chance at the end of the turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 76
+        },
+        "max": {
+            "atk": 117,
+            "hp": 988
+        }
+    }
+}

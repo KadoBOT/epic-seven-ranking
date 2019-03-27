@@ -1,0 +1,691 @@
+{
+  "gameId": "c2008",
+  "name": "Crimson Armin",
+  "rarity": 4,
+  "classType": "knight",
+  "element": "light",
+  "zodiac": "libra",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A destructive super cute mercenary, the nickname of Super Cute Guardian of the Red Flame fits Armin perfectly. She assures that she will defend fiercely, indifferent of what she destroys while doing so.",
+  "relations": [
+    {
+      "hero": "serila",
+      "relationType": "rival"
+    },
+    {
+      "hero": "tywin",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1261,
+      "atk": 63,
+      "hp": 303,
+      "spd": 97,
+      "def": 76,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11254,
+      "atk": 538,
+      "hp": 4267,
+      "spd": 97,
+      "def": 520,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12786,
+      "atk": 658,
+      "hp": 4991,
+      "spd": 97,
+      "def": 535,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0.06,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14045,
+      "atk": 671,
+      "hp": 5364,
+      "spd": 97,
+      "def": 645,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16327,
+      "atk": 821,
+      "hp": 6266,
+      "spd": 97,
+      "def": 703,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0.06,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Takedown",
+      "soulAcquire": 1,
+      "description": "Attacks with a large shield, with a 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_provoke"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "def",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.6,
+          "soulburn": 0.6
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Security State",
+      "soulAcquire": 0,
+      "description": "Decreases damage received by allies from a critical hit by 20%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+      "enhancement": [
+        {
+          "description": "+1% additional damage reduction",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+1% additional damage reduction",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+1% additional damage reduction",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+1% additional damage reduction",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+2% additional damage reduction",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+2% additional damage reduction",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+2% additional damage reduction",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "Shield of Holy Spirit",
+      "soulAcquire": 2,
+      "description": "Covers all allies with an aura of holy spirit, granting immunity for 3 turns and invincibility for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+2 Soul acquired",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 1
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_invincible",
+        "stic_debuf_impossible"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Cuteness Wins",
+    "description": "Being cute always wins, right?",
+    "dispatch": "[Cooking] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 50,
+      "charm": 85,
+      "politics": 35
+    }
+  },
+  "camping": {
+    "options": [
+      "cute-cheer",
+      "happy-memory"
+    ],
+    "reactions": {
+      "advice": -1,
+      "belief": 3,
+      "bizarre-story": -1,
+      "comforting-cheer": 0,
+      "complain": -1,
+      "criticism": 1,
+      "cute-cheer": 4,
+      "dream": 5,
+      "food-story": 6,
+      "gossip": 1,
+      "happy-memory": 3,
+      "heroic-cheer": 5,
+      "heroic-tale": 4,
+      "horror-story": -5,
+      "interesting-story": 2,
+      "joyful-memory": 3,
+      "myth": 6,
+      "occult": 1,
+      "reality-check": -2,
+      "sad-memory": 1,
+      "self-indulgent": 4,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "efr",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "efr",
+        "increase": 0.054
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "efr",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "efr",
+        "increase": 0.09
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "efr",
+        "increase": 0.108
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "efr",
+        "increase": 0.126
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 5
+        },
+        {
+          "item": "dream-time-circuit",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "reingar-student-id",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 6,
+    "hunt11": 6,
+    "abyss": 8.5,
+    "raid": 8.5,
+    "average": 7.25
+  },
+  "pvp": {
+    "arenaOffense": 8.5,
+    "arenaDefense": 10,
+    "gwOffense": 8.5,
+    "gwDefense": 9,
+    "average": 9
+  }
+}

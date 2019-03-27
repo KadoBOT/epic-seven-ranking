@@ -1,0 +1,3378 @@
+{
+  "artifact": {
+    "abyssal-crown": {
+      "path": "@/epic7-db/artifact/abyssal-crown.json",
+      "name": "Abyssal Crown",
+      "id": "abyssal-crown"
+    },
+    "adamant-shield": {
+      "path": "@/epic7-db/artifact/adamant-shield.json",
+      "name": "Adamant Shield",
+      "id": "adamant-shield"
+    },
+    "alexas-basket": {
+      "path": "@/epic7-db/artifact/alexas-basket.json",
+      "name": "Alexa's Basket",
+      "id": "alexas-basket"
+    },
+    "alsacian-spear": {
+      "path": "@/epic7-db/artifact/alsacian-spear.json",
+      "name": "Alsacian Spear",
+      "id": "alsacian-spear"
+    },
+    "ambrote": {
+      "path": "@/epic7-db/artifact/ambrote.json",
+      "name": "Ambrote",
+      "id": "ambrote"
+    },
+    "ancient-sheath": {
+      "path": "@/epic7-db/artifact/ancient-sheath.json",
+      "name": "Ancient Sheath",
+      "id": "ancient-sheath"
+    },
+    "aqua-rose": {
+      "path": "@/epic7-db/artifact/aqua-rose.json",
+      "name": "Aqua Rose",
+      "id": "aqua-rose"
+    },
+    "ascending-axe": {
+      "path": "@/epic7-db/artifact/ascending-axe.json",
+      "name": "Ascending Axe",
+      "id": "ascending-axe"
+    },
+    "atmas-portal": {
+      "path": "@/epic7-db/artifact/atmas-portal.json",
+      "name": "Atma's Portal",
+      "id": "atmas-portal"
+    },
+    "aurius": {
+      "path": "@/epic7-db/artifact/aurius.json",
+      "name": "Aurius",
+      "id": "aurius"
+    },
+    "biting-wind-star": {
+      "path": "@/epic7-db/artifact/biting-wind-star.json",
+      "name": "Biting Wind Star",
+      "id": "biting-wind-star"
+    },
+    "bloodbead-dagger": {
+      "path": "@/epic7-db/artifact/bloodbead-dagger.json",
+      "name": "Bloodbead Dagger",
+      "id": "bloodbead-dagger"
+    },
+    "bloodstone": {
+      "path": "@/epic7-db/artifact/bloodstone.json",
+      "name": "Bloodstone",
+      "id": "bloodstone"
+    },
+    "border-coin": {
+      "path": "@/epic7-db/artifact/border-coin.json",
+      "name": "Border Coin",
+      "id": "border-coin"
+    },
+    "bottle-of-knowledge": {
+      "path": "@/epic7-db/artifact/bottle-of-knowledge.json",
+      "name": "Bottle of Knowledge",
+      "id": "bottle-of-knowledge"
+    },
+    "butterfly-mandolin": {
+      "path": "@/epic7-db/artifact/butterfly-mandolin.json",
+      "name": "Butterfly Mandolin",
+      "id": "butterfly-mandolin"
+    },
+    "card-of-small-miracles": {
+      "path": "@/epic7-db/artifact/card-of-small-miracles.json",
+      "name": "Card of Small Miracles",
+      "id": "card-of-small-miracles"
+    },
+    "celestine": {
+      "path": "@/epic7-db/artifact/celestine.json",
+      "name": "Celestine",
+      "id": "celestine"
+    },
+    "chatty": {
+      "path": "@/epic7-db/artifact/chatty.json",
+      "name": "Chatty",
+      "id": "chatty"
+    },
+    "cursed-compass": {
+      "path": "@/epic7-db/artifact/cursed-compass.json",
+      "name": "Cursed Compass",
+      "id": "cursed-compass"
+    },
+    "daydream-joker": {
+      "path": "@/epic7-db/artifact/daydream-joker.json",
+      "name": "Daydream Joker",
+      "id": "daydream-joker"
+    },
+    "deadly-sword": {
+      "path": "@/epic7-db/artifact/deadly-sword.json",
+      "name": "Deadly Sword",
+      "id": "deadly-sword"
+    },
+    "demons-pistol": {
+      "path": "@/epic7-db/artifact/demons-pistol.json",
+      "name": "Demon's Pistol",
+      "id": "demons-pistol"
+    },
+    "devils-brand": {
+      "path": "@/epic7-db/artifact/devils-brand.json",
+      "name": "Devil's Brand",
+      "id": "devils-brand"
+    },
+    "dream-scroll": {
+      "path": "@/epic7-db/artifact/dream-scroll.json",
+      "name": "Dream Scroll",
+      "id": "dream-scroll"
+    },
+    "durandal": {
+      "path": "@/epic7-db/artifact/durandal.json",
+      "name": "Durandal",
+      "id": "durandal"
+    },
+    "dust-devil": {
+      "path": "@/epic7-db/artifact/dust-devil.json",
+      "name": "Dust Devil",
+      "id": "dust-devil"
+    },
+    "egg-of-delusion": {
+      "path": "@/epic7-db/artifact/egg-of-delusion.json",
+      "name": "Egg of Delusion",
+      "id": "egg-of-delusion"
+    },
+    "elbris-ritual-sword": {
+      "path": "@/epic7-db/artifact/elbris-ritual-sword.json",
+      "name": "Elbris Ritual Sword",
+      "id": "elbris-ritual-sword"
+    },
+    "elfs-bow": {
+      "path": "@/epic7-db/artifact/elfs-bow.json",
+      "name": "Elf's Bow",
+      "id": "elfs-bow"
+    },
+    "els-fist": {
+      "path": "@/epic7-db/artifact/els-fist.json",
+      "name": "El's Fist",
+      "id": "els-fist"
+    },
+    "elyhas-knife": {
+      "path": "@/epic7-db/artifact/elyhas-knife.json",
+      "name": "Elyha's Knife",
+      "id": "elyhas-knife"
+    },
+    "enhanced-gauntlet": {
+      "path": "@/epic7-db/artifact/enhanced-gauntlet.json",
+      "name": "Enhanced Gauntlet",
+      "id": "enhanced-gauntlet"
+    },
+    "envoys-pipe": {
+      "path": "@/epic7-db/artifact/envoys-pipe.json",
+      "name": "Envoy's Pipe",
+      "id": "envoys-pipe"
+    },
+    "eticas-scepter": {
+      "path": "@/epic7-db/artifact/eticas-scepter.json",
+      "name": "Etica's Scepter",
+      "id": "eticas-scepter"
+    },
+    "exorcists-tonfa": {
+      "path": "@/epic7-db/artifact/exorcists-tonfa.json",
+      "name": "Exorcist's Tonfa",
+      "id": "exorcists-tonfa"
+    },
+    "fairys-grimoire": {
+      "path": "@/epic7-db/artifact/fairys-grimoire.json",
+      "name": "Fairy's Grimoire",
+      "id": "fairys-grimoire"
+    },
+    "firm-shield": {
+      "path": "@/epic7-db/artifact/firm-shield.json",
+      "name": "Firm Shield",
+      "id": "firm-shield"
+    },
+    "forest-totem": {
+      "path": "@/epic7-db/artifact/forest-totem.json",
+      "name": "Forest Totem",
+      "id": "forest-totem"
+    },
+    "goblins-lamp": {
+      "path": "@/epic7-db/artifact/goblins-lamp.json",
+      "name": "Goblin's Lamp",
+      "id": "goblins-lamp"
+    },
+    "grail-of-blood": {
+      "path": "@/epic7-db/artifact/grail-of-blood.json",
+      "name": "Grail of Blood",
+      "id": "grail-of-blood"
+    },
+    "hell-cutter": {
+      "path": "@/epic7-db/artifact/hell-cutter.json",
+      "name": "Hell Cutter",
+      "id": "hell-cutter"
+    },
+    "hilag-lance": {
+      "path": "@/epic7-db/artifact/hilag-lance.json",
+      "name": "Hilag Lance",
+      "id": "hilag-lance"
+    },
+    "holy-sacrifice": {
+      "path": "@/epic7-db/artifact/holy-sacrifice.json",
+      "name": "Holy Sacrifice",
+      "id": "holy-sacrifice"
+    },
+    "idols-cheer": {
+      "path": "@/epic7-db/artifact/idols-cheer.json",
+      "name": "Idol's Cheer",
+      "id": "idols-cheer"
+    },
+    "iela-violin": {
+      "path": "@/epic7-db/artifact/iela-violin.json",
+      "name": "Iela Violin",
+      "id": "iela-violin"
+    },
+    "infinity-basket": {
+      "path": "@/epic7-db/artifact/infinity-basket.json",
+      "name": "Infinity Basket",
+      "id": "infinity-basket"
+    },
+    "iron-fan": {
+      "path": "@/epic7-db/artifact/iron-fan.json",
+      "name": "Iron Fan",
+      "id": "iron-fan"
+    },
+    "justice-for-all": {
+      "path": "@/epic7-db/artifact/justice-for-all.json",
+      "name": "Justice for All",
+      "id": "justice-for-all"
+    },
+    "kaladra": {
+      "path": "@/epic7-db/artifact/kaladra.json",
+      "name": "Kal'adra",
+      "id": "kaladra"
+    },
+    "labyrinth-cube": {
+      "path": "@/epic7-db/artifact/labyrinth-cube.json",
+      "name": "Labyrinth Cube",
+      "id": "labyrinth-cube"
+    },
+    "love-potion": {
+      "path": "@/epic7-db/artifact/love-potion.json",
+      "name": "Love Potion",
+      "id": "love-potion"
+    },
+    "magarahas-tome": {
+      "path": "@/epic7-db/artifact/magarahas-tome.json",
+      "name": "Magaraha's Tome",
+      "id": "magarahas-tome"
+    },
+    "mighty-yaksha": {
+      "path": "@/epic7-db/artifact/mighty-yaksha.json",
+      "name": "Mighty Yaksha",
+      "id": "mighty-yaksha"
+    },
+    "moonlight-dreamblade": {
+      "path": "@/epic7-db/artifact/moonlight-dreamblade.json",
+      "name": "Moonlight Dreamblade",
+      "id": "moonlight-dreamblade"
+    },
+    "noble-oath": {
+      "path": "@/epic7-db/artifact/noble-oath.json",
+      "name": "Noble Oath",
+      "id": "noble-oath"
+    },
+    "oath-key": {
+      "path": "@/epic7-db/artifact/oath-key.json",
+      "name": "Oath Key",
+      "id": "oath-key"
+    },
+    "otherworldly-machinery": {
+      "path": "@/epic7-db/artifact/otherworldly-machinery.json",
+      "name": "Otherworldly Machinery",
+      "id": "otherworldly-machinery"
+    },
+    "prophetic-candlestick": {
+      "path": "@/epic7-db/artifact/prophetic-candlestick.json",
+      "name": "Prophetic Candlestick",
+      "id": "prophetic-candlestick"
+    },
+    "purple-talisman": {
+      "path": "@/epic7-db/artifact/purple-talisman.json",
+      "name": "Purple Talisman",
+      "id": "purple-talisman"
+    },
+    "radiant-forever": {
+      "path": "@/epic7-db/artifact/radiant-forever.json",
+      "name": "Radiant Forever",
+      "id": "radiant-forever"
+    },
+    "ranons-memorandum": {
+      "path": "@/epic7-db/artifact/ranons-memorandum.json",
+      "name": "Ranon's Memorandum",
+      "id": "ranons-memorandum"
+    },
+    "rhianna-luciella": {
+      "path": "@/epic7-db/artifact/rhianna-luciella.json",
+      "name": "Rhianna & Luciella",
+      "id": "rhianna-luciella"
+    },
+    "rod-of-amaryllis": {
+      "path": "@/epic7-db/artifact/rod-of-amaryllis.json",
+      "name": "Rod of Amaryllis",
+      "id": "rod-of-amaryllis"
+    },
+    "rosa-hargana": {
+      "path": "@/epic7-db/artifact/rosa-hargana.json",
+      "name": "Rosa Hargana",
+      "id": "rosa-hargana"
+    },
+    "santa-muerte": {
+      "path": "@/epic7-db/artifact/santa-muerte.json",
+      "name": "Santa Muerte",
+      "id": "santa-muerte"
+    },
+    "sashe-ithanes": {
+      "path": "@/epic7-db/artifact/sashe-ithanes.json",
+      "name": "Sashe Ithanes",
+      "id": "sashe-ithanes"
+    },
+    "shimadra-staff": {
+      "path": "@/epic7-db/artifact/shimadra-staff.json",
+      "name": "Shimadra Staff",
+      "id": "shimadra-staff"
+    },
+    "sigurd-scythe": {
+      "path": "@/epic7-db/artifact/sigurd-scythe.json",
+      "name": "Sigurd Scythe",
+      "id": "sigurd-scythe"
+    },
+    "sira-ren": {
+      "path": "@/epic7-db/artifact/sira-ren.json",
+      "name": "Sira-Ren",
+      "id": "sira-ren"
+    },
+    "song-of-stars": {
+      "path": "@/epic7-db/artifact/song-of-stars.json",
+      "name": "Song of Stars",
+      "id": "song-of-stars"
+    },
+    "staff-of-wisdom": {
+      "path": "@/epic7-db/artifact/staff-of-wisdom.json",
+      "name": "Staff of Wisdom",
+      "id": "staff-of-wisdom"
+    },
+    "strak-gauntlet": {
+      "path": "@/epic7-db/artifact/strak-gauntlet.json",
+      "name": "Strak Gauntlet",
+      "id": "strak-gauntlet"
+    },
+    "sword-of-ezera": {
+      "path": "@/epic7-db/artifact/sword-of-ezera.json",
+      "name": "Sword of Ezera",
+      "id": "sword-of-ezera"
+    },
+    "sword-of-judgment": {
+      "path": "@/epic7-db/artifact/sword-of-judgment.json",
+      "name": "Sword of Judgment",
+      "id": "sword-of-judgment"
+    },
+    "sword-of-the-morning": {
+      "path": "@/epic7-db/artifact/sword-of-the-morning.json",
+      "name": "Sword of the Morning",
+      "id": "sword-of-the-morning"
+    },
+    "sword-of-the-sun": {
+      "path": "@/epic7-db/artifact/sword-of-the-sun.json",
+      "name": "Sword of the Sun",
+      "id": "sword-of-the-sun"
+    },
+    "tagehels-ancient-book": {
+      "path": "@/epic7-db/artifact/tagehels-ancient-book.json",
+      "name": "Tagehel's Ancient Book",
+      "id": "tagehels-ancient-book"
+    },
+    "time-matter": {
+      "path": "@/epic7-db/artifact/time-matter.json",
+      "name": "Time Matter",
+      "id": "time-matter"
+    },
+    "timeless-anchor": {
+      "path": "@/epic7-db/artifact/timeless-anchor.json",
+      "name": "Timeless Anchor",
+      "id": "timeless-anchor"
+    },
+    "uberiuss-tooth": {
+      "path": "@/epic7-db/artifact/uberiuss-tooth.json",
+      "name": "Uberius's Tooth",
+      "id": "uberiuss-tooth"
+    },
+    "venus-orb": {
+      "path": "@/epic7-db/artifact/venus-orb.json",
+      "name": "Venus Orb",
+      "id": "venus-orb"
+    },
+    "waters-origin": {
+      "path": "@/epic7-db/artifact/waters-origin.json",
+      "name": "Water's Origin",
+      "id": "waters-origin"
+    },
+    "wind-rider": {
+      "path": "@/epic7-db/artifact/wind-rider.json",
+      "name": "Wind Rider",
+      "id": "wind-rider"
+    },
+    "wondrous-potion-vial": {
+      "path": "@/epic7-db/artifact/wondrous-potion-vial.json",
+      "name": "Wondrous Potion Vial",
+      "id": "wondrous-potion-vial"
+    }
+  },
+  "buff-debuff": {
+    "stic_att_dn": {
+      "path": "@/epic7-db/buff-debuff/stic_att_dn.json",
+      "id": "stic_att_dn"
+    },
+    "stic_att_up": {
+      "path": "@/epic7-db/buff-debuff/stic_att_up.json",
+      "id": "stic_att_up"
+    },
+    "stic_blind": {
+      "path": "@/epic7-db/buff-debuff/stic_blind.json",
+      "id": "stic_blind"
+    },
+    "stic_blood": {
+      "path": "@/epic7-db/buff-debuff/stic_blood.json",
+      "id": "stic_blood"
+    },
+    "stic_buf_impossible": {
+      "path": "@/epic7-db/buff-debuff/stic_buf_impossible.json",
+      "id": "stic_buf_impossible"
+    },
+    "stic_counter": {
+      "path": "@/epic7-db/buff-debuff/stic_counter.json",
+      "id": "stic_counter"
+    },
+    "stic_cri_up": {
+      "path": "@/epic7-db/buff-debuff/stic_cri_up.json",
+      "id": "stic_cri_up"
+    },
+    "stic_debuf_impossible": {
+      "path": "@/epic7-db/buff-debuff/stic_debuf_impossible.json",
+      "id": "stic_debuf_impossible"
+    },
+    "stic_def_dn": {
+      "path": "@/epic7-db/buff-debuff/stic_def_dn.json",
+      "id": "stic_def_dn"
+    },
+    "stic_def_up": {
+      "path": "@/epic7-db/buff-debuff/stic_def_up.json",
+      "id": "stic_def_up"
+    }
+  },
+  "hero": {
+    "achates": {
+      "path": "@/epic7-db/hero/achates.json",
+      "name": "Achates",
+      "id": "achates",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 9,
+        "abyss": 9,
+        "raid": 9.5,
+        "average": 9.17
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 7.5,
+        "gwDefense": 7.5,
+        "average": 7.5
+      }
+    },
+    "adlay": {
+      "path": "@/epic7-db/hero/adlay.json",
+      "name": "Adlay",
+      "id": "adlay",
+      "pve": {
+        "hunt10": 4,
+        "hunt11": 4,
+        "abyss": 5,
+        "raid": 5,
+        "average": 4.5
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 5.5,
+        "gwOffense": 5.5,
+        "gwDefense": 5.5,
+        "average": 5.5
+      }
+    },
+    "aither": {
+      "path": "@/epic7-db/hero/aither.json",
+      "name": "Aither",
+      "id": "aither",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 7.5,
+        "abyss": 6,
+        "raid": 6.5,
+        "average": 6.67
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 5.5,
+        "gwOffense": 5.5,
+        "gwDefense": 5.5,
+        "average": 5.5
+      }
+    },
+    "alexa": {
+      "path": "@/epic7-db/hero/alexa.json",
+      "name": "Alexa",
+      "id": "alexa",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 9.5,
+        "abyss": 7,
+        "raid": 6,
+        "average": 7.58
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 5.5,
+        "gwOffense": 6.5,
+        "gwDefense": 5.5,
+        "average": 5.875
+      }
+    },
+    "angelica": {
+      "path": "@/epic7-db/hero/angelica.json",
+      "name": "Angelica",
+      "id": "angelica",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 10,
+        "abyss": 10,
+        "raid": 10,
+        "average": 9.67
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 8,
+        "gwOffense": 7.5,
+        "gwDefense": 8,
+        "average": 7.625
+      }
+    },
+    "aramintha": {
+      "path": "@/epic7-db/hero/aramintha.json",
+      "name": "Aramintha",
+      "id": "aramintha",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 9.5,
+        "abyss": 7.5,
+        "raid": 9,
+        "average": 9
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 7.5,
+        "gwDefense": 7.5,
+        "average": 7.5
+      }
+    },
+    "arbiter-vildred": {
+      "path": "@/epic7-db/hero/arbiter-vildred.json",
+      "name": "Arbiter Vildred",
+      "id": "arbiter-vildred",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 5.5,
+        "abyss": 6.5,
+        "raid": 6.5,
+        "average": 6.17
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8,
+        "gwOffense": 8.5,
+        "gwDefense": 8.5,
+        "average": 8.25
+      }
+    },
+    "armin": {
+      "path": "@/epic7-db/hero/armin.json",
+      "name": "Armin",
+      "id": "armin",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 6.5,
+        "abyss": 7.5,
+        "raid": 7,
+        "average": 6.92
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 6.5,
+        "gwDefense": 7.5,
+        "average": 7
+      }
+    },
+    "arowell": {
+      "path": "@/epic7-db/hero/arowell.json",
+      "name": "Arowell",
+      "id": "arowell",
+      "pve": {
+        "hunt10": 4,
+        "hunt11": 4,
+        "abyss": 4,
+        "raid": 4,
+        "average": 4
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5.5,
+        "gwOffense": 5,
+        "gwDefense": 5.5,
+        "average": 5.25
+      }
+    },
+    "assassin-cartuja": {
+      "path": "@/epic7-db/hero/assassin-cartuja.json",
+      "name": "Assassin Cartuja",
+      "id": "assassin-cartuja",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 9,
+        "raid": 9,
+        "average": 8.75
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 9.5,
+        "gwOffense": 9.5,
+        "gwDefense": 9.5,
+        "average": 9.5
+      }
+    },
+    "assassin-cidd": {
+      "path": "@/epic7-db/hero/assassin-cidd.json",
+      "name": "Assassin Cidd",
+      "id": "assassin-cidd",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 7.5,
+        "abyss": 8,
+        "raid": 7,
+        "average": 7.5
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8,
+        "gwOffense": 8,
+        "gwDefense": 8,
+        "average": 8
+      }
+    },
+    "assassin-coli": {
+      "path": "@/epic7-db/hero/assassin-coli.json",
+      "name": "Assassin Coli",
+      "id": "assassin-coli",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 7,
+        "abyss": 8,
+        "raid": 7.5,
+        "average": 7.42
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 8.5,
+        "gwDefense": 8.5,
+        "average": 8.5
+      }
+    },
+    "auxiliary-lots": {
+      "path": "@/epic7-db/hero/auxiliary-lots.json",
+      "name": "Auxiliary Lots",
+      "id": "auxiliary-lots",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6,
+        "abyss": 6,
+        "raid": 6.5,
+        "average": 6.25
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7,
+        "gwOffense": 8,
+        "gwDefense": 7,
+        "average": 7.5
+      }
+    },
+    "azalea": {
+      "path": "@/epic7-db/hero/azalea.json",
+      "name": "Azalea",
+      "id": "azalea",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 6,
+        "abyss": 5.5,
+        "raid": 6,
+        "average": 6.08
+      },
+      "pvp": {
+        "arenaOffense": 4,
+        "arenaDefense": 4,
+        "gwOffense": 4,
+        "gwDefense": 4,
+        "average": 4
+      }
+    },
+    "baal-sezan": {
+      "path": "@/epic7-db/hero/baal-sezan.json",
+      "name": "Baal & Sezan",
+      "id": "baal-sezan",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8.5,
+        "abyss": 7.5,
+        "raid": 8,
+        "average": 8.08
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8,
+        "gwOffense": 8,
+        "gwDefense": 8,
+        "average": 8
+      }
+    },
+    "basar": {
+      "path": "@/epic7-db/hero/basar.json",
+      "name": "Basar",
+      "id": "basar",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 6,
+        "raid": 5,
+        "average": 5.67
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 8.5,
+        "gwDefense": 8,
+        "average": 8.375
+      }
+    },
+    "bask": {
+      "path": "@/epic7-db/hero/bask.json",
+      "name": "Bask",
+      "id": "bask",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 8,
+        "abyss": 7.5,
+        "raid": 8,
+        "average": 7.58
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 7,
+        "gwOffense": 5,
+        "gwDefense": 7,
+        "average": 6
+      }
+    },
+    "bellona": {
+      "path": "@/epic7-db/hero/bellona.json",
+      "name": "Bellona",
+      "id": "bellona",
+      "pve": {
+        "hunt10": 10,
+        "hunt11": 10,
+        "abyss": 10,
+        "raid": 9,
+        "average": 9.67
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 8.5,
+        "gwDefense": 8.5,
+        "average": 8.5
+      }
+    },
+    "blaze-dingo": {
+      "path": "@/epic7-db/hero/blaze-dingo.json",
+      "name": "Blaze Dingo",
+      "id": "blaze-dingo",
+      "pvp": {
+        "arenaOffense": "",
+        "arenaDefense": "",
+        "gwOffense": "",
+        "gwDefense": "",
+        "average": ""
+      }
+    },
+    "blood-blade-karin": {
+      "path": "@/epic7-db/hero/blood-blade-karin.json",
+      "name": "Blood Blade Karin",
+      "id": "blood-blade-karin",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 6.5,
+        "abyss": 7,
+        "raid": 8,
+        "average": 7.17
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8,
+        "gwOffense": 8,
+        "gwDefense": 8,
+        "average": 8
+      }
+    },
+    "butcher-corps-inquisitor": {
+      "path": "@/epic7-db/hero/butcher-corps-inquisitor.json",
+      "name": "Butcher Corps Inquisitor",
+      "id": "butcher-corps-inquisitor",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5.5
+      },
+      "pvp": {
+        "arenaOffense": 4.5,
+        "arenaDefense": 4.5,
+        "gwOffense": 4.5,
+        "gwDefense": 4.5,
+        "average": 4.5
+      }
+    },
+    "captain-rikoris": {
+      "path": "@/epic7-db/hero/captain-rikoris.json",
+      "name": "Captain Rikoris",
+      "id": "captain-rikoris"
+    },
+    "carmainerose": {
+      "path": "@/epic7-db/hero/carmainerose.json",
+      "name": "Carmainerose",
+      "id": "carmainerose",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 7.5,
+        "raid": 8,
+        "average": 8.17
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 7.5,
+        "gwDefense": 6.5,
+        "average": 7
+      }
+    },
+    "carrot": {
+      "path": "@/epic7-db/hero/carrot.json",
+      "name": "Carrot",
+      "id": "carrot",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 6,
+        "average": 5.83
+      },
+      "pvp": {
+        "arenaOffense": 4,
+        "arenaDefense": 4,
+        "gwOffense": 4,
+        "gwDefense": 4,
+        "average": 4
+      }
+    },
+    "cartuja": {
+      "path": "@/epic7-db/hero/cartuja.json",
+      "name": "Cartuja",
+      "id": "cartuja",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6.5,
+        "abyss": 6,
+        "raid": 7.5,
+        "average": 6.75
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "cecilia": {
+      "path": "@/epic7-db/hero/cecilia.json",
+      "name": "Cecilia",
+      "id": "cecilia",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 6,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 6.83
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 9,
+        "gwOffense": 7.5,
+        "gwDefense": 8,
+        "average": 8
+      }
+    },
+    "celeste": {
+      "path": "@/epic7-db/hero/celeste.json",
+      "name": "Celeste",
+      "id": "celeste",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6,
+        "abyss": 6,
+        "raid": 6.5,
+        "average": 6.25
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8,
+        "gwOffense": 8.5,
+        "gwDefense": 8,
+        "average": 8.25
+      }
+    },
+    "celestial-mercedes": {
+      "path": "@/epic7-db/hero/celestial-mercedes.json",
+      "name": "Celestial Mercedes",
+      "id": "celestial-mercedes",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 7,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 7.25
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 8.5,
+        "gwDefense": 7.5,
+        "average": 8
+      }
+    },
+    "cermia": {
+      "path": "@/epic7-db/hero/cermia.json",
+      "name": "Cermia",
+      "id": "cermia",
+      "pvp": {
+        "arenaOffense": "",
+        "arenaDefense": "",
+        "gwOffense": "",
+        "gwDefense": "",
+        "average": ""
+      }
+    },
+    "challenger-dominiel": {
+      "path": "@/epic7-db/hero/challenger-dominiel.json",
+      "name": "Challenger Dominiel",
+      "id": "challenger-dominiel",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 9,
+        "abyss": 9.5,
+        "raid": 10,
+        "average": 9.5
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 9.5,
+        "gwDefense": 8.5,
+        "average": 9
+      }
+    },
+    "chaos-sect-axe": {
+      "path": "@/epic7-db/hero/chaos-sect-axe.json",
+      "name": "Chaos Sect Axe",
+      "id": "chaos-sect-axe",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 8.5,
+        "abyss": 8.5,
+        "raid": 9,
+        "average": 8.75
+      },
+      "pvp": {
+        "arenaOffense": 9,
+        "arenaDefense": 8,
+        "gwOffense": 9,
+        "gwDefense": 8.5,
+        "average": 8.625
+      }
+    },
+    "charles": {
+      "path": "@/epic7-db/hero/charles.json",
+      "name": "Charles",
+      "id": "charles",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 9.5,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7,
+        "gwOffense": 9,
+        "gwDefense": 8,
+        "average": 7.75
+      }
+    },
+    "charlotte": {
+      "path": "@/epic7-db/hero/charlotte.json",
+      "name": "Charlotte",
+      "id": "charlotte",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 7.5,
+        "abyss": 7,
+        "raid": 8.5,
+        "average": 7.75
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7,
+        "gwOffense": 7.5,
+        "gwDefense": 7.5,
+        "average": 7.25
+      }
+    },
+    "chloe": {
+      "path": "@/epic7-db/hero/chloe.json",
+      "name": "Chloe",
+      "id": "chloe",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 9,
+        "abyss": 8,
+        "raid": 7.5,
+        "average": 8.33
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "church-of-ilryos-axe": {
+      "path": "@/epic7-db/hero/church-of-ilryos-axe.json",
+      "name": "Church of Ilryos Axe",
+      "id": "church-of-ilryos-axe",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 7.5,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7,
+        "gwOffense": 7.5,
+        "gwDefense": 7,
+        "average": 7.25
+      }
+    },
+    "cidd": {
+      "path": "@/epic7-db/hero/cidd.json",
+      "name": "Cidd",
+      "id": "cidd",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 9.5,
+        "abyss": 8.5,
+        "raid": 7.5,
+        "average": 8.67
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 9.5,
+        "gwDefense": 8.5,
+        "average": 9
+      }
+    },
+    "clarissa": {
+      "path": "@/epic7-db/hero/clarissa.json",
+      "name": "Clarissa",
+      "id": "clarissa",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8.5,
+        "abyss": 7.5,
+        "raid": 8,
+        "average": 8.08
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7,
+        "gwOffense": 7.5,
+        "gwDefense": 7,
+        "average": 7.25
+      }
+    },
+    "coli": {
+      "path": "@/epic7-db/hero/coli.json",
+      "name": "Coli",
+      "id": "coli",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7,
+        "abyss": 6,
+        "raid": 7,
+        "average": 6.83
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7,
+        "gwOffense": 7,
+        "gwDefense": 7,
+        "average": 7
+      }
+    },
+    "commander-lorina": {
+      "path": "@/epic7-db/hero/commander-lorina.json",
+      "name": "Commander Lorina",
+      "id": "commander-lorina",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 8.5,
+        "abyss": 9.5,
+        "raid": 9.5,
+        "average": 9.08
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7.5,
+        "gwOffense": 8,
+        "gwDefense": 7.5,
+        "average": 7.75
+      }
+    },
+    "corvus": {
+      "path": "@/epic7-db/hero/corvus.json",
+      "name": "Corvus",
+      "id": "corvus",
+      "pve": {
+        "hunt10": 4.5,
+        "hunt11": 4.5,
+        "abyss": 6.5,
+        "raid": 5,
+        "average": 5
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5.5,
+        "gwOffense": 5,
+        "gwDefense": 5.5,
+        "average": 5.25
+      }
+    },
+    "crimson-armin": {
+      "path": "@/epic7-db/hero/crimson-armin.json",
+      "name": "Crimson Armin",
+      "id": "crimson-armin",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 8.5,
+        "raid": 8.5,
+        "average": 7.25
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 10,
+        "gwOffense": 8.5,
+        "gwDefense": 9,
+        "average": 9
+      }
+    },
+    "crozet": {
+      "path": "@/epic7-db/hero/crozet.json",
+      "name": "Crozet",
+      "id": "crozet",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 9,
+        "abyss": 6.5,
+        "raid": 5,
+        "average": 6.92
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 6,
+        "gwOffense": 5,
+        "gwDefense": 6,
+        "average": 5.5
+      }
+    },
+    "dark-corvus": {
+      "path": "@/epic7-db/hero/dark-corvus.json",
+      "name": "Dark Corvus",
+      "id": "dark-corvus",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 6,
+        "raid": 5.5,
+        "average": 5.33
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7.5,
+        "gwOffense": 7.5,
+        "gwDefense": 8,
+        "average": 7.5
+      }
+    },
+    "destina": {
+      "path": "@/epic7-db/hero/destina.json",
+      "name": "Destina",
+      "id": "destina",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 8.5,
+        "raid": 9.5,
+        "average": 8.83
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 9.5,
+        "gwOffense": 8.5,
+        "gwDefense": 9.5,
+        "average": 8.875
+      }
+    },
+    "diene": {
+      "path": "@/epic7-db/hero/diene.json",
+      "name": "Diene",
+      "id": "diene",
+      "pve": {
+        "hunt10": 10,
+        "hunt11": 10,
+        "abyss": 10,
+        "raid": 10,
+        "average": 10
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 9.5,
+        "gwOffense": 9.5,
+        "gwDefense": 9.5,
+        "average": 9.5
+      }
+    },
+    "dingo": {
+      "path": "@/epic7-db/hero/dingo.json",
+      "name": "Dingo",
+      "id": "dingo",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7,
+        "abyss": 6.5,
+        "raid": 7,
+        "average": 6.92
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 5.5,
+        "gwOffense": 5.5,
+        "gwDefense": 5.5,
+        "average": 5.5
+      }
+    },
+    "dominiel": {
+      "path": "@/epic7-db/hero/dominiel.json",
+      "name": "Dominiel",
+      "id": "dominiel",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5.5,
+        "abyss": 5.5,
+        "raid": 5.5,
+        "average": 5.42
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 7,
+        "gwOffense": 6,
+        "gwDefense": 7,
+        "average": 6.5
+      }
+    },
+    "doris": {
+      "path": "@/epic7-db/hero/doris.json",
+      "name": "Doris",
+      "id": "doris",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8,
+        "abyss": 9,
+        "raid": 8.5,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 7.5,
+        "gwOffense": 6,
+        "gwDefense": 7.5,
+        "average": 6.75
+      }
+    },
+    "elson": {
+      "path": "@/epic7-db/hero/elson.json",
+      "name": "Elson",
+      "id": "elson",
+      "pve": {
+        "hunt10": 5.5,
+        "hunt11": 5,
+        "abyss": 6.5,
+        "raid": 6,
+        "average": 5.67
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6,
+        "gwOffense": 6.5,
+        "gwDefense": 6,
+        "average": 6.25
+      }
+    },
+    "enott": {
+      "path": "@/epic7-db/hero/enott.json",
+      "name": "Enott",
+      "id": "enott",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 7,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5.83
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "falconer-kluri": {
+      "path": "@/epic7-db/hero/falconer-kluri.json",
+      "name": "Falconer Kluri",
+      "id": "falconer-kluri",
+      "pve": {
+        "hunt10": 10,
+        "hunt11": 9.5,
+        "abyss": 9.5,
+        "raid": 9.5,
+        "average": 9.58
+      },
+      "pvp": {
+        "arenaOffense": 10,
+        "arenaDefense": 10,
+        "gwOffense": 10,
+        "gwDefense": 10,
+        "average": 10
+      }
+    },
+    "fighter-maya": {
+      "path": "@/epic7-db/hero/fighter-maya.json",
+      "name": "Fighter Maya",
+      "id": "fighter-maya",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 7,
+        "abyss": 6.5,
+        "raid": 6.5,
+        "average": 6.67
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 8,
+        "gwDefense": 8.5,
+        "average": 8.125
+      }
+    },
+    "general-purrgis": {
+      "path": "@/epic7-db/hero/general-purrgis.json",
+      "name": "General Purrgis",
+      "id": "general-purrgis",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 9,
+        "abyss": 6.5,
+        "raid": 6,
+        "average": 7.17
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 8.5,
+        "gwOffense": 7,
+        "gwDefense": 8.5,
+        "average": 7.75
+      }
+    },
+    "giga-phantasma": {
+      "path": "@/epic7-db/hero/giga-phantasma.json",
+      "name": "Giga-Phantasma",
+      "id": "giga-phantasma"
+    },
+    "gloomyrain": {
+      "path": "@/epic7-db/hero/gloomyrain.json",
+      "name": "Gloomyrain",
+      "id": "gloomyrain",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 6.5,
+        "abyss": 6,
+        "raid": 7,
+        "average": 6.67
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 5.5,
+        "gwOffense": 6.5,
+        "gwDefense": 5.5,
+        "average": 6
+      }
+    },
+    "guider-aither": {
+      "path": "@/epic7-db/hero/guider-aither.json",
+      "name": "Guider Aither",
+      "id": "guider-aither",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8,
+        "abyss": 9,
+        "raid": 9,
+        "average": 8.58
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7,
+        "gwOffense": 8,
+        "gwDefense": 7,
+        "average": 7.5
+      }
+    },
+    "gunther": {
+      "path": "@/epic7-db/hero/gunther.json",
+      "name": "Gunther",
+      "id": "gunther",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 4,
+        "abyss": 5,
+        "raid": 5,
+        "average": 4.67
+      },
+      "pvp": {
+        "arenaOffense": 4,
+        "arenaDefense": 4,
+        "gwOffense": 4,
+        "gwDefense": 4,
+        "average": 4
+      }
+    },
+    "haste": {
+      "path": "@/epic7-db/hero/haste.json",
+      "name": "Haste",
+      "id": "haste",
+      "pve": {
+        "hunt10": 10,
+        "hunt11": 10,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 9.17
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 8,
+        "gwDefense": 7.5,
+        "average": 7.625
+      }
+    },
+    "hazel": {
+      "path": "@/epic7-db/hero/hazel.json",
+      "name": "Hazel",
+      "id": "hazel",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7,
+        "abyss": 6,
+        "raid": 7.5,
+        "average": 7
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 5.5,
+        "gwOffense": 5.5,
+        "gwDefense": 5.5,
+        "average": 5.5
+      }
+    },
+    "helga": {
+      "path": "@/epic7-db/hero/helga.json",
+      "name": "Helga",
+      "id": "helga",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6.5,
+        "abyss": 7,
+        "raid": 5,
+        "average": 6.08
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "hurado": {
+      "path": "@/epic7-db/hero/hurado.json",
+      "name": "Hurado",
+      "id": "hurado",
+      "pve": {
+        "hunt10": 4,
+        "hunt11": 4,
+        "abyss": 4,
+        "raid": 4,
+        "average": 4
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8.5,
+        "gwOffense": 8,
+        "gwDefense": 8.5,
+        "average": 8.25
+      }
+    },
+    "iseria": {
+      "path": "@/epic7-db/hero/iseria.json",
+      "name": "Iseria",
+      "id": "iseria",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 9,
+        "abyss": 9.5,
+        "raid": 9.5,
+        "average": 9.25
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 8,
+        "gwOffense": 9,
+        "gwDefense": 8,
+        "average": 8.625
+      }
+    },
+    "jecht": {
+      "path": "@/epic7-db/hero/jecht.json",
+      "name": "Jecht",
+      "id": "jecht",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 9,
+        "abyss": 6.5,
+        "raid": 7.5,
+        "average": 7.83
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "jena": {
+      "path": "@/epic7-db/hero/jena.json",
+      "name": "Jena",
+      "id": "jena",
+      "pve": {
+        "hunt10": 4,
+        "hunt11": 6,
+        "abyss": 4,
+        "raid": 4,
+        "average": 4.67
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 4,
+        "gwOffense": 5.5,
+        "gwDefense": 4,
+        "average": 4.75
+      }
+    },
+    "judge-kise": {
+      "path": "@/epic7-db/hero/judge-kise.json",
+      "name": "Judge Kise",
+      "id": "judge-kise",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 6.75
+      },
+      "pvp": {
+        "arenaOffense": 10,
+        "arenaDefense": 9.5,
+        "gwOffense": 10,
+        "gwDefense": 9.5,
+        "average": 9.75
+      }
+    },
+    "judith": {
+      "path": "@/epic7-db/hero/judith.json",
+      "name": "Judith",
+      "id": "judith",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5.5,
+        "raid": 5,
+        "average": 5.58
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8,
+        "gwOffense": 8.5,
+        "gwDefense": 8,
+        "average": 8.25
+      }
+    },
+    "karin": {
+      "path": "@/epic7-db/hero/karin.json",
+      "name": "Karin",
+      "id": "karin",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 9.5,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8.83
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7,
+        "gwOffense": 8,
+        "gwDefense": 7,
+        "average": 7.5
+      }
+    },
+    "kayron": {
+      "path": "@/epic7-db/hero/kayron.json",
+      "name": "Kayron",
+      "id": "kayron",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7,
+        "abyss": 7.5,
+        "raid": 7.5,
+        "average": 7.25
+      },
+      "pvp": {
+        "arenaOffense": 9,
+        "arenaDefense": 9,
+        "gwOffense": 9.5,
+        "gwDefense": 9,
+        "average": 9.125
+      }
+    },
+    "ken": {
+      "path": "@/epic7-db/hero/ken.json",
+      "name": "Ken",
+      "id": "ken",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 10,
+        "abyss": 9,
+        "raid": 9,
+        "average": 9.42
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 9,
+        "gwDefense": 9,
+        "average": 8.75
+      }
+    },
+    "kikirat-v2": {
+      "path": "@/epic7-db/hero/kikirat-v2.json",
+      "name": "Kikirat v2",
+      "id": "kikirat-v2"
+    },
+    "kiris": {
+      "path": "@/epic7-db/hero/kiris.json",
+      "name": "Kiris",
+      "id": "kiris",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 7.5,
+        "abyss": 10,
+        "raid": 5,
+        "average": 7.25
+      },
+      "pvp": {
+        "arenaOffense": 4,
+        "arenaDefense": 4,
+        "gwOffense": 4,
+        "gwDefense": 4,
+        "average": 4
+      }
+    },
+    "kise": {
+      "path": "@/epic7-db/hero/kise.json",
+      "name": "Kise",
+      "id": "kise",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 9.5,
+        "abyss": 9,
+        "raid": 9,
+        "average": 9.17
+      },
+      "pvp": {
+        "arenaOffense": 9,
+        "arenaDefense": 8,
+        "gwOffense": 9,
+        "gwDefense": 8,
+        "average": 8.5
+      }
+    },
+    "kitty-clarissa": {
+      "path": "@/epic7-db/hero/kitty-clarissa.json",
+      "name": "Kitty Clarissa",
+      "id": "kitty-clarissa",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 7.5,
+        "gwDefense": 7.5,
+        "average": 7.5
+      }
+    },
+    "kluri": {
+      "path": "@/epic7-db/hero/kluri.json",
+      "name": "Kluri",
+      "id": "kluri",
+      "pve": {
+        "hunt10": 4,
+        "hunt11": 4,
+        "abyss": 4,
+        "raid": 5,
+        "average": 4.33
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "krau": {
+      "path": "@/epic7-db/hero/krau.json",
+      "name": "Krau",
+      "id": "krau",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 9,
+        "abyss": 8,
+        "raid": 8,
+        "average": 8.33
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 10,
+        "gwOffense": 9,
+        "gwDefense": 9.5,
+        "average": 9.25
+      }
+    },
+    "leo": {
+      "path": "@/epic7-db/hero/leo.json",
+      "name": "Leo",
+      "id": "leo",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6.5,
+        "abyss": 5.5,
+        "raid": 5.5,
+        "average": 6
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7,
+        "gwOffense": 7.5,
+        "gwDefense": 7,
+        "average": 7.25
+      }
+    },
+    "lidica": {
+      "path": "@/epic7-db/hero/lidica.json",
+      "name": "Lidica",
+      "id": "lidica"
+    },
+    "lorina": {
+      "path": "@/epic7-db/hero/lorina.json",
+      "name": "Lorina",
+      "id": "lorina",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 7.5,
+        "abyss": 8.5,
+        "raid": 9,
+        "average": 8.25
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "lots": {
+      "path": "@/epic7-db/hero/lots.json",
+      "name": "Lots",
+      "id": "lots",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 8,
+        "raid": 8,
+        "average": 8.25
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7,
+        "gwOffense": 7,
+        "gwDefense": 7,
+        "average": 7
+      }
+    },
+    "ludwig": {
+      "path": "@/epic7-db/hero/ludwig.json",
+      "name": "Ludwig",
+      "id": "ludwig",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5.5
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 8.5,
+        "gwDefense": 6.5,
+        "average": 7.5
+      }
+    },
+    "luna": {
+      "path": "@/epic7-db/hero/luna.json",
+      "name": "Luna",
+      "id": "luna",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 10,
+        "abyss": 9.5,
+        "raid": 9,
+        "average": 9.5
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 9.5,
+        "gwDefense": 9,
+        "average": 9.125
+      }
+    },
+    "maid-chloe": {
+      "path": "@/epic7-db/hero/maid-chloe.json",
+      "name": "Maid Chloe",
+      "id": "maid-chloe",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8,
+        "abyss": 8,
+        "raid": 8,
+        "average": 8
+      },
+      "pvp": {
+        "arenaOffense": 9,
+        "arenaDefense": 9.5,
+        "gwOffense": 9,
+        "gwDefense": 8.5,
+        "average": 9
+      }
+    },
+    "martial-artist-ken": {
+      "path": "@/epic7-db/hero/martial-artist-ken.json",
+      "name": "Martial Artist Ken",
+      "id": "martial-artist-ken",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 8.5,
+        "abyss": 9,
+        "raid": 9,
+        "average": 8.83
+      },
+      "pvp": {
+        "arenaOffense": 10,
+        "arenaDefense": 10,
+        "gwOffense": 10,
+        "gwDefense": 10,
+        "average": 10
+      }
+    },
+    "mascot-hazel": {
+      "path": "@/epic7-db/hero/mascot-hazel.json",
+      "name": "Mascot Hazel",
+      "id": "mascot-hazel",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 10,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 9.08
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7,
+        "gwOffense": 7,
+        "gwDefense": 7,
+        "average": 7
+      }
+    },
+    "maya": {
+      "path": "@/epic7-db/hero/maya.json",
+      "name": "Maya",
+      "id": "maya",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 6.5,
+        "raid": 5.5,
+        "average": 5.42
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 7,
+        "gwOffense": 6,
+        "gwDefense": 7,
+        "average": 6.5
+      }
+    },
+    "mega-phantasma": {
+      "path": "@/epic7-db/hero/mega-phantasma.json",
+      "name": "Mega-Phantasma",
+      "id": "mega-phantasma"
+    },
+    "mercedes": {
+      "path": "@/epic7-db/hero/mercedes.json",
+      "name": "Mercedes",
+      "id": "mercedes",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 4,
+        "raid": 4,
+        "average": 4.5
+      },
+      "pvp": {
+        "arenaOffense": 4.5,
+        "arenaDefense": 4.5,
+        "gwOffense": 4.5,
+        "gwDefense": 4.5,
+        "average": 4.5
+      }
+    },
+    "mirsa": {
+      "path": "@/epic7-db/hero/mirsa.json",
+      "name": "Mirsa",
+      "id": "mirsa",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 4,
+        "abyss": 4,
+        "raid": 4,
+        "average": 4.17
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6,
+        "gwOffense": 6.5,
+        "gwDefense": 6,
+        "average": 6.25
+      }
+    },
+    "mistychain": {
+      "path": "@/epic7-db/hero/mistychain.json",
+      "name": "Mistychain",
+      "id": "mistychain",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 9,
+        "abyss": 7,
+        "raid": 7,
+        "average": 7.75
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 6.5,
+        "gwDefense": 6.5,
+        "average": 6.5
+      }
+    },
+    "montmorancy": {
+      "path": "@/epic7-db/hero/montmorancy.json",
+      "name": "Montmorancy",
+      "id": "montmorancy",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7.5,
+        "abyss": 7.5,
+        "raid": 8,
+        "average": 7.58
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "mucacha": {
+      "path": "@/epic7-db/hero/mucacha.json",
+      "name": "Mucacha",
+      "id": "mucacha",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 6.5,
+        "average": 6
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "nemunas": {
+      "path": "@/epic7-db/hero/nemunas.json",
+      "name": "Nemunas",
+      "id": "nemunas",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7,
+        "abyss": 7.5,
+        "raid": 5,
+        "average": 6.42
+      },
+      "pvp": {
+        "arenaOffense": 4.5,
+        "arenaDefense": 4.5,
+        "gwOffense": 4.5,
+        "gwDefense": 4.5,
+        "average": 4.5
+      }
+    },
+    "nilgal": {
+      "path": "@/epic7-db/hero/nilgal.json",
+      "name": "Nilgal",
+      "id": "nilgal"
+    },
+    "otillie": {
+      "path": "@/epic7-db/hero/otillie.json",
+      "name": "Otillie",
+      "id": "otillie",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8,
+        "abyss": 6,
+        "raid": 6.5,
+        "average": 7.17
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "pearlhorizon": {
+      "path": "@/epic7-db/hero/pearlhorizon.json",
+      "name": "Pearlhorizon",
+      "id": "pearlhorizon",
+      "pve": {
+        "hunt10": 4,
+        "hunt11": 4,
+        "abyss": 5,
+        "raid": 5,
+        "average": 4.5
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "purrgis": {
+      "path": "@/epic7-db/hero/purrgis.json",
+      "name": "Purrgis",
+      "id": "purrgis",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5.5,
+        "raid": 6,
+        "average": 5.92
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 6.5,
+        "gwDefense": 6.5,
+        "average": 6.5
+      }
+    },
+    "pyllis": {
+      "path": "@/epic7-db/hero/pyllis.json",
+      "name": "Pyllis",
+      "id": "pyllis",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 8,
+        "abyss": 8,
+        "raid": 8,
+        "average": 7.83
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 9,
+        "gwOffense": 6,
+        "gwDefense": 9,
+        "average": 7.5
+      }
+    },
+    "ras": {
+      "path": "@/epic7-db/hero/ras.json",
+      "name": "Ras",
+      "id": "ras",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 6.5,
+        "raid": 6,
+        "average": 5.58
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 5,
+        "gwOffense": 5.5,
+        "gwDefense": 5,
+        "average": 5.25
+      }
+    },
+    "ravi": {
+      "path": "@/epic7-db/hero/ravi.json",
+      "name": "Ravi",
+      "id": "ravi",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 9.5,
+        "abyss": 9,
+        "raid": 9,
+        "average": 9.17
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8,
+        "gwOffense": 8,
+        "gwDefense": 8,
+        "average": 8
+      }
+    },
+    "requiemroar": {
+      "path": "@/epic7-db/hero/requiemroar.json",
+      "name": "Requiemroar",
+      "id": "requiemroar",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7,
+        "gwOffense": 8,
+        "gwDefense": 7,
+        "average": 7.5
+      }
+    },
+    "righteous-thief-roozid": {
+      "path": "@/epic7-db/hero/righteous-thief-roozid.json",
+      "name": "Righteous Thief Roozid",
+      "id": "righteous-thief-roozid",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 7.5,
+        "abyss": 6,
+        "raid": 6,
+        "average": 6.67
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8,
+        "gwOffense": 8.5,
+        "gwDefense": 8,
+        "average": 8.25
+      }
+    },
+    "rikoris": {
+      "path": "@/epic7-db/hero/rikoris.json",
+      "name": "Rikoris",
+      "id": "rikoris",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 5,
+        "abyss": 5.5,
+        "raid": 5.5,
+        "average": 5.42
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "rima": {
+      "path": "@/epic7-db/hero/rima.json",
+      "name": "Rima",
+      "id": "rima",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 7,
+        "abyss": 6,
+        "raid": 7,
+        "average": 6.67
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 5,
+        "gwOffense": 6.5,
+        "gwDefense": 5,
+        "average": 5.75
+      }
+    },
+    "rin": {
+      "path": "@/epic7-db/hero/rin.json",
+      "name": "Rin",
+      "id": "rin",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 7.5,
+        "abyss": 7,
+        "raid": 8,
+        "average": 7.58
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 7,
+        "gwOffense": 7,
+        "gwDefense": 7,
+        "average": 7
+      }
+    },
+    "romann": {
+      "path": "@/epic7-db/hero/romann.json",
+      "name": "Romann",
+      "id": "romann",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 6,
+        "gwOffense": 7.5,
+        "gwDefense": 6,
+        "average": 6.75
+      }
+    },
+    "roozid": {
+      "path": "@/epic7-db/hero/roozid.json",
+      "name": "Roozid",
+      "id": "roozid",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5.5
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 6.5,
+        "gwDefense": 6.5,
+        "average": 6.5
+      }
+    },
+    "rose": {
+      "path": "@/epic7-db/hero/rose.json",
+      "name": "Rose",
+      "id": "rose",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 8,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 7.5
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 8,
+        "gwOffense": 8,
+        "gwDefense": 8,
+        "average": 8
+      }
+    },
+    "ruele-of-light": {
+      "path": "@/epic7-db/hero/ruele-of-light.json",
+      "name": "Ruele of Light",
+      "id": "ruele-of-light",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 8,
+        "abyss": 7.5,
+        "raid": 8,
+        "average": 7.75
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 10,
+        "gwOffense": 10,
+        "gwDefense": 10,
+        "average": 9.625
+      }
+    },
+    "schuri": {
+      "path": "@/epic7-db/hero/schuri.json",
+      "name": "Schuri",
+      "id": "schuri",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 8.5,
+        "abyss": 8.5,
+        "raid": 8.5,
+        "average": 8.58
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8,
+        "gwOffense": 8.5,
+        "gwDefense": 8,
+        "average": 8.25
+      }
+    },
+    "serila": {
+      "path": "@/epic7-db/hero/serila.json",
+      "name": "Serila",
+      "id": "serila",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 7.67
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6,
+        "gwOffense": 6.5,
+        "gwDefense": 6,
+        "average": 6.25
+      }
+    },
+    "sez": {
+      "path": "@/epic7-db/hero/sez.json",
+      "name": "Sez",
+      "id": "sez",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 9,
+        "arenaDefense": 8,
+        "gwOffense": 9,
+        "gwDefense": 8,
+        "average": 8.5
+      }
+    },
+    "shadow-rose": {
+      "path": "@/epic7-db/hero/shadow-rose.json",
+      "name": "Shadow Rose",
+      "id": "shadow-rose",
+      "pve": {
+        "hunt10": 9,
+        "hunt11": 8.5,
+        "abyss": 8,
+        "raid": 9,
+        "average": 8.67
+      },
+      "pvp": {
+        "arenaOffense": 9.5,
+        "arenaDefense": 9.5,
+        "gwOffense": 9.5,
+        "gwDefense": 9.5,
+        "average": 9.5
+      }
+    },
+    "shooting-star-achates": {
+      "path": "@/epic7-db/hero/shooting-star-achates.json",
+      "name": "Shooting Star Achates",
+      "id": "shooting-star-achates",
+      "pve": {
+        "hunt10": 7,
+        "hunt11": 6,
+        "abyss": 7.5,
+        "raid": 7.5,
+        "average": 6.92
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 9,
+        "gwOffense": 8,
+        "gwDefense": 9,
+        "average": 8.5
+      }
+    },
+    "sigret": {
+      "path": "@/epic7-db/hero/sigret.json",
+      "name": "Sigret",
+      "id": "sigret",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8.5,
+        "abyss": 8,
+        "raid": 8,
+        "average": 8.17
+      },
+      "pvp": {
+        "arenaOffense": 7,
+        "arenaDefense": 6,
+        "gwOffense": 7,
+        "gwDefense": 6,
+        "average": 6.5
+      }
+    },
+    "silk": {
+      "path": "@/epic7-db/hero/silk.json",
+      "name": "Silk",
+      "id": "silk",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8.17
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 7.5,
+        "gwDefense": 7.5,
+        "average": 7.5
+      }
+    },
+    "silver-blade-aramintha": {
+      "path": "@/epic7-db/hero/silver-blade-aramintha.json",
+      "name": "Silver Blade Aramintha",
+      "id": "silver-blade-aramintha"
+    },
+    "specimen-sez": {
+      "path": "@/epic7-db/hero/specimen-sez.json",
+      "name": "Specimen Sez",
+      "id": "specimen-sez",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 5.5,
+        "raid": 5,
+        "average": 5.08
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7,
+        "gwOffense": 8.5,
+        "gwDefense": 7,
+        "average": 7.625
+      }
+    },
+    "specter-tenebria": {
+      "path": "@/epic7-db/hero/specter-tenebria.json",
+      "name": "Specter Tenebria",
+      "id": "specter-tenebria",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8.5,
+        "abyss": 9,
+        "raid": 7,
+        "average": 8.08
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6,
+        "gwOffense": 6.5,
+        "gwDefense": 6,
+        "average": 6.25
+      }
+    },
+    "surin": {
+      "path": "@/epic7-db/hero/surin.json",
+      "name": "Surin",
+      "id": "surin",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 8,
+        "abyss": 7.5,
+        "raid": 7.5,
+        "average": 7.83
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "sven": {
+      "path": "@/epic7-db/hero/sven.json",
+      "name": "Sven",
+      "id": "sven",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5,
+        "abyss": 6,
+        "raid": 5,
+        "average": 5.17
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 6.5,
+        "gwDefense": 6.5,
+        "average": 6.5
+      }
+    },
+    "tamarinne": {
+      "path": "@/epic7-db/hero/tamarinne.json",
+      "name": "Tamarinne",
+      "id": "tamarinne",
+      "pve": {
+        "hunt10": 10,
+        "hunt11": 10,
+        "abyss": 10,
+        "raid": 10,
+        "average": 10
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "taranor-guard": {
+      "path": "@/epic7-db/hero/taranor-guard.json",
+      "name": "Taranor Guard",
+      "id": "taranor-guard",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 9,
+        "abyss": 8,
+        "raid": 8,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 6,
+        "arenaDefense": 6,
+        "gwOffense": 6,
+        "gwDefense": 6,
+        "average": 6
+      }
+    },
+    "taranor-royal-guard": {
+      "path": "@/epic7-db/hero/taranor-royal-guard.json",
+      "name": "Taranor Royal Guard",
+      "id": "taranor-royal-guard",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 7,
+        "abyss": 4,
+        "raid": 4,
+        "average": 5.17
+      },
+      "pvp": {
+        "arenaOffense": 5.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 5.5,
+        "gwDefense": 7.5,
+        "average": 6.5
+      }
+    },
+    "tenebria": {
+      "path": "@/epic7-db/hero/tenebria.json",
+      "name": "Tenebria",
+      "id": "tenebria",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8.5,
+        "abyss": 6,
+        "raid": 6,
+        "average": 7.17
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7.5,
+        "gwOffense": 8,
+        "gwDefense": 7.5,
+        "average": 7.75
+      }
+    },
+    "tera-phantasma": {
+      "path": "@/epic7-db/hero/tera-phantasma.json",
+      "name": "Tera-Phantasma",
+      "id": "tera-phantasma"
+    },
+    "tieria": {
+      "path": "@/epic7-db/hero/tieria.json",
+      "name": "Tieria",
+      "id": "tieria",
+      "pve": {
+        "hunt10": 6.5,
+        "hunt11": 6.5,
+        "abyss": 6,
+        "raid": 6,
+        "average": 6.25
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 5,
+        "gwOffense": 5,
+        "gwDefense": 5,
+        "average": 5
+      }
+    },
+    "tywin": {
+      "path": "@/epic7-db/hero/tywin.json",
+      "name": "Tywin",
+      "id": "tywin",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 9.5,
+        "abyss": 8,
+        "raid": 8.5,
+        "average": 8.67
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 9,
+        "gwDefense": 6.5,
+        "average": 7.625
+      }
+    },
+    "vildred": {
+      "path": "@/epic7-db/hero/vildred.json",
+      "name": "Vildred",
+      "id": "vildred",
+      "pve": {
+        "hunt10": 9.5,
+        "hunt11": 10,
+        "abyss": 7,
+        "raid": 7.5,
+        "average": 8.58
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8,
+        "gwOffense": 8.5,
+        "gwDefense": 8,
+        "average": 8.25
+      }
+    },
+    "violet": {
+      "path": "@/epic7-db/hero/violet.json",
+      "name": "Violet",
+      "id": "violet",
+      "pve": {
+        "hunt10": 8.5,
+        "hunt11": 9,
+        "abyss": 8,
+        "raid": 8,
+        "average": 8.42
+      },
+      "pvp": {
+        "arenaOffense": 8.5,
+        "arenaDefense": 8.5,
+        "gwOffense": 9,
+        "gwDefense": 9,
+        "average": 8.75
+      }
+    },
+    "wanda": {
+      "path": "@/epic7-db/hero/wanda.json",
+      "name": "Wanda",
+      "id": "wanda",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 5.5,
+        "average": 5.92
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6,
+        "gwOffense": 6.5,
+        "gwDefense": 6,
+        "average": 6.25
+      }
+    },
+    "wanderer-silk": {
+      "path": "@/epic7-db/hero/wanderer-silk.json",
+      "name": "Wanderer Silk",
+      "id": "wanderer-silk",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 7.5,
+        "abyss": 9,
+        "raid": 8.5,
+        "average": 8.08
+      },
+      "pvp": {
+        "arenaOffense": 7.5,
+        "arenaDefense": 7.5,
+        "gwOffense": 8,
+        "gwDefense": 7.5,
+        "average": 7.625
+      }
+    },
+    "watcher-schuri": {
+      "path": "@/epic7-db/hero/watcher-schuri.json",
+      "name": "Watcher Schuri",
+      "id": "watcher-schuri",
+      "pve": {
+        "hunt10": 6,
+        "hunt11": 5,
+        "abyss": 6,
+        "raid": 6,
+        "average": 5.67
+      },
+      "pvp": {
+        "arenaOffense": 10,
+        "arenaDefense": 8.5,
+        "gwOffense": 10,
+        "gwDefense": 9.5,
+        "average": 9.5
+      }
+    },
+    "yufine": {
+      "path": "@/epic7-db/hero/yufine.json",
+      "name": "Yufine",
+      "id": "yufine",
+      "pve": {
+        "hunt10": 8,
+        "hunt11": 8,
+        "abyss": 8,
+        "raid": 7.5,
+        "average": 7.83
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7.5,
+        "gwOffense": 8,
+        "gwDefense": 7.5,
+        "average": 7.75
+      }
+    },
+    "yuna": {
+      "path": "@/epic7-db/hero/yuna.json",
+      "name": "Yuna",
+      "id": "yuna",
+      "pve": {
+        "hunt10": 7.5,
+        "hunt11": 8,
+        "abyss": 6,
+        "raid": 7.5,
+        "average": 7.42
+      },
+      "pvp": {
+        "arenaOffense": 8,
+        "arenaDefense": 7.5,
+        "gwOffense": 8,
+        "gwDefense": 7.5,
+        "average": 7.75
+      }
+    },
+    "zeno": {
+      "path": "@/epic7-db/hero/zeno.json",
+      "name": "Zeno",
+      "id": "zeno",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 6,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5.33
+      },
+      "pvp": {
+        "arenaOffense": 5,
+        "arenaDefense": 7,
+        "gwOffense": 5,
+        "gwDefense": 7,
+        "average": 6
+      }
+    },
+    "zerato": {
+      "path": "@/epic7-db/hero/zerato.json",
+      "name": "Zerato",
+      "id": "zerato",
+      "pve": {
+        "hunt10": 5,
+        "hunt11": 5.5,
+        "abyss": 5,
+        "raid": 5,
+        "average": 5.17
+      },
+      "pvp": {
+        "arenaOffense": 6.5,
+        "arenaDefense": 6.5,
+        "gwOffense": 6.5,
+        "gwDefense": 6.5,
+        "average": 6.5
+      }
+    }
+  },
+  "item": {
+    "abyss-drake-claw": {
+      "path": "@/epic7-db/item/abyss-drake-claw.json",
+      "name": "Abyss Drake Claw",
+      "id": "abyss-drake-claw"
+    },
+    "abyss-guide-beta": {
+      "path": "@/epic7-db/item/abyss-guide-beta.json",
+      "name": "Abyss Guide β",
+      "id": "abyss-guide-beta"
+    },
+    "ancient-coin": {
+      "path": "@/epic7-db/item/ancient-coin.json",
+      "name": "Ancient Coin",
+      "id": "ancient-coin"
+    },
+    "ancient-creature-nucleus": {
+      "path": "@/epic7-db/item/ancient-creature-nucleus.json",
+      "name": "Ancient Creature Nucleus",
+      "id": "ancient-creature-nucleus"
+    },
+    "arc-drake-claw": {
+      "path": "@/epic7-db/item/arc-drake-claw.json",
+      "name": "Arc Drake Claw",
+      "id": "arc-drake-claw"
+    },
+    "archers-vision": {
+      "path": "@/epic7-db/item/archers-vision.json",
+      "name": "Archers Vision",
+      "id": "archers-vision"
+    },
+    "baby-mouse-insignia": {
+      "path": "@/epic7-db/item/baby-mouse-insignia.json",
+      "name": "Baby Mouse Insignia",
+      "id": "baby-mouse-insignia"
+    },
+    "black-curse-powder": {
+      "path": "@/epic7-db/item/black-curse-powder.json",
+      "name": "Black Curse Powder",
+      "id": "black-curse-powder"
+    },
+    "blazing-essence": {
+      "path": "@/epic7-db/item/blazing-essence.json",
+      "name": "Blazing Essence",
+      "id": "blazing-essence"
+    },
+    "blazing-rage": {
+      "path": "@/epic7-db/item/blazing-rage.json",
+      "name": "Blazing Rage",
+      "id": "blazing-rage"
+    },
+    "blazing-soul": {
+      "path": "@/epic7-db/item/blazing-soul.json",
+      "name": "Blazing Soul",
+      "id": "blazing-soul"
+    },
+    "blessing-of-orbis": {
+      "path": "@/epic7-db/item/blessing-of-orbis.json",
+      "name": "Blessing Of Orbis",
+      "id": "blessing-of-orbis"
+    },
+    "blood-flaked-bone": {
+      "path": "@/epic7-db/item/blood-flaked-bone.json",
+      "name": "Blood Flaked Bone",
+      "id": "blood-flaked-bone"
+    },
+    "brave-crest": {
+      "path": "@/epic7-db/item/brave-crest.json",
+      "name": "Brave Crest",
+      "id": "brave-crest"
+    },
+    "bright-essence": {
+      "path": "@/epic7-db/item/bright-essence.json",
+      "name": "Bright Essence",
+      "id": "bright-essence"
+    },
+    "cold-look": {
+      "path": "@/epic7-db/item/cold-look.json",
+      "name": "Cold Look",
+      "id": "cold-look"
+    },
+    "conquest-points": {
+      "path": "@/epic7-db/item/conquest-points.json",
+      "name": "Conquest Points",
+      "id": "conquest-points"
+    },
+    "covenant-bookmarks": {
+      "path": "@/epic7-db/item/covenant-bookmarks.json",
+      "name": "Covenant Bookmarks",
+      "id": "covenant-bookmarks"
+    },
+    "cursed-ashes": {
+      "path": "@/epic7-db/item/cursed-ashes.json",
+      "name": "Cursed Ashes",
+      "id": "cursed-ashes"
+    },
+    "dark-rune": {
+      "path": "@/epic7-db/item/dark-rune.json",
+      "name": "Dark Rune",
+      "id": "dark-rune"
+    },
+    "dark-steel": {
+      "path": "@/epic7-db/item/dark-steel.json",
+      "name": "Dark Steel",
+      "id": "dark-steel"
+    },
+    "demon-blood-gem": {
+      "path": "@/epic7-db/item/demon-blood-gem.json",
+      "name": "Demon Blood Gem",
+      "id": "demon-blood-gem"
+    },
+    "dragons-wrath": {
+      "path": "@/epic7-db/item/dragons-wrath.json",
+      "name": "Dragon's Wrath",
+      "id": "dragons-wrath"
+    },
+    "dream-time-circuit": {
+      "path": "@/epic7-db/item/dream-time-circuit.json",
+      "name": "Dream Time Circuit",
+      "id": "dream-time-circuit"
+    },
+    "energy": {
+      "path": "@/epic7-db/item/energy.json",
+      "name": "Energy",
+      "id": "energy"
+    },
+    "epic-dark-rune": {
+      "path": "@/epic7-db/item/epic-dark-rune.json",
+      "name": "Epic Dark Rune",
+      "id": "epic-dark-rune"
+    },
+    "epic-flame-rune": {
+      "path": "@/epic7-db/item/epic-flame-rune.json",
+      "name": "Epic Flame Rune",
+      "id": "epic-flame-rune"
+    },
+    "epic-frost-rune": {
+      "path": "@/epic7-db/item/epic-frost-rune.json",
+      "name": "Epic Frost Rune",
+      "id": "epic-frost-rune"
+    },
+    "epic-life-rune": {
+      "path": "@/epic7-db/item/epic-life-rune.json",
+      "name": "Epic Life Rune",
+      "id": "epic-life-rune"
+    },
+    "epic-light-rune": {
+      "path": "@/epic7-db/item/epic-light-rune.json",
+      "name": "Epic Light Rune",
+      "id": "epic-light-rune"
+    },
+    "erikion-carapace": {
+      "path": "@/epic7-db/item/erikion-carapace.json",
+      "name": "Erikion Carapace",
+      "id": "erikion-carapace"
+    },
+    "eternal-forest-dust": {
+      "path": "@/epic7-db/item/eternal-forest-dust.json",
+      "name": "Eternal Forest Dust",
+      "id": "eternal-forest-dust"
+    },
+    "fighter-medal": {
+      "path": "@/epic7-db/item/fighter-medal.json",
+      "name": "Fighter Medal",
+      "id": "fighter-medal"
+    },
+    "flag": {
+      "path": "@/epic7-db/item/flag.json",
+      "name": "Flag",
+      "id": "flag"
+    },
+    "flame-of-soul": {
+      "path": "@/epic7-db/item/flame-of-soul.json",
+      "name": "Flame of Soul",
+      "id": "flame-of-soul"
+    },
+    "flame-rune": {
+      "path": "@/epic7-db/item/flame-rune.json",
+      "name": "Flame Rune",
+      "id": "flame-rune"
+    },
+    "friendship-bookmarks": {
+      "path": "@/epic7-db/item/friendship-bookmarks.json",
+      "name": "Friendship Bookmarks",
+      "id": "friendship-bookmarks"
+    },
+    "friendship-points": {
+      "path": "@/epic7-db/item/friendship-points.json",
+      "name": "Friendship Points",
+      "id": "friendship-points"
+    },
+    "frost-rune": {
+      "path": "@/epic7-db/item/frost-rune.json",
+      "name": "Frost Rune",
+      "id": "frost-rune"
+    },
+    "fused-nerve": {
+      "path": "@/epic7-db/item/fused-nerve.json",
+      "name": "Fused Nerve",
+      "id": "fused-nerve"
+    },
+    "gold-transmit-stone": {
+      "path": "@/epic7-db/item/gold-transmit-stone.json",
+      "name": "Gold Transmit Stone",
+      "id": "gold-transmit-stone"
+    },
+    "gold": {
+      "path": "@/epic7-db/item/gold.json",
+      "name": "Gold",
+      "id": "gold"
+    },
+    "greater-dark-rune": {
+      "path": "@/epic7-db/item/greater-dark-rune.json",
+      "name": "Greater Dark Rune",
+      "id": "greater-dark-rune"
+    },
+    "greater-flame-rune": {
+      "path": "@/epic7-db/item/greater-flame-rune.json",
+      "name": "Greater Flame Rune",
+      "id": "greater-flame-rune"
+    },
+    "greater-frost-rune": {
+      "path": "@/epic7-db/item/greater-frost-rune.json",
+      "name": "Greater Frost Rune",
+      "id": "greater-frost-rune"
+    },
+    "greater-life-rune": {
+      "path": "@/epic7-db/item/greater-life-rune.json",
+      "name": "Greater Life Rune",
+      "id": "greater-life-rune"
+    },
+    "greater-light-rune": {
+      "path": "@/epic7-db/item/greater-light-rune.json",
+      "name": "Greater Light Rune",
+      "id": "greater-light-rune"
+    },
+    "green-drake-claw": {
+      "path": "@/epic7-db/item/green-drake-claw.json",
+      "name": "Green Drake Claw",
+      "id": "green-drake-claw"
+    },
+    "hellish-essence": {
+      "path": "@/epic7-db/item/hellish-essence.json",
+      "name": "Hellish Essence",
+      "id": "hellish-essence"
+    },
+    "horn-of-desire": {
+      "path": "@/epic7-db/item/horn-of-desire.json",
+      "name": "Horn of Desire",
+      "id": "horn-of-desire"
+    },
+    "howling-drake-claw": {
+      "path": "@/epic7-db/item/howling-drake-claw.json",
+      "name": "Howling Drake Claw",
+      "id": "howling-drake-claw"
+    },
+    "labyrinth-compass": {
+      "path": "@/epic7-db/item/labyrinth-compass.json",
+      "name": "Labyrinth Compass",
+      "id": "labyrinth-compass"
+    },
+    "leather-sheath": {
+      "path": "@/epic7-db/item/leather-sheath.json",
+      "name": "Leather Sheath",
+      "id": "leather-sheath"
+    },
+    "leif": {
+      "path": "@/epic7-db/item/leif.json",
+      "name": "Leif",
+      "id": "leif"
+    },
+    "life-rune": {
+      "path": "@/epic7-db/item/life-rune.json",
+      "name": "Life Rune",
+      "id": "life-rune"
+    },
+    "light-rune": {
+      "path": "@/epic7-db/item/light-rune.json",
+      "name": "Light Rune",
+      "id": "light-rune"
+    },
+    "lucky-rabbit-cookie": {
+      "path": "@/epic7-db/item/lucky-rabbit-cookie.json",
+      "name": "Lucky Rabbit Cookie",
+      "id": "lucky-rabbit-cookie"
+    },
+    "mana-drake-claw": {
+      "path": "@/epic7-db/item/mana-drake-claw.json",
+      "name": "Mana Drake Claw",
+      "id": "mana-drake-claw"
+    },
+    "mana-essence": {
+      "path": "@/epic7-db/item/mana-essence.json",
+      "name": "Mana Essence",
+      "id": "mana-essence"
+    },
+    "mercenarys-medicine": {
+      "path": "@/epic7-db/item/mercenarys-medicine.json",
+      "name": "Mercenary's Medicine",
+      "id": "mercenarys-medicine"
+    },
+    "mithril": {
+      "path": "@/epic7-db/item/mithril.json",
+      "name": "Mithril",
+      "id": "mithril"
+    },
+    "molagora-seed": {
+      "path": "@/epic7-db/item/molagora-seed.json",
+      "name": "MolaGora Seed",
+      "id": "molagora-seed"
+    },
+    "molagora": {
+      "path": "@/epic7-db/item/molagora.json",
+      "name": "MolaGora",
+      "id": "molagora"
+    },
+    "molagorago": {
+      "path": "@/epic7-db/item/molagorago.json",
+      "name": "MolaGoraGo",
+      "id": "molagorago"
+    },
+    "molagoragora": {
+      "path": "@/epic7-db/item/molagoragora.json",
+      "name": "MolaGoraGora",
+      "id": "molagoragora"
+    },
+    "mysterious-flash": {
+      "path": "@/epic7-db/item/mysterious-flash.json",
+      "name": "Mysterious Flash",
+      "id": "mysterious-flash"
+    },
+    "nightmare-mask": {
+      "path": "@/epic7-db/item/nightmare-mask.json",
+      "name": "Nightmare Mask",
+      "id": "nightmare-mask"
+    },
+    "order-of-the-shield-insignia": {
+      "path": "@/epic7-db/item/order-of-the-shield-insignia.json",
+      "name": "Order Of The Shield Insignia",
+      "id": "order-of-the-shield-insignia"
+    },
+    "orichalcum": {
+      "path": "@/epic7-db/item/orichalcum.json",
+      "name": "Orichalcum",
+      "id": "orichalcum"
+    },
+    "path-power-loop": {
+      "path": "@/epic7-db/item/path-power-loop.json",
+      "name": "Path Power Loop",
+      "id": "path-power-loop"
+    },
+    "proof-of-courage": {
+      "path": "@/epic7-db/item/proof-of-courage.json",
+      "name": "Proof of Courage",
+      "id": "proof-of-courage"
+    },
+    "reingar-student-id": {
+      "path": "@/epic7-db/item/reingar-student-id.json",
+      "name": "Reingar Student ID",
+      "id": "reingar-student-id"
+    },
+    "ring-of-glory": {
+      "path": "@/epic7-db/item/ring-of-glory.json",
+      "name": "Ring of Glory",
+      "id": "ring-of-glory"
+    },
+    "ruinous-essence": {
+      "path": "@/epic7-db/item/ruinous-essence.json",
+      "name": "Ruinous Essence",
+      "id": "ruinous-essence"
+    },
+    "sharp-spearhead": {
+      "path": "@/epic7-db/item/sharp-spearhead.json",
+      "name": "Sharp Spearhead",
+      "id": "sharp-spearhead"
+    },
+    "shiny-enchantment": {
+      "path": "@/epic7-db/item/shiny-enchantment.json",
+      "name": "Shiny Enchantment",
+      "id": "shiny-enchantment"
+    },
+    "silver-transmit-stone": {
+      "path": "@/epic7-db/item/silver-transmit-stone.json",
+      "name": "Silver Transmit Stone",
+      "id": "silver-transmit-stone"
+    },
+    "skystone": {
+      "path": "@/epic7-db/item/skystone.json",
+      "name": "Skystone",
+      "id": "skystone"
+    },
+    "slime-jelly": {
+      "path": "@/epic7-db/item/slime-jelly.json",
+      "name": "Slime Jelly",
+      "id": "slime-jelly"
+    },
+    "small-sun-badge": {
+      "path": "@/epic7-db/item/small-sun-badge.json",
+      "name": "Small Sun Badge",
+      "id": "small-sun-badge"
+    },
+    "special-alarm-loop": {
+      "path": "@/epic7-db/item/special-alarm-loop.json",
+      "name": "Special Alarm Loop",
+      "id": "special-alarm-loop"
+    },
+    "steel": {
+      "path": "@/epic7-db/item/steel.json",
+      "name": "Steel",
+      "id": "steel"
+    },
+    "stigma": {
+      "path": "@/epic7-db/item/stigma.json",
+      "name": "Stigma",
+      "id": "stigma"
+    },
+    "strange-jelly": {
+      "path": "@/epic7-db/item/strange-jelly.json",
+      "name": "Strange Jelly",
+      "id": "strange-jelly"
+    },
+    "terraria-ore": {
+      "path": "@/epic7-db/item/terraria-ore.json",
+      "name": "Terraria Ore",
+      "id": "terraria-ore"
+    },
+    "the-heart-of-hypocrisy": {
+      "path": "@/epic7-db/item/the-heart-of-hypocrisy.json",
+      "name": "The Heart of Hypocrisy",
+      "id": "the-heart-of-hypocrisy"
+    },
+    "twisted-fang": {
+      "path": "@/epic7-db/item/twisted-fang.json",
+      "name": "Twisted Fang",
+      "id": "twisted-fang"
+    },
+    "ultra-fang": {
+      "path": "@/epic7-db/item/ultra-fang.json",
+      "name": "Ultra Fang",
+      "id": "ultra-fang"
+    },
+    "wagon-grass": {
+      "path": "@/epic7-db/item/wagon-grass.json",
+      "name": "Wagon Grass",
+      "id": "wagon-grass"
+    }
+  }
+}

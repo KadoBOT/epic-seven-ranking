@@ -1,0 +1,680 @@
+{
+  "gameId": "c1021",
+  "name": "Dingo",
+  "rarity": 4,
+  "classType": "warrior",
+  "element": "fire",
+  "zodiac": "virgo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A genius holding the power of inferno in his hands after swearing a compact with Malicus, the Lord of Fire, Dingo became a chef to make full use of his abilities. He sees all living creatures as potential ingredients.",
+  "relations": [
+    {
+      "hero": "cidd",
+      "relationType": "trust"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1240,
+      "atk": 76,
+      "hp": 262,
+      "spd": 108,
+      "def": 69,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10990,
+      "atk": 647,
+      "hp": 3688,
+      "spd": 108,
+      "def": 477,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12383,
+      "atk": 767,
+      "hp": 4028,
+      "spd": 112,
+      "def": 477,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13717,
+      "atk": 807,
+      "hp": 4637,
+      "spd": 108,
+      "def": 592,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15782,
+      "atk": 957,
+      "hp": 5057,
+      "spd": 112,
+      "def": 592,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Prep Ingredients",
+      "soulAcquire": 1,
+      "description": "Cuts the enemy with a cleaver, with a 40% chance to inflict bleeding for 2 turns. After attack, there's a 30% chance to activate Quick Grill.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5 damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% chance of inflicting bleeding",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% chance of inflicting bleeding",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blood"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Quick Grill",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with the Glove Oven. If the enemy is bleeding, there is a 75% chance to burn for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blaze"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "Free Dinner",
+      "soulAcquire": 2,
+      "description": "Provides allies with a meal, dispelling all debuffs and decreasing cooldown by 1 turn. Grants the caster an extra turn. Every time the enemy dies, the cooldown for this skill decreases by 1 turn.",
+      "enhancement": [
+        {
+          "description": "Acquire +1 Soul",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 1
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Delicacy",
+    "description": "Dingo's dishes are so good they'll make you hallucinate. A real chef's chef.",
+    "dispatch": "[Gourmet] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 44,
+      "charm": 56,
+      "politics": 40
+    }
+  },
+  "camping": {
+    "options": [
+      "bizarre-story",
+      "food-story"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 1,
+      "bizarre-story": -2,
+      "comforting-cheer": 2,
+      "complain": 2,
+      "criticism": 2,
+      "cute-cheer": 2,
+      "dream": 2,
+      "food-story": 5,
+      "gossip": -2,
+      "happy-memory": 2,
+      "heroic-cheer": 2,
+      "heroic-tale": 1,
+      "horror-story": -2,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": 0,
+      "occult": 0,
+      "reality-check": 2,
+      "sad-memory": 1,
+      "self-indulgent": 0,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "dac",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "dac",
+        "increase": 0.007
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "dac",
+        "increase": 0.01
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "dac",
+        "increase": 0.014
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "dac",
+        "increase": 0.017
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "dac",
+        "increase": 0.021
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "dac",
+        "increase": 0.024
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 5
+        },
+        {
+          "item": "eternal-forest-dust",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "demon-blood-gem",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7,
+    "hunt11": 7,
+    "abyss": 6.5,
+    "raid": 7,
+    "average": 6.92
+  },
+  "pvp": {
+    "arenaOffense": 5.5,
+    "arenaDefense": 5.5,
+    "gwOffense": 5.5,
+    "gwDefense": 5.5,
+    "average": 5.5
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "gameId": "c1006",
+  "name": "Kise",
+  "rarity": 5,
+  "classType": "thief",
+  "element": "ice",
+  "zodiac": "leo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Leader of the Nocturnes. Having been forced to part with her lover, she now has a tendency to obsess over anything she loves.",
+  "relations": [
+    {
+      "hero": "ludwig",
+      "relationType": "love"
+    },
+    {
+      "hero": "ruele-of-light",
+      "relationType": "trust"
+    },
+    {
+      "hero": "nilgal",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "specter-tenebria",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1342,
+      "atk": 96,
+      "hp": 283,
+      "spd": 116,
+      "def": 65,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11324,
+      "atk": 771,
+      "hp": 3752,
+      "spd": 116,
+      "def": 421,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13012,
+      "atk": 983,
+      "hp": 4092,
+      "spd": 116,
+      "def": 421,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14310,
+      "atk": 961,
+      "hp": 4718,
+      "spd": 116,
+      "def": 522,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16525,
+      "atk": 1283,
+      "hp": 5138,
+      "spd": 116,
+      "def": 522,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Full Moon Scythe",
+      "soulAcquire": 1,
+      "description": "Attacks with a scythe. Damage dealt increases by 70% if target is covered by a barrier.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.1,
+          "soulburn": 1.4
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Dark Scar",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with a scythe. Penetrate defense by 60% if the caster is stealthed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Nocturne",
+      "soulAcquire": 3,
+      "description": "Leaps towards the enemy to attack, increasing skill cooldowns by 2 turns, before granting stealth to the caster for 2 turns. Damage dealt increases proportional to the caster's current Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_hide"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.6,
+          "soulburn": 1.6
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Arbitrator's Dignity",
+    "description": "Even time stops in front of her will.",
+    "dispatch": "[Time Limit] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 89,
+      "charm": 89,
+      "politics": 73
+    }
+  },
+  "camping": {
+    "options": [
+      "sad-memory",
+      "reality-check"
+    ],
+    "reactions": {
+      "advice": 1,
+      "belief": 1,
+      "bizarre-story": -1,
+      "comforting-cheer": 0,
+      "complain": 1,
+      "criticism": 0,
+      "cute-cheer": 2,
+      "dream": 2,
+      "food-story": 4,
+      "gossip": 1,
+      "happy-memory": 2,
+      "heroic-cheer": 2,
+      "heroic-tale": 2,
+      "horror-story": -5,
+      "interesting-story": 2,
+      "joyful-memory": 3,
+      "myth": 2,
+      "occult": -1,
+      "reality-check": 0,
+      "sad-memory": 2,
+      "self-indulgent": 2,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 0.043
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 0.064
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 0.086
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 0.107
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 0.129
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 6
+        },
+        {
+          "item": "ultra-fang",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 10
+        },
+        {
+          "item": "blazing-soul",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9,
+    "hunt11": 9.5,
+    "abyss": 9,
+    "raid": 9,
+    "average": 9.17
+  },
+  "pvp": {
+    "arenaOffense": 9,
+    "arenaDefense": 8,
+    "gwOffense": 9,
+    "gwDefense": 8,
+    "average": 8.5
+  }
+}

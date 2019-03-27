@@ -1,0 +1,22 @@
+{
+    "name": "Bloodbead Dagger",
+    "rarity": 2,
+    "exclusive": [],
+    "loreDescription": [
+        "A dagger once used by an assassin that took many lives."
+    ],
+    "skillDescription": {
+        "base": "Increases Critical Hit Damage by 3.0%.",
+        "max": "Increases Critical Hit Damage by 6.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 16,
+            "hp": 6
+        },
+        "max": {
+            "atk": 208,
+            "hp": 78
+        }
+    }
+}

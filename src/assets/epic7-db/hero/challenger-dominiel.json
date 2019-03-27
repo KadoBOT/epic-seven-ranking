@@ -1,0 +1,672 @@
+{
+  "gameId": "c2037",
+  "name": "Challenger Dominiel",
+  "rarity": 4,
+  "classType": "mage",
+  "element": "dark",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Fiercely proud and unreserved, Challenger Dominiel has little morality or sense of empathy. While constantly causing trouble, she refuses to admit her faults.",
+  "relations": [
+    {
+      "hero": "dingo",
+      "relationType": "rival"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1274,
+      "atk": 90,
+      "hp": 230,
+      "spd": 96,
+      "def": 74,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10968,
+      "atk": 764,
+      "hp": 3238,
+      "spd": 96,
+      "def": 506,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12308,
+      "atk": 906,
+      "hp": 3578,
+      "spd": 96,
+      "def": 506,
+      "chc": 0.24,
+      "chd": 1.56,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13671,
+      "atk": 952,
+      "hp": 4071,
+      "spd": 96,
+      "def": 627,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15594,
+      "atk": 1187,
+      "hp": 4491,
+      "spd": 96,
+      "def": 627,
+      "chc": 0.24,
+      "chd": 1.56,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Electrocute",
+      "soulAcquire": 1,
+      "description": "Attacks with electricity. A critical hit will increase damage dealt.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 2.5
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Electric Charge",
+      "soulAcquire": 0,
+      "description": "When an ally makes a critical hit, the caster's next attack deals stacked additional damage proportional to the number of critical hits and their Combat Readiness increases by 10% per critical hit.",
+      "enhancement": [
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% additional damage",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Supercharge",
+      "soulAcquire": 2,
+      "description": "Releases powerful electricity, increasing Critical Hit Rate of all allies for 3 turns, and Combat Readiness by 10%. The caster is also granted an extra turn.",
+      "enhancement": [
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_cri_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Echo",
+    "description": "Dreams about her voice ringing out across continents.",
+    "dispatch": "[Gathering] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 32,
+      "charm": 82,
+      "politics": 45
+    }
+  },
+  "camping": {
+    "options": [
+      "heroic-tale",
+      "dream"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 4,
+      "bizarre-story": 2,
+      "comforting-cheer": 1,
+      "complain": -2,
+      "criticism": 3,
+      "cute-cheer": 5,
+      "dream": 5,
+      "food-story": 3,
+      "gossip": 2,
+      "happy-memory": 3,
+      "heroic-cheer": 6,
+      "heroic-tale": 5,
+      "horror-story": 3,
+      "interesting-story": 3,
+      "joyful-memory": 4,
+      "myth": 5,
+      "occult": 3,
+      "reality-check": 0,
+      "sad-memory": -3,
+      "self-indulgent": 4,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "chc",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "chc",
+        "increase": 0.054
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "chc",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "chc",
+        "increase": 0.09
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "chc",
+        "increase": 0.108
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "chc",
+        "increase": 0.126
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chd": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 5
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "black-curse-powder",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9.5,
+    "hunt11": 9,
+    "abyss": 9.5,
+    "raid": 10,
+    "average": 9.5
+  },
+  "pvp": {
+    "arenaOffense": 9.5,
+    "arenaDefense": 8.5,
+    "gwOffense": 9.5,
+    "gwDefense": 8.5,
+    "average": 9
+  }
+}

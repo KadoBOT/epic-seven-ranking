@@ -1,0 +1,22 @@
+{
+    "name": "Dream Scroll",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "Tell me what you want to dream. I can show you anything."
+    ],
+    "skillDescription": {
+        "base": "Increases Effect Resistance by 2.0%.",
+        "max": "Increases Effect Resistance by 4.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 2,
+            "hp": 39
+        },
+        "max": {
+            "atk": 26,
+            "hp": 507
+        }
+    }
+}

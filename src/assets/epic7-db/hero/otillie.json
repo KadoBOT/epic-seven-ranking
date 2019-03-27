@@ -1,0 +1,674 @@
+{
+  "gameId": "c3045",
+  "name": "Otillie",
+  "rarity": 3,
+  "classType": "mage",
+  "element": "dark",
+  "zodiac": "taurus",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Having escaped the Homunculus experiments in the Laboratory, Otillie went to Wetheric Moor, following her cloudy memory of the past. Her blank facial expression and lack of Human emotion makes it very hard to tell if she is lying. She is quick-witted with good conversational skills.",
+  "relations": [
+    {
+      "hero": "cidd",
+      "relationType": "trust"
+    },
+    {
+      "hero": "armin",
+      "relationType": "trust"
+    },
+    {
+      "hero": "Surin",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "pyllis",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1141,
+      "atk": 65,
+      "hp": 226,
+      "spd": 106,
+      "def": 68,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10583,
+      "atk": 589,
+      "hp": 3399,
+      "spd": 106,
+      "def": 497,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11903,
+      "atk": 709,
+      "hp": 3739,
+      "spd": 110,
+      "def": 497,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.03,
+      "efr": 0.09,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13209,
+      "atk": 735,
+      "hp": 4273,
+      "spd": 106,
+      "def": 617,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15069,
+      "atk": 885,
+      "hp": 4693,
+      "spd": 110,
+      "def": 617,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0.09,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Dark Arrow",
+      "soulAcquire": 1,
+      "description": "Attacks with dark energy, with a 35% chance to make the enemy unhealable for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_heal_impossible"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Area Defense",
+      "soulAcquire": 0,
+      "description": "Decreases damage received from AoE attacks for all allies by 15%. When this effect is granted more than once, only the strongest effect is applied.",
+      "enhancement": [
+        {
+          "description": "-0.5% damage received",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "-0.5% damage received",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1% damage received",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "-1% damage received",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "-2% damage received",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "soulBurnEffect": "Skill cooldown is decreased by two 2 turns.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Mana Release",
+      "soulAcquire": 2,
+      "description": "Exhales powerful dakrnesss, decreasing Combat Readiness by 25%, and making the enemy unable to be buffed for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% Combat Readiness",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_buf_impossible"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.8,
+          "soulburn": 1.8
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Fearless",
+    "description": "She is unrelenting in her advance; she does not know fear.",
+    "dispatch": "[Hunt] type mission",
+    "enhancement": "Time requiered -6%",
+    "stats": {
+      "command": 40,
+      "charm": 25,
+      "politics": 35
+    }
+  },
+  "camping": {
+    "options": [
+      "sad-memory",
+      "complain"
+    ],
+    "reactions": {
+      "advice": 5,
+      "belief": -3,
+      "bizarre-story": -1,
+      "comforting-cheer": 1,
+      "complain": 1,
+      "criticism": -1,
+      "cute-cheer": 3,
+      "dream": 3,
+      "food-story": 0,
+      "gossip": 1,
+      "happy-memory": 3,
+      "heroic-cheer": 2,
+      "heroic-tale": -3,
+      "horror-story": -2,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": 1,
+      "occult": -1,
+      "reality-check": -1,
+      "sad-memory": 5,
+      "self-indulgent": -2,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "def",
+        "increase": 12
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "def",
+        "increase": 18
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "def",
+        "increase": 24
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "def",
+        "increase": 30
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "def",
+        "increase": 36
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "def",
+        "increase": 42
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "def",
+        "increase": 48
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 4
+        },
+        {
+          "item": "blazing-rage",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 6
+        },
+        {
+          "item": "horn-of-desire",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8,
+    "hunt11": 8,
+    "abyss": 6,
+    "raid": 6.5,
+    "average": 7.17
+  },
+  "pvp": {
+    "arenaOffense": 6,
+    "arenaDefense": 6,
+    "gwOffense": 6,
+    "gwDefense": 6,
+    "average": 6
+  }
+}

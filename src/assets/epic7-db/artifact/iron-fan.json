@@ -1,0 +1,25 @@
+{
+    "name": "Iron Fan",
+    "rarity": 5,
+    "exclusive": [
+        "ranger"
+    ],
+    "event": "",
+    "loreDescription": [
+        "\"Ladies use fans for many purposes: hiding smiles, expressing feelings indirectly, and of course, eliminating enemies.\""
+    ],
+    "skillDescription": {
+        "base": "Damage dealt increases by 16.0% when attacking an Ice elemental target.",
+        "max": "Damage dealt increases by 32.0% when attacking an Ice elemental target."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

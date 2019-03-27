@@ -1,0 +1,698 @@
+{
+  "gameId": "c3005",
+  "name": "Pyllis",
+  "rarity": 3,
+  "classType": "knight",
+  "element": "dark",
+  "zodiac": "cancer",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Part of the Church of Ilryos, Pyllis was originally Human before the Homunculus experiments changed her. She cannot remember anything from her time as a Human, but has a lingering feeling of being abandoned by a friend.",
+  "relations": [
+    {
+      "hero": "ras",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ravi",
+      "relationType": "trust"
+    },
+    {
+      "hero": "nilgal",
+      "relationType": "trust"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1113,
+      "atk": 47,
+      "hp": 276,
+      "spd": 91,
+      "def": 71,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10588,
+      "atk": 429,
+      "hp": 4138,
+      "spd": 91,
+      "def": 520,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12139,
+      "atk": 549,
+      "hp": 5098,
+      "spd": 91,
+      "def": 535,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13214,
+      "atk": 535,
+      "hp": 5203,
+      "spd": 91,
+      "def": 645,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15518,
+      "atk": 685,
+      "hp": 6403,
+      "spd": 91,
+      "def": 703,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Weak Blow",
+      "soulAcquire": 1,
+      "description": "Attacks the enemy, with a 50% chance to provoke. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_provoke"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "def",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.4,
+          "soulburn": 0.4
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Will",
+      "soulAcquire": 0,
+      "description": "Increase Defense when attacked. Increases Defense of all allies for 2 turns every fourth attack received. Effect can only stack up to 5 times.",
+      "enhancement": [
+        {
+          "description": "+10% additional defense increase when attacked",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% additional defense increase when attacked",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% additional defense increase when attacked",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% additional defense increase when attacked",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+10% additional defense increase when attacked",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_def_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Guard",
+      "soulAcquire": 2,
+      "description": "Attacks the enemy, and grants barrier on all allies for 2 turns. Barrier strength increases in proportion to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_protect"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.3,
+          "soulburn": 1.3
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "def",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Resemblance",
+    "description": "Unrepentant and without regret, she follows orders and thinks of herself as a machine.",
+    "dispatch": "[Barren Land] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 17,
+      "charm": 57,
+      "politics": 40
+    }
+  },
+  "camping": {
+    "options": [
+      "dream",
+      "joyful-memory"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": -3,
+      "bizarre-story": -1,
+      "comforting-cheer": 3,
+      "complain": -1,
+      "criticism": -1,
+      "cute-cheer": 2,
+      "dream": 1,
+      "food-story": 6,
+      "gossip": -3,
+      "happy-memory": 2,
+      "heroic-cheer": 5,
+      "heroic-tale": 4,
+      "horror-story": -2,
+      "interesting-story": 1,
+      "joyful-memory": 3,
+      "myth": 1,
+      "occult": -2,
+      "reality-check": 1,
+      "sad-memory": 3,
+      "self-indulgent": -2,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "def",
+        "increase": 12
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "def",
+        "increase": 18
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "def",
+        "increase": 24
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "def",
+        "increase": 30
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "def",
+        "increase": 36
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "def",
+        "increase": 42
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "def",
+        "increase": 48
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 4
+        },
+        {
+          "item": "special-alarm-loop",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 6
+        },
+        {
+          "item": "the-heart-of-hypocrisy",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7,
+    "hunt11": 8,
+    "abyss": 8,
+    "raid": 8,
+    "average": 7.83
+  },
+  "pvp": {
+    "arenaOffense": 6,
+    "arenaDefense": 9,
+    "gwOffense": 6,
+    "gwDefense": 9,
+    "average": 7.5
+  }
+}

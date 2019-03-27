@@ -1,0 +1,24 @@
+{
+    "name": "Infinity Basket",
+    "rarity": 4,
+    "exclusive": [
+        "ranger"
+    ],
+    "loreDescription": [
+        "Now, put your most expensive possession in this basket - it doubles! Put in two? Quadruples! This isn't a scam, trust me!"
+    ],
+    "skillDescription": {
+        "base": "Increases allies' chance of Dual Attack by 7.0% during the caster's turn. Dual Attack will deal 20% more damage.",
+        "max": "Increases allies' chance of Dual Attack by 14.0% during the caster's turn. Dual Attack will deal 20% more damage."
+    },
+    "stats": {
+        "base": {
+            "atk": 4,
+            "hp": 27
+        },
+        "max": {
+            "atk": 52,
+            "hp": 351
+        }
+    }
+}

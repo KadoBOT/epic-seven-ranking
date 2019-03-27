@@ -1,0 +1,22 @@
+{
+    "name": "Mighty Yaksha",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "If you really want to be strong, risk your life and challenge me."
+    ],
+    "skillDescription": {
+        "base": "Increases Attack and Defense by 5.0% when Health is more than 50%.",
+        "max": "Increases Attack and Defense by 10.0% when Health is more than 50%."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 36
+        },
+        "max": {
+            "atk": 117,
+            "hp": 468
+        }
+    }
+}

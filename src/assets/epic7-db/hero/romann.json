@@ -1,0 +1,674 @@
+{
+  "gameId": "c1043",
+  "name": "Romann",
+  "rarity": 4,
+  "classType": "mage",
+  "element": "ice",
+  "zodiac": "gemini",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Knight Captain of Lefundos, situated in Eureka the Northern Continent. Romann has no desire to be king despite being the cousin and successor of the current king, Schniel. Cynical and assertive, yet weak to affection.",
+  "relations": [
+    {
+      "hero": "armin",
+      "relationType": "trust"
+    },
+    {
+      "hero": "tywin",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1294,
+      "atk": 83,
+      "hp": 221,
+      "spd": 105,
+      "def": 77,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11063,
+      "atk": 706,
+      "hp": 3109,
+      "spd": 105,
+      "def": 528,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12467,
+      "atk": 889,
+      "hp": 3449,
+      "spd": 105,
+      "def": 528,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13795,
+      "atk": 880,
+      "hp": 3909,
+      "spd": 105,
+      "def": 655,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15772,
+      "atk": 1109,
+      "hp": 4329,
+      "spd": 105,
+      "def": 655,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.15,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Gravity Arrow",
+      "soulAcquire": 1,
+      "description": "Shoots gravity arrows at the enemy, decreasing Combat Readiness by 8%, and increasing Combat Readiness of the caster by 8%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+      "awakenUpgrade": false,
+      "cooldown": 3,
+      "name": "Gravitation",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with a magic circle, with a 50% chance each to decrease Combat Readiness by 15% twice",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Event Horizon",
+      "soulAcquire": 2,
+      "description": "Shoots a powerful gravity sphere at all enemies, dispelling all buffs and increasing Combat Readiness of the caster by 50%. Damage dealt increases and the enemy is inflicted with two poison effects for 2 turns when the enemy is buffed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_dot"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.85,
+          "soulburn": 0.85
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.9,
+          "soulburn": 0.9
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "God of War",
+    "description": "A war hero who brought about many victories through careful strategizing.",
+    "dispatch": "[Gourmet] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 41,
+      "charm": 82,
+      "politics": 94
+    }
+  },
+  "camping": {
+    "options": [
+      "complain",
+      "dream"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 0,
+      "bizarre-story": 0,
+      "comforting-cheer": -2,
+      "complain": 0,
+      "criticism": 2,
+      "cute-cheer": 1,
+      "dream": 0,
+      "food-story": 4,
+      "gossip": 0,
+      "happy-memory": 0,
+      "heroic-cheer": 0,
+      "heroic-tale": 1,
+      "horror-story": -2,
+      "interesting-story": 2,
+      "joyful-memory": 2,
+      "myth": 0,
+      "occult": 0,
+      "reality-check": 2,
+      "sad-memory": 0,
+      "self-indulgent": 0,
+      "unique-comment": 4
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "def",
+        "increase": 0.024
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "def",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "def",
+        "increase": 0.048
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "def",
+        "increase": 0.06
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "def",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "def",
+        "increase": 0.084
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 5
+        },
+        {
+          "item": "small-sun-badge",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "fused-nerve",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 5,
+    "hunt11": 5,
+    "abyss": 5,
+    "raid": 5,
+    "average": 5
+  },
+  "pvp": {
+    "arenaOffense": 7.5,
+    "arenaDefense": 6,
+    "gwOffense": 7.5,
+    "gwDefense": 6,
+    "average": 6.75
+  }
+}

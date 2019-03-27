@@ -1,0 +1,24 @@
+{
+    "name": "Song of Stars",
+    "rarity": 5,
+    "exclusive": [
+        "ranger"
+    ],
+    "loreDescription": [
+        "As the strings start to vibrate, the starlight illuminates her."
+    ],
+    "skillDescription": {
+        "base": "50.0% chance for an enemy to become targeted for 2 turns after a Single Attack. Damage dealt on targeted enemies is increased by 15%.",
+        "max": "100.0% chance for an enemy to become targeted for 2 turns after a Single Attack. Damage dealt on targeted enemies is increased by 15%."
+    },
+    "stats": {
+        "base": {
+            "atk": 15,
+            "hp": 54
+        },
+        "max": {
+            "atk": 195,
+            "hp": 702
+        }
+    }
+}

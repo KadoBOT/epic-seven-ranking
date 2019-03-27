@@ -1,0 +1,685 @@
+{
+  "gameId": "c4041",
+  "name": "Mascot Hazel",
+  "rarity": 3,
+  "classType": "soul-weaver",
+  "element": "fire",
+  "zodiac": "aquarius",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Hazel disguised herself to recruit more members for the student council. Only a few know her true identity, and once she's finished with her business, she returns to her original appearance.",
+  "relations": [
+    {
+      "hero": "yuna",
+      "relationType": "longing"
+    },
+    {
+      "hero": "carrot",
+      "relationType": "trust"
+    },
+    {
+      "hero": "adlay",
+      "relationType": "trust"
+    },
+    {
+      "hero": "rikoris",
+      "relationType": "trust"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1020,
+      "atk": 49,
+      "hp": 194,
+      "spd": 91,
+      "def": 69,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 9291,
+      "atk": 451,
+      "hp": 2916,
+      "spd": 91,
+      "def": 503,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 10599,
+      "atk": 611,
+      "hp": 3343,
+      "spd": 91,
+      "def": 533,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 11585,
+      "atk": 562,
+      "hp": 3667,
+      "spd": 91,
+      "def": 624,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 13431,
+      "atk": 762,
+      "hp": 4417,
+      "spd": 91,
+      "def": 661,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Book of Fire",
+      "soulAcquire": 1,
+      "description": "Attacks all enemies with fire magic, with a 30% chance to make them unhealable, for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_heal_impossible"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1.05,
+          "soulburn": 1.05
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 2,
+      "name": "Urgent Regen",
+      "soulAcquire": 1,
+      "description": "Heals the target proportional to the caster's Attack and the target's max Health. If the ally's Health is less than 50%, the amount recovered will increase by 50%.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Extends buff duration by 1 turn.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "A Girl in Uniform",
+      "soulAcquire": 2,
+      "description": "Encourages allies by increasing Attack of the target and all allies for 2 turns, and recovers Health of all allies. If the target is a Fire elemental Hero, grants the target increased Attack (Greater) instead. Amount recovered increases proportional to the target's max Health and the caster's Attack.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 36000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 6
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_att_up",
+        "stic_att_up2"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Knowledge Is Power",
+    "description": "Brain beat brawn every time.",
+    "dispatch": "[Unknown Knowledge] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 11,
+      "charm": 48,
+      "politics": 88
+    }
+  },
+  "camping": {
+    "options": [
+      "reality-check",
+      "complain"
+    ],
+    "reactions": {
+      "advice": 3,
+      "belief": 0,
+      "bizarre-story": -3,
+      "comforting-cheer": 3,
+      "complain": 1,
+      "criticism": 8,
+      "cute-cheer": 5,
+      "dream": 0,
+      "food-story": 3,
+      "gossip": 2,
+      "happy-memory": 2,
+      "heroic-cheer": -3,
+      "heroic-tale": 5,
+      "horror-story": 1,
+      "interesting-story": -1,
+      "joyful-memory": 2,
+      "myth": 5,
+      "occult": 3,
+      "reality-check": -3,
+      "sad-memory": 0,
+      "self-indulgent": -5,
+      "unique-comment": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 24
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 36
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 48
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 60
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 72
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 84
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 96
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 4
+        },
+        {
+          "item": "order-of-the-shield-insignia",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 6
+        },
+        {
+          "item": "fighter-medal",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9.5,
+    "hunt11": 10,
+    "abyss": 8,
+    "raid": 8.5,
+    "average": 9.08
+  },
+  "pvp": {
+    "arenaOffense": 7,
+    "arenaDefense": 7,
+    "gwOffense": 7,
+    "gwDefense": 7,
+    "average": 7
+  }
+}

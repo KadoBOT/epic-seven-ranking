@@ -1,0 +1,685 @@
+{
+  "gameId": "c2049",
+  "name": "Maid Chloe",
+  "rarity": 5,
+  "classType": "soul-weaver",
+  "element": "light",
+  "zodiac": "virgo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "\"You could be the queen of our store!\" -- Enticed by such a suggestion, Chloe began working in a maid café, but with no idea what kind of work a maid is expected to do, she lacks a certain care for her customers.",
+  "relations": [
+    {
+      "hero": "karin",
+      "relationType": "trust"
+    },
+    {
+      "hero": "coli",
+      "relationType": "rival"
+    },
+    {
+      "hero": "charlotte",
+      "relationType": "rival"
+    },
+    {
+      "hero": "adlay",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1260,
+      "atk": 49,
+      "hp": 268,
+      "spd": 100,
+      "def": 85,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10272,
+      "atk": 393,
+      "hp": 3559,
+      "spd": 100,
+      "def": 548,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11593,
+      "atk": 513,
+      "hp": 4219,
+      "spd": 104,
+      "def": 548,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.03,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12815,
+      "atk": 490,
+      "hp": 4475,
+      "spd": 100,
+      "def": 680,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 14678,
+      "atk": 640,
+      "hp": 5297,
+      "spd": 104,
+      "def": 680,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Heavy Strike",
+      "soulAcquire": 1,
+      "description": "Attacks with a hammer, with a 20% chance to stun for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 150000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Maid's Cheer",
+      "soulAcquire": 0,
+      "description": "Recovers the Health of the caster and the ally with the lowest Health at the beginning of the caster's turn. Amount recovered increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 150000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "VIP Treatment",
+      "soulAcquire": 3,
+      "description": "Entertains all allies with VIP Treatment, granting revive and increased Attack for 3 turns.",
+      "enhancement": [
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 8
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 80000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_bless",
+        "stic_att_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Cafe Destroyer",
+    "description": "She breaks anything she touches, but she doesn't care.",
+    "dispatch": "[Cooking] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 75,
+      "charm": 88,
+      "politics": 52
+    }
+  },
+  "camping": {
+    "options": [
+      "comforting-cheer",
+      "food-story"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 3,
+      "bizarre-story": 0,
+      "comforting-cheer": 2,
+      "complain": 2,
+      "criticism": -4,
+      "cute-cheer": 5,
+      "dream": 4,
+      "food-story": 7,
+      "gossip": 2,
+      "happy-memory": 4,
+      "heroic-cheer": 5,
+      "heroic-tale": 5,
+      "horror-story": -4,
+      "interesting-story": 3,
+      "joyful-memory": 6,
+      "myth": 3,
+      "occult": -2,
+      "reality-check": -4,
+      "sad-memory": 3,
+      "self-indulgent": 3,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "efr",
+        "increase": 0.048
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "efr",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "efr",
+        "increase": 0.096
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "efr",
+        "increase": 0.12
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "efr",
+        "increase": 0.144
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 6
+        },
+        {
+          "item": "eternal-forest-dust",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 10
+        },
+        {
+          "item": "demon-blood-gem",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8,
+    "hunt11": 8,
+    "abyss": 8,
+    "raid": 8,
+    "average": 8
+  },
+  "pvp": {
+    "arenaOffense": 9,
+    "arenaDefense": 9.5,
+    "gwOffense": 9,
+    "gwDefense": 8.5,
+    "average": 9
+  }
+}

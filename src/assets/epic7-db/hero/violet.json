@@ -1,0 +1,682 @@
+{
+  "gameId": "c1074",
+  "name": "Violet",
+  "rarity": 5,
+  "classType": "thief",
+  "element": "earth",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "focus",
+  "background": "A swordsman of the Perland Raiders, born into a noble Perland family. Though Violet may appear elegant, he behaves anything but. While incredibly skilled, he has few friends due to his excessive narcissism.",
+  "relations": [
+    {
+      "hero": "aither",
+      "relationType": "trust"
+    },
+    {
+      "hero": "sez",
+      "relationType": "rival"
+    },
+    {
+      "hero": "iseria",
+      "relationType": "love"
+    },
+    {
+      "hero": "bellona",
+      "relationType": "love"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1328,
+      "atk": 99,
+      "hp": 322,
+      "spd": 113,
+      "def": 59,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11478,
+      "atk": 793,
+      "hp": 4267,
+      "spd": 113,
+      "def": 381,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13164,
+      "atk": 984,
+      "hp": 4735,
+      "spd": 113,
+      "def": 381,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14337,
+      "atk": 989,
+      "hp": 5364,
+      "spd": 113,
+      "def": 473,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16762,
+      "atk": 1228,
+      "hp": 6266,
+      "spd": 113,
+      "def": 473,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 1,
+      "soulBurnEffect": "Increases effect chance to 100% and decreases Attack of the target for 2 turns.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Graceful Cut",
+      "soulAcquire": 1,
+      "description": "Attacks with a sword, with a 65% chance to decrease Attack for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 150000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_att_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 2,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Duel Accepted",
+      "soulAcquire": 2,
+      "description": "Prepares for a duel by recovering Health, granting an extra turn to the caster. If the skill is on cooldown, increases Evasion Chance by 30%. After successfully evading, gains 1 Focus and counterattacks. Amount recovered is proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 8
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 80000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "Butterfly Cut",
+      "soulAcquire": 3,
+      "description": "Pierces the enemy with a sword, and loses all Focus. Damage dealt increases proportional to the amount of Focus consumed. If 5 Focus is consumed, resets cool down of Butterfly Cut.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 150000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.5,
+          "soulburn": 1.5
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Master Swordsman",
+    "description": "Incredible swordsmanship is one of the many talents he was born with.",
+    "dispatch": "[Security] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 41,
+      "charm": 98,
+      "politics": 75
+    }
+  },
+  "camping": {
+    "options": [
+      "heroic-tale",
+      "sad-memory"
+    ],
+    "reactions": {
+      "advice": 4,
+      "belief": 5,
+      "bizarre-story": -1,
+      "comforting-cheer": 8,
+      "complain": -2,
+      "criticism": 3,
+      "cute-cheer": 8,
+      "dream": 4,
+      "food-story": 1,
+      "gossip": 3,
+      "happy-memory": 2,
+      "heroic-cheer": 6,
+      "heroic-tale": 6,
+      "horror-story": 0,
+      "interesting-story": 3,
+      "joyful-memory": 3,
+      "myth": 3,
+      "occult": -2,
+      "reality-check": 3,
+      "sad-memory": -2,
+      "self-indulgent": 2,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 0.054
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 0.09
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 0.108
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 6
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "black-curse-powder",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8.5,
+    "hunt11": 9,
+    "abyss": 8,
+    "raid": 8,
+    "average": 8.42
+  },
+  "pvp": {
+    "arenaOffense": 8.5,
+    "arenaDefense": 8.5,
+    "gwOffense": 9,
+    "gwDefense": 9,
+    "average": 8.75
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Demon's Pistol",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "Legend says that anyone shot by this gun will become cursed."
+    ],
+    "skillDescription": {
+        "base": "Increases Critical Hit Chance by 2.0%.",
+        "max": "Increases Critical Hit Chance by 4.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 4
+        },
+        "max": {
+            "atk": 156,
+            "hp": 52
+        }
+    }
+}

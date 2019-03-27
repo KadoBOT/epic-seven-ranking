@@ -1,0 +1,13 @@
+{
+    "name": "Demon Blood Gem",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A gem made of the black blood of the Archdemon.",
+    "locations": [
+        {
+            "node": "World 5-6",
+            "name": "Wailing Hall",
+            "mobcount": "???"
+        }
+    ]
+}

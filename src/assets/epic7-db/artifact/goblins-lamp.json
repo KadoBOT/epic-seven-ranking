@@ -1,0 +1,22 @@
+{
+    "name": "Goblin's Lamp",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "If you allow yourself to be seduced by the faint light floating upon the lake, the demon in the water will reach out for you."
+    ],
+    "skillDescription": {
+        "base": "Heals the ally with the lowest Health by 10.0% at the beginning of battle.",
+        "max": "Heals the ally with the lowest Health by 20.0% at the beginning of battle."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 36
+        },
+        "max": {
+            "atk": 117,
+            "hp": 468
+        }
+    }
+}

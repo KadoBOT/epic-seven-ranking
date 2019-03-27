@@ -1,0 +1,22 @@
+{
+    "name": "Grail of Blood",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "What wishes may be granted by this Death Goblet that holds the blood of so many victims?"
+    ],
+    "skillDescription": {
+        "base": "Recovers Health equal to 10.0% of the caster's Attack at the start of the turn. Effect is increased 1.5 times if Health is below 30%.",
+        "max": "Recovers Health equal to 20.0% of the caster's Attack at the start of the turn. Effect is increased 1.5 times if Health is below 30%."
+    },
+    "stats": {
+        "base": {
+            "atk": 14,
+            "hp": 21
+        },
+        "max": {
+            "atk": 182,
+            "hp": 273
+        }
+    }
+}

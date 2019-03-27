@@ -1,0 +1,677 @@
+{
+  "gameId": "c3052",
+  "name": "Jena",
+  "rarity": 3,
+  "classType": "mage",
+  "element": "ice",
+  "zodiac": "aries",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A calm and cautious mage of the Rose Apostles, Jena is rarely agitated by anything. She is childhood friends with fellow Rose Apostle, Lidica.",
+  "relations": [
+    {
+      "hero": "sven",
+      "relationType": "trust"
+    },
+    {
+      "hero": "iseria",
+      "relationType": "longing"
+    },
+    {
+      "hero": "angelica",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1133,
+      "atk": 76,
+      "hp": 216,
+      "spd": 97,
+      "def": 66,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10492,
+      "atk": 691,
+      "hp": 3238,
+      "spd": 97,
+      "def": 483,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11862,
+      "atk": 852,
+      "hp": 3578,
+      "spd": 97,
+      "def": 483,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13088,
+      "atk": 862,
+      "hp": 4071,
+      "spd": 97,
+      "def": 599,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15112,
+      "atk": 1063,
+      "hp": 4491,
+      "spd": 97,
+      "def": 599,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Cold Blow",
+      "soulAcquire": 1,
+      "description": "Attacks with a staff, dealing damage proportional to number of debuffs inflicted on the enemy.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Coerce",
+      "soulAcquire": 2,
+      "description": "Casts weakening magic on all enemies, with a 35% chance to decrease Attack and Speed for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_att_dn",
+        "stic_speed_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Cold Snap",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with frost magic, with a 50% chance to decrease Hit Chance for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 36000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 6
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blind"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.85,
+          "soulburn": 1.1
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Steady",
+    "description": "With steady resolve you can solve anything.",
+    "dispatch": "[Impossible Mission] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 60,
+      "charm": 37,
+      "politics": 68
+    }
+  },
+  "camping": {
+    "options": [
+      "myth",
+      "advice"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 3,
+      "bizarre-story": -2,
+      "comforting-cheer": 1,
+      "complain": 2,
+      "criticism": -1,
+      "cute-cheer": 0,
+      "dream": 2,
+      "food-story": 1,
+      "gossip": 1,
+      "happy-memory": 2,
+      "heroic-cheer": 2,
+      "heroic-tale": 0,
+      "horror-story": 0,
+      "interesting-story": 1,
+      "joyful-memory": 3,
+      "myth": 3,
+      "occult": -3,
+      "reality-check": 2,
+      "sad-memory": 4,
+      "self-indulgent": 0,
+      "unique-comment": 5
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 24
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 36
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 48
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 60
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 72
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 84
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 96
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 4
+        },
+        {
+          "item": "blessing-of-orbis",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 6
+        },
+        {
+          "item": "nightmare-mask",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 4,
+    "hunt11": 6,
+    "abyss": 4,
+    "raid": 4,
+    "average": 4.67
+  },
+  "pvp": {
+    "arenaOffense": 5.5,
+    "arenaDefense": 4,
+    "gwOffense": 5.5,
+    "gwDefense": 4,
+    "average": 4.75
+  }
+}

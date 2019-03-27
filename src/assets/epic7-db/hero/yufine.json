@@ -1,0 +1,689 @@
+{
+  "gameId": "c1016",
+  "name": "Yufine",
+  "rarity": 5,
+  "classType": "warrior",
+  "element": "earth",
+  "zodiac": "taurus",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Originally a Dragon of Wintenberg, through certain events Yufine eventually found her way to Ritania. Cheerful and curious, her excessive curiosity often leads to accidents. She loves shiny things so much that she tends to zone out while staring at them.",
+  "relations": [
+    {
+      "hero": "silk",
+      "relationType": "trust"
+    },
+    {
+      "hero": "rin",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1406,
+      "atk": 99,
+      "hp": 322,
+      "spd": 109,
+      "def": 69,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11958,
+      "atk": 793,
+      "hp": 4267,
+      "spd": 109,
+      "def": 446,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13497,
+      "atk": 984,
+      "hp": 4607,
+      "spd": 109,
+      "def": 446,
+      "chc": 0.21,
+      "chd": 1.53,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14926,
+      "atk": 989,
+      "hp": 5364,
+      "spd": 109,
+      "def": 553,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16902,
+      "atk": 1228,
+      "hp": 5784,
+      "spd": 109,
+      "def": 553,
+      "chc": 0.21,
+      "chd": 1.59,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Double Slash",
+      "soulAcquire": 1,
+      "description": "Attacks by swinging their weapon, with a 35% chance to decrease Defense by 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "horn-of-desire",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Dragon's Roar",
+      "soulAcquire": 2,
+      "description": "Attacks with a dragon howl, dispelling one buff from all enemies, with a 40% chance to silence for 1 turn, before granting increased Attack and Speed for the caster for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 19000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "horn-of-desire",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 130000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_att_up",
+        "stic_speed_up"
+      ],
+      "debuffs": [
+        "stic_silence"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.6,
+          "soulburn": 0.6
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Dragon Charge",
+      "soulAcquire": 2,
+      "description": "Hits the enemy with a finishing blow, stunning for 1 turn and dispelling all buffs. Damage dealt increases by 50% if the enemy is buffed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "shiny-enchantment",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "horn-of-desire",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 2,
+          "soulburn": 2
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Gossip Girl",
+    "description": "She hangs around Garo quite often, so she hears a lot of things.",
+    "dispatch": "[Unknown Knowledge] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 36,
+      "charm": 87,
+      "politics": 55
+    }
+  },
+  "camping": {
+    "options": [
+      "cute-cheer",
+      "advice"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 3,
+      "bizarre-story": 3,
+      "comforting-cheer": 3,
+      "complain": 1,
+      "criticism": -2,
+      "cute-cheer": 6,
+      "dream": 4,
+      "food-story": 4,
+      "gossip": 3,
+      "happy-memory": 4,
+      "heroic-cheer": 6,
+      "heroic-tale": 6,
+      "horror-story": 4,
+      "interesting-story": 4,
+      "joyful-memory": 7,
+      "myth": 2,
+      "occult": 2,
+      "reality-check": -2,
+      "sad-memory": -1,
+      "self-indulgent": 3,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 0.054
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 0.09
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 0.108
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chd": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 6
+        },
+        {
+          "item": "blazing-rage",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chd": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "horn-of-desire",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8,
+    "hunt11": 8,
+    "abyss": 8,
+    "raid": 7.5,
+    "average": 7.83
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 7.5,
+    "gwOffense": 8,
+    "gwDefense": 7.5,
+    "average": 7.75
+  }
+}

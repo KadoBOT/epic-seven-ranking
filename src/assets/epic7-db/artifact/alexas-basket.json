@@ -1,0 +1,25 @@
+{
+    "name": "Alexa's Basket",
+    "rarity": 5,
+    "exclusive": [
+        "thief"
+    ],
+    "event": "",
+    "loreDescription": [
+        "A basket Alexa carries whenever she goes on a picnic with someone she wishes to become close to, containing everything necessary for a nice lunch in a beautiful forest. Just taking it along will elicit the joy of a pleasant picnic outing."
+    ],
+    "skillDescription": {
+        "base": "20.0% chance each to grant increased Attack and Critical Hit Chance to the caster for 1 turn at the end of the turn.",
+        "max": "40.0% chance each to grant increased Attack and Critical Hit Chance to the caster for 1 turn at the end of the turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Cursed Ashes",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "Ashes left behind from a scorching flame, said to be used in curse magic.",
+    "locations": [
+        {
+            "node": "Normal 3-5",
+            "name": "Weeping Vixen Waterway",
+            "mobcount": 10
+        },
+        {
+            "node": "World 8-7",
+            "name": "Garden of a Shadow Star",
+            "mobcount": 4
+        },
+        {
+            "node": "World 8-8",
+            "name": "Crescent Parrot Altar",
+            "mobcount": 4
+        },
+        {
+            "node": "World 8-10",
+            "name": "Snowflake Hall",
+            "mobcount": 4
+        },
+        {
+            "node": "World 10-S2",
+            "name": "Black-Tail Spire",
+            "mobcount": 5
+        },
+        {
+            "node": "World 10-S3",
+            "name": "Silver Monarch Fortress",
+            "mobcount": 5
+        }
+    ]
+}

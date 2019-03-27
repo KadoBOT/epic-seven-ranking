@@ -1,0 +1,688 @@
+{
+  "gameId": "c1031",
+  "name": "Lots",
+  "rarity": 4,
+  "classType": "soul-weaver",
+  "element": "earth",
+  "zodiac": "gemini",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Originally a part of the Order of the Blue Cross, Lots was dispatched to Reingar, where he studied healing magic. Wanting to test his abilities and find a rare magical item, he has left on a journey.",
+  "relations": [
+    {
+      "hero": "clarissa",
+      "relationType": "rival"
+    },
+    {
+      "hero": "judith",
+      "relationType": "trust"
+    },
+    {
+      "hero": "angelica",
+      "relationType": "longing"
+    },
+    {
+      "hero": "achates",
+      "relationType": "trust"
+    },
+    {
+      "hero": "auxiliary-lots",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1127,
+      "atk": 42,
+      "hp": 234,
+      "spd": 97,
+      "def": 78,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 9723,
+      "atk": 364,
+      "hp": 3302,
+      "spd": 97,
+      "def": 534,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 10959,
+      "atk": 484,
+      "hp": 3741,
+      "spd": 101,
+      "def": 534,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0.09,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12119,
+      "atk": 453,
+      "hp": 4152,
+      "spd": 97,
+      "def": 662,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 13913,
+      "atk": 603,
+      "hp": 4945,
+      "spd": 101,
+      "def": 662,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0.09,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Holy Light",
+      "soulAcquire": 1,
+      "description": "Attacks with a light sphere, with a 50% chance to decrease Attack for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_att_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 2,
+      "name": "Regen",
+      "soulAcquire": 1,
+      "description": "Recovers ally's Health with healing magic, and increases Combat Readiness by 80%. Amount recovered is proportional to the ally's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% Combat Readiness",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% Combat Readiness",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Extends buff duration by 2 turns.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Serenity",
+      "soulAcquire": 2,
+      "description": "Uses strengthening magic to increase the Combat Readiness of allies by 10% and grant continuous healing for 3 turns.",
+      "enhancement": [
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_heal"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Calm Darkness",
+    "description": "Those who are used to darkness don't lose their senses even in the midst of chaos.",
+    "dispatch": "[Time Limit] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 23,
+      "charm": 71,
+      "politics": 80
+    }
+  },
+  "camping": {
+    "options": [
+      "comforting-cheer",
+      "advice"
+    ],
+    "reactions": {
+      "advice": 3,
+      "belief": 2,
+      "bizarre-story": -3,
+      "comforting-cheer": 0,
+      "complain": -2,
+      "criticism": 0,
+      "cute-cheer": 4,
+      "dream": 5,
+      "food-story": 0,
+      "gossip": -2,
+      "happy-memory": 3,
+      "heroic-cheer": 2,
+      "heroic-tale": -2,
+      "horror-story": -2,
+      "interesting-story": 2,
+      "joyful-memory": 6,
+      "myth": 1,
+      "occult": 2,
+      "reality-check": -6,
+      "sad-memory": 8,
+      "self-indulgent": -1,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "dac",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "dac",
+        "increase": 0.007
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "dac",
+        "increase": 0.01
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "dac",
+        "increase": 0.014
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "dac",
+        "increase": 0.017
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "dac",
+        "increase": 0.021
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "dac",
+        "increase": 0.024
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 5
+        },
+        {
+          "item": "small-sun-badge",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "fused-nerve",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8.5,
+    "hunt11": 8.5,
+    "abyss": 8,
+    "raid": 8,
+    "average": 8.25
+  },
+  "pvp": {
+    "arenaOffense": 7,
+    "arenaDefense": 7,
+    "gwOffense": 7,
+    "gwDefense": 7,
+    "average": 7
+  }
+}

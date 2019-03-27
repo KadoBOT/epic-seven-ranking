@@ -1,0 +1,38 @@
+{
+    "name": "Baby Mouse Insignia",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "An insignia of the Bellmice Militia is considered to be a token of honor.",
+    "locations": [
+        {
+            "node": "Normal 4-4",
+            "name": "Spider Nest",
+            "mobcount": 10
+        },
+        {
+            "node": "World 3-8",
+            "name": "West Radwa",
+            "mobcount": 11
+        },
+        {
+            "node": "World 4-S7",
+            "name": "Spotted Horn Hill",
+            "mobcount": 11
+        },
+        {
+            "node": "World 5S-S1",
+            "name": "Cutterbird Desert",
+            "mobcount": 11
+        },
+        {
+            "node": "World 7-S4",
+            "name": "Grave of the Broken Dagger",
+            "mobcount": 8
+        },
+        {
+            "node": "World 7-S5",
+            "name": "Hawthorn Valley",
+            "mobcount": 8
+        }
+    ]
+}

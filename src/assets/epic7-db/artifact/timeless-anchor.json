@@ -1,0 +1,23 @@
+{
+    "name": "Timeless Anchor",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "They say that the ship held down with that anchor is able to endure all strong winds.",
+        "- Written by Louis [The Adventures of Louis Van Vrista, Pg. 51]"
+    ],
+    "skillDescription": {
+        "base": "Has a 25.0% chance to dispel one debuff when attacked.",
+        "max": "Has a 50.0% chance to dispel one debuff when attacked."
+    },
+    "stats": {
+        "base": {
+            "atk": 8,
+            "hp": 44
+        },
+        "max": {
+            "atk": 104,
+            "hp": 572
+        }
+    }
+}

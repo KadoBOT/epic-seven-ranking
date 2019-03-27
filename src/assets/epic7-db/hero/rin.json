@@ -1,0 +1,706 @@
+{
+  "gameId": "c1054",
+  "name": "Rin",
+  "rarity": 4,
+  "classType": "soul-weaver",
+  "element": "earth",
+  "zodiac": "virgo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A brave and sturdy young girl, Rin was adopted by the great merchant Basar following the loss of her father, though she refuses to believe he is truly dead. She is full of ambition, but also good-natured with a strong sense of justice.",
+  "relations": [
+    {
+      "hero": "aramintha",
+      "relationType": "longing"
+    },
+    {
+      "hero": "silk",
+      "relationType": "trust"
+    },
+    {
+      "hero": "basar",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1113,
+      "atk": 42,
+      "hp": 237,
+      "spd": 98,
+      "def": 76,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 9653,
+      "atk": 356,
+      "hp": 3334,
+      "spd": 98,
+      "def": 525,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 10934,
+      "atk": 476,
+      "hp": 3974,
+      "spd": 102,
+      "def": 525,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.03,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12048,
+      "atk": 444,
+      "hp": 4192,
+      "spd": 98,
+      "def": 652,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 13848,
+      "atk": 594,
+      "hp": 4989,
+      "spd": 102,
+      "def": 652,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Ring Throw",
+      "soulAcquire": 1,
+      "description": "Throws rings at the enemy, with a 75% chance to dispel one buff. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "hp",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.05,
+          "soulburn": 0.05
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 2,
+      "name": "Dazzling Dance",
+      "soulAcquire": 2,
+      "description": "Dazzles the enemy with a dance, with a 50% chance to decrease Defense for 2 turns, and a 50% chance to use Ring Throw. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "hp",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.07,
+          "soulburn": 0.07
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Extends buff duration by 1 turn.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Showtime",
+      "soulAcquire": 2,
+      "description": "Heals all allies with an elegant dance, casting two random buffs for 3 turns. Amount recovered and barrier strength is proportional to the target's max Health.",
+      "enhancement": [
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 9000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 1
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Cat's Eyes",
+    "description": "Her cat eyes glow in the darkness.",
+    "dispatch": "[Fear] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 45,
+      "charm": 90,
+      "politics": 75
+    }
+  },
+  "camping": {
+    "options": [
+      "reality-check",
+      "comforting-cheer"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 6,
+      "bizarre-story": 0,
+      "comforting-cheer": 0,
+      "complain": -3,
+      "criticism": 3,
+      "cute-cheer": 4,
+      "dream": 4,
+      "food-story": 1,
+      "gossip": -1,
+      "happy-memory": 2,
+      "heroic-cheer": 3,
+      "heroic-tale": 3,
+      "horror-story": 3,
+      "interesting-story": 3,
+      "joyful-memory": 6,
+      "myth": 1,
+      "occult": 4,
+      "reality-check": -3,
+      "sad-memory": 1,
+      "self-indulgent": 3,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": true,
+    "east": false,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 0.029
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 0.058
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 0.087
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 0.102
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 5
+        },
+        {
+          "item": "eternal-forest-dust",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "demon-blood-gem",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7.5,
+    "hunt11": 7.5,
+    "abyss": 7,
+    "raid": 8,
+    "average": 7.58
+  },
+  "pvp": {
+    "arenaOffense": 7,
+    "arenaDefense": 7,
+    "gwOffense": 7,
+    "gwDefense": 7,
+    "average": 7
+  }
+}

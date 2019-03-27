@@ -1,0 +1,674 @@
+{
+  "gameId": "c3043",
+  "name": "Adlay",
+  "rarity": 3,
+  "classType": "mage",
+  "element": "earth",
+  "zodiac": "sagittarius",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A young boy with wild dreams of becoming a legendary hero, or meeting the Heir of the Covenant, in reality Adlay is a rather plain and timid student. He wants to stand out but very ordinary.",
+  "relations": [
+    {
+      "hero": "hazel",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "longing"
+    },
+    {
+      "hero": "rikoris",
+      "relationType": "trust"
+    },
+    {
+      "hero": "yuna",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1122,
+      "atk": 72,
+      "hp": 186,
+      "spd": 106,
+      "def": 67,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10185,
+      "atk": 655,
+      "hp": 2788,
+      "spd": 106,
+      "def": 489,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11568,
+      "atk": 833,
+      "hp": 3128,
+      "spd": 110,
+      "def": 489,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12691,
+      "atk": 816,
+      "hp": 3505,
+      "spd": 106,
+      "def": 606,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 14760,
+      "atk": 1039,
+      "hp": 3925,
+      "spd": 110,
+      "def": 606,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Mana Release",
+      "soulAcquire": 1,
+      "description": "Attacks with the power of a magical tome, with a 25% chance to stun for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Heroic",
+      "soulAcquire": 0,
+      "description": "Combat Readiness increases by 9% every time an ally is attacked, and skill cooldown is reset when an ally dies.",
+      "enhancement": [
+        {
+          "description": "+0.5% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+0.5% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+0.5% Combat Readiness",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+0.5% Combat Readiness",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Mana Seal",
+      "soulAcquire": 3,
+      "description": "Deals huge damage to all enemies with a sealing spell, with a 50% chance to increase skill cooldown by 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "archers-vision",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1.25
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Legend of Legend",
+    "description": "Believing himself to be a legendary warrior, he uses his power to overcome adversity.",
+    "dispatch": "[Strong Leader] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 11,
+      "charm": 78,
+      "politics": 15
+    }
+  },
+  "camping": {
+    "options": [
+      "heroic-tale",
+      "self-indulgent"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 2,
+      "bizarre-story": -2,
+      "comforting-cheer": 1,
+      "complain": -5,
+      "criticism": -2,
+      "cute-cheer": 3,
+      "dream": 5,
+      "food-story": 4,
+      "gossip": -2,
+      "happy-memory": 4,
+      "heroic-cheer": 6,
+      "heroic-tale": 5,
+      "horror-story": 2,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": 7,
+      "occult": 2,
+      "reality-check": -3,
+      "sad-memory": 2,
+      "self-indulgent": 1,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 120
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 180
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 240
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 300
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 360
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 420
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 480
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 4
+        },
+        {
+          "item": "cold-look",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 6
+        },
+        {
+          "item": "mercenarys-medicine",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 4,
+    "hunt11": 4,
+    "abyss": 5,
+    "raid": 5,
+    "average": 4.5
+  },
+  "pvp": {
+    "arenaOffense": 5.5,
+    "arenaDefense": 5.5,
+    "gwOffense": 5.5,
+    "gwDefense": 5.5,
+    "average": 5.5
+  }
+}

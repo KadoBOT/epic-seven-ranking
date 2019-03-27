@@ -1,0 +1,706 @@
+{
+  "gameId": "c2007",
+  "name": "Arbiter Vildred",
+  "rarity": 5,
+  "classType": "thief",
+  "element": "dark",
+  "zodiac": "leo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "focus",
+  "background": "Once among the greatest of believers in the Goddess and her Covenant, Arbiter Vildred joined hands with the Acolyte Kayron and betrayed everyone and everything he once believed in. Within his body is contained the power of the Archdemon Anghraf.",
+  "relations": [
+    {
+      "hero": "tenebria",
+      "relationType": "trust"
+    },
+    {
+      "hero": "yuna",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "krau",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ras",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ludwig",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "mercedes",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "nilgal",
+      "relationType": "trust"
+    },
+    {
+      "hero": "iseria",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1342,
+      "atk": 96,
+      "hp": 283,
+      "spd": 116,
+      "def": 65,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11324,
+      "atk": 771,
+      "hp": 3752,
+      "spd": 116,
+      "def": 421,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13012,
+      "atk": 983,
+      "hp": 4092,
+      "spd": 116,
+      "def": 421,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14130,
+      "atk": 961,
+      "hp": 4718,
+      "spd": 116,
+      "def": 522,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16525,
+      "atk": 1283,
+      "hp": 5138,
+      "spd": 116,
+      "def": 522,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 1,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Sweep",
+      "soulAcquire": 1,
+      "description": "Rapidly attacks two enemies with a swordstorm, decreasing their Combat Readiness by 10%. The lower the enemy's Health, the greater damage dealt.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.75,
+          "soulburn": 0.75
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 10,
+      "name": "Dark Contract",
+      "soulAcquire": 0,
+      "description": "After receiving lethal damage, regenerates to 70% Health, gains full Focus, and resets cooldown for Dark Blade.",
+      "enhancement": [
+        {
+          "description": "+10% Health recovered",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 19000
+            }
+          ]
+        },
+        {
+          "description": "+10% Health recovered",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% Health recovered",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 130000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 1,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Dark Blade",
+      "soulAcquire": 3,
+      "description": "Attacks all enemies with wild energy, with a 75% chance to decrease Hit Chance for 2 turns. When Focus is full, consumes it all, increasing the chance and damage dealt. When the enemy is defeated, cooldown does not increase. Damage dealt increases proportional to amount if the enemy's lost Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blind"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.85,
+          "soulburn": 0.85
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 1.1
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Irresistible Offer",
+    "description": "Neither truth nor lie matters to his offer.",
+    "dispatch": "[Gourmet] type mission",
+    "enhancement": "Reward bonus +10%",
+    "stats": {
+      "command": 82,
+      "charm": 55,
+      "politics": 70
+    }
+  },
+  "camping": {
+    "options": [
+      "criticism",
+      "self-indulgent"
+    ],
+    "reactions": {
+      "advice": 1,
+      "belief": 5,
+      "bizarre-story": -2,
+      "comforting-cheer": -2,
+      "complain": -2,
+      "criticism": 6,
+      "cute-cheer": 3,
+      "dream": 0,
+      "food-story": 2,
+      "gossip": 1,
+      "happy-memory": 1,
+      "heroic-cheer": 5,
+      "heroic-tale": 1,
+      "horror-story": 2,
+      "interesting-story": 0,
+      "joyful-memory": 1,
+      "myth": 3,
+      "occult": 1,
+      "reality-check": 3,
+      "sad-memory": -1,
+      "self-indulgent": 1,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "eff",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "eff",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "eff",
+        "increase": 0.058
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "eff",
+        "increase": 0.087
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "eff",
+        "increase": 0.116
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "eff",
+        "increase": 0.14
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "eff",
+        "increase": 0.174
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 6
+        },
+        {
+          "item": "ultra-fang",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 10
+        },
+        {
+          "item": "blazing-soul",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 6.5,
+    "hunt11": 5.5,
+    "abyss": 6.5,
+    "raid": 6.5,
+    "average": 6.17
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 8,
+    "gwOffense": 8.5,
+    "gwDefense": 8.5,
+    "average": 8.25
+  }
+}

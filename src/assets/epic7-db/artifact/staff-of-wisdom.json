@@ -1,0 +1,22 @@
+{
+    "name": "Staff of Wisdom",
+    "rarity": 2,
+    "exclusive": [],
+    "loreDescription": [
+        "A soul inside the staff will whisper ancient knowledge."
+    ],
+    "skillDescription": {
+        "base": "Increases Effectiveness by 3.0%.",
+        "max": "Increases Effectiveness by 6.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 32
+        },
+        "max": {
+            "atk": 117,
+            "hp": 416
+        }
+    }
+}

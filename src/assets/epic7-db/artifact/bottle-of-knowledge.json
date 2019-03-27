@@ -1,0 +1,23 @@
+{
+    "name": "Bottle of Knowledge",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "A tightly sealed bottle created to preserve the Powder of Knowledge, used as an alchemy ingredient to draw the potential power out of other mysterious items.",
+        "* You can use this item to Limit Break a 5 Star Artifact."
+    ],
+    "skillDescription": {
+        "base": "",
+        "max": ""
+    },
+    "stats": {
+        "base": {
+            "atk": 0,
+            "hp": 0
+        },
+        "max": {
+            "atk": 0,
+            "hp": 0
+        }
+    }
+}

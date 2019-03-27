@@ -1,0 +1,22 @@
+{
+    "name": "Atma's Portal",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "By going through that door, you can turn back time. It may be for a brief moment, but it's enough to gain momentum in a fight."
+    ],
+    "skillDescription": {
+        "base": "10.0% chance to decrease skill cooldown of all allies by 1 turn at the beginning of the battle.",
+        "max": "20.0% chance to decrease skill cooldown of all allies by 1 turn at the beginning of the battle."
+    },
+    "stats": {
+        "base": {
+            "atk": 4,
+            "hp": 58
+        },
+        "max": {
+            "atk": 52,
+            "hp": 754
+        }
+    }
+}

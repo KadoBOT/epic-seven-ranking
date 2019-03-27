@@ -1,0 +1,694 @@
+{
+  "gameId": "c1003",
+  "name": "Rose",
+  "rarity": 4,
+  "classType": "knight",
+  "element": "ice",
+  "zodiac": "libra",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A close aide of Cecilia's, Rose followed her all the way from Wintenberg. She loves to fight and has a good sense of humor. Her belief is that the strongest warrior die with no regrets.",
+  "relations": [
+    {
+      "hero": "cecilia",
+      "relationType": "longing"
+    },
+    {
+      "hero": "ravi",
+      "relationType": "rival"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1261,
+      "atk": 63,
+      "hp": 303,
+      "spd": 97,
+      "def": 76,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11254,
+      "atk": 538,
+      "hp": 4267,
+      "spd": 97,
+      "def": 520,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12786,
+      "atk": 658,
+      "hp": 4991,
+      "spd": 97,
+      "def": 535,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0.06,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14045,
+      "atk": 671,
+      "hp": 5364,
+      "spd": 97,
+      "def": 645,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16327,
+      "atk": 821,
+      "hp": 6266,
+      "spd": 97,
+      "def": 703,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0.06,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Sequential Cutter",
+      "soulAcquire": 1,
+      "description": "Attacks with a sword, with a 50% chance to provoke for 1 turn if the caster's Health is more than 50%, or increase Defense of the caster for 1 turn if the caster's Health is less than 50%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_def_up"
+      ],
+      "debuffs": [
+        "stic_provoke"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.5,
+          "soulburn": 0.5
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "def",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Shield of Light",
+      "soulAcquire": 2,
+      "description": "Cover an ally with the Shield of Light, dispelling two debuffs and granting a barrier before increasing Combat Readiness by 10%. Barrier strength is proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_protect"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Extends buff duration by 1 turn.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Goddess of Victory",
+      "soulAcquire": 3,
+      "description": "Gives blessing to all allies, increasing Attack for 2 turns, and Combat Readiness by 15%.",
+      "enhancement": [
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_att_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Mission Keeper",
+    "description": "Fear won't ever stop her.",
+    "dispatch": "[Fear] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 85,
+      "charm": 60,
+      "politics": 25
+    }
+  },
+  "camping": {
+    "options": [
+      "self-indulgent",
+      "dream"
+    ],
+    "reactions": {
+      "advice": 5,
+      "belief": -4,
+      "bizarre-story": -5,
+      "comforting-cheer": 6,
+      "complain": -5,
+      "criticism": 0,
+      "cute-cheer": 5,
+      "dream": 2,
+      "food-story": 5,
+      "gossip": -3,
+      "happy-memory": 5,
+      "heroic-cheer": 0,
+      "heroic-tale": 8,
+      "horror-story": 0,
+      "interesting-story": 0,
+      "joyful-memory": 3,
+      "myth": 8,
+      "occult": 3,
+      "reality-check": -6,
+      "sad-memory": 3,
+      "self-indulgent": -4,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": false,
+    "east": false,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "def",
+        "increase": 0.029
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "def",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "def",
+        "increase": 0.058
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "def",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "def",
+        "increase": 0.087
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "def",
+        "increase": 0.102
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 5
+        },
+        {
+          "item": "dream-time-circuit",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "reingar-student-id",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7,
+    "hunt11": 8,
+    "abyss": 7,
+    "raid": 7.5,
+    "average": 7.5
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 8,
+    "gwOffense": 8,
+    "gwDefense": 8,
+    "average": 8
+  }
+}

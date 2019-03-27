@@ -1,0 +1,688 @@
+{
+  "gameId": "c1035",
+  "name": "Purrgis",
+  "rarity": 4,
+  "classType": "warrior",
+  "element": "earth",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Believing life is all about hitting a jackpot, Purrgis loves to snoop around. Born in Farche, a poor region, he has suffered discrimination for many years, turning him into an opportunist obsessed with money.",
+  "relations": [
+    {
+      "hero": "ras",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "cartuja",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "rin",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "basar",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "mucacha",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1253,
+      "atk": 84,
+      "hp": 294,
+      "spd": 100,
+      "def": 66,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11276,
+      "atk": 713,
+      "hp": 4138,
+      "spd": 100,
+      "def": 452,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12819,
+      "atk": 854,
+      "hp": 4850,
+      "spd": 100,
+      "def": 479,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14079,
+      "atk": 889,
+      "hp": 5203,
+      "spd": 100,
+      "def": 561,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16221,
+      "atk": 1119,
+      "hp": 6091,
+      "spd": 100,
+      "def": 594,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Falling Strike",
+      "soulAcquire": 1,
+      "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_speed_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Get Lost!",
+      "soulAcquire": 0,
+      "description": "Hits all enemies when counterattacking, with a 20% chance to counterattack when attacked.",
+      "enhancement": [
+        {
+          "description": "+1% counterattack chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% counterattack chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+2% counterattack chance",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+2% counterattack chance",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+3% counterattack chance",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Final Blow",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with a powerful ground pound, stunning for 1 turn if they have less than 30% Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "black-curse-powder",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 1.05
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Muscle Flexing",
+    "description": "Exaggerates frequently when bragging about his power.",
+    "dispatch": "[Impossible Mission] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 52,
+      "charm": 22,
+      "politics": 29
+    }
+  },
+  "camping": {
+    "options": [
+      "sad-memory",
+      "horror-story"
+    ],
+    "reactions": {
+      "advice": -2,
+      "belief": 6,
+      "bizarre-story": 0,
+      "comforting-cheer": -2,
+      "complain": 1,
+      "criticism": 6,
+      "cute-cheer": 3,
+      "dream": 3,
+      "food-story": 2,
+      "gossip": 3,
+      "happy-memory": 1,
+      "heroic-cheer": 3,
+      "heroic-tale": 2,
+      "horror-story": 3,
+      "interesting-story": 1,
+      "joyful-memory": 3,
+      "myth": 4,
+      "occult": 2,
+      "reality-check": 0,
+      "sad-memory": -1,
+      "self-indulgent": 0,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 0.024
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 0.048
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 0.06
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 0.084
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 5
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "black-curse-powder",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 6,
+    "hunt11": 6,
+    "abyss": 5.5,
+    "raid": 6,
+    "average": 5.92
+  },
+  "pvp": {
+    "arenaOffense": 6.5,
+    "arenaDefense": 6.5,
+    "gwOffense": 6.5,
+    "gwDefense": 6.5,
+    "average": 6.5
+  }
+}

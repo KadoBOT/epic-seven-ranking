@@ -1,0 +1,23 @@
+{
+    "name": "Strange Jelly",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+    "locations": [
+        {
+            "node": "Normal 1-10",
+            "name": "Sanctuary Gate Underground",
+            "mobcount": 9
+        },
+        {
+            "node": "World 10-2",
+            "name": "Collapsed Mine",
+            "mobcount": 11
+        },
+        {
+            "node": "World 4-S11",
+            "name": "Black Blood Shadow",
+            "mobcount": 6
+        }
+    ]
+}

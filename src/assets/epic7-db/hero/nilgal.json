@@ -1,0 +1,409 @@
+{
+    "gameId": "",
+    "name": "Nilgal",
+    "rarity": 5,
+    "classType": "warrior",
+    "element": "earth",
+    "zodiac": "sagittarius",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "An old soldier whose main weapons are poison and dirty tricks. Their absence of seriousness leads many people to look down on them, but they lack the common sense to realize.",
+    "relations": [
+        {
+            "hero": "",
+            "relationType": ""
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1577,
+            "atk": 83,
+            "hp": 530,
+            "spd": 108,
+            "def": 73,
+            "chc": 0.152,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 36951,
+            "atk": 3094,
+            "hp": 15440,
+            "spd": 108,
+            "def": 704,
+            "chc": 0.225,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 36951,
+            "atk": 3094,
+            "hp": 15440,
+            "spd": 108,
+            "def": 704,
+            "chc": 0.225,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 52223,
+            "atk": 4473,
+            "hp": 21568,
+            "spd": 108,
+            "def": 931,
+            "chc": 0.24,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 52223,
+            "atk": 4473,
+            "hp": 21568,
+            "spd": 108,
+            "def": 931,
+            "chc": 0.24,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Poison",
+            "soulAcquire": 0,
+            "description": "Spreads poison energy over two enemies, with a 25% chance to inflict poison for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Restrict",
+            "soulAcquire": 0,
+            "description": "Deals damage proportional to the enemy's Combat Readiness and max Health when an enemy is inflicted by poison.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Toxic Breath",
+            "soulAcquire": 0,
+            "description": "Attacks all enemies with Toxic Breath, extending debuffs by 2 turns.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
+    },
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "cold-look",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "mercenarys-medicine",
+                    "qty": 10
+                }
+            ]
+        }
+    ]
+}

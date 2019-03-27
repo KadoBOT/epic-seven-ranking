@@ -1,0 +1,696 @@
+{
+  "gameId": "c2022",
+  "name": "Destina",
+  "rarity": 5,
+  "classType": "soul-weaver",
+  "element": "earth",
+  "zodiac": "cancer",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Nicknamed \"the Beast of the Western Light\", Destina is a master of light and metal who has physically manifested in the image of her deeply beloved Soul Weaver, Ruele.",
+  "relations": [
+    {
+      "hero": "ruele-of-light",
+      "relationType": "love"
+    },
+    {
+      "hero": "celestial",
+      "relationType": "trust"
+    },
+    {
+      "hero": "dominiel",
+      "relationType": "trust"
+    },
+    {
+      "hero": "dingo",
+      "relationType": "trust"
+    },
+    {
+      "hero": "judge-kise",
+      "relationType": "trust"
+    },
+    {
+      "hero": "ras",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1304,
+      "atk": 47,
+      "hp": 285,
+      "spd": 89,
+      "def": 91,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10663,
+      "atk": 378,
+      "hp": 3784,
+      "spd": 89,
+      "def": 590,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12225,
+      "atk": 498,
+      "hp": 4578,
+      "spd": 89,
+      "def": 625,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13301,
+      "atk": 471,
+      "hp": 4758,
+      "spd": 89,
+      "def": 732,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15529,
+      "atk": 621,
+      "hp": 6034,
+      "spd": 89,
+      "def": 775,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Attacks the enemy and greatly heals all allies. Does not trigger a Dual Attack.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Key to an Oath",
+      "soulAcquire": 1,
+      "description": "Attacks the enemy with a staff and heals the ally with the lowest Health. Healing increases proportional to the target's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+20% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 3,
+      "name": "Regen",
+      "soulAcquire": 2,
+      "description": "Blesses an ally, recovering their Health and increasing their Combat Readiness by 30%. Healing increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 19000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 130000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "Destina's Grace",
+      "soulAcquire": 3,
+      "description": "Grants all allies the blessing of a Spirit Lord, dispelling all debuffs and recovering Health. If ally is debuffed, their Combat Readiness will also be increased by 15% per each debuff. Effect can only be applied up to 4 times. Healing increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Path of Light",
+    "description": "Destina, the Spirit Lord of Light, keeps many memories. The warmth of light, the coldness of loss.",
+    "dispatch": "[Unknown Knowledge] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 84,
+      "charm": 91,
+      "politics": 19
+    }
+  },
+  "camping": {
+    "options": [
+      "sad-memory",
+      "heroic-cheer"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 2,
+      "bizarre-story": 1,
+      "comforting-cheer": -2,
+      "complain": 1,
+      "criticism": 0,
+      "cute-cheer": 3,
+      "dream": 2,
+      "food-story": 3,
+      "gossip": 1,
+      "happy-memory": 2,
+      "heroic-cheer": 3,
+      "heroic-tale": 3,
+      "horror-story": 1,
+      "interesting-story": 3,
+      "joyful-memory": 5,
+      "myth": 1,
+      "occult": 1,
+      "reality-check": 0,
+      "sad-memory": 1,
+      "self-indulgent": 1,
+      "unique-comment": 6
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": false,
+    "east": true,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 0.043
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 0.064
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 0.086
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 0.107
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 0.129
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 6
+        },
+        {
+          "item": "special-alarm-loop",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 10
+        },
+        {
+          "item": "the-heart-of-hypocrisy",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8.5,
+    "hunt11": 8.5,
+    "abyss": 8.5,
+    "raid": 9.5,
+    "average": 8.83
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 9.5,
+    "gwOffense": 8.5,
+    "gwDefense": 9.5,
+    "average": 8.875
+  }
+}

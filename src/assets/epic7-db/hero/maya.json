@@ -1,0 +1,717 @@
+{
+  "gameId": "c1032",
+  "name": "Maya",
+  "rarity": 4,
+  "classType": "knight",
+  "element": "fire",
+  "zodiac": "aries",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "An apprentice knight of the Order of the Shield, Maya boasts incredible arm strength. Finding great value in her work protecting people, she devoted herself to the Order of the Shield. She cares greatly for her family back home.",
+  "relations": [
+    {
+      "hero": "crozet",
+      "relationType": "longing"
+    },
+    {
+      "hero": "lorina",
+      "relationType": "trust"
+    },
+    {
+      "hero": "cidd",
+      "relationType": "trust"
+    },
+    {
+      "hero": "sven",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1315,
+      "atk": 63,
+      "hp": 330,
+      "spd": 108,
+      "def": 76,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11900,
+      "atk": 538,
+      "hp": 4653,
+      "spd": 108,
+      "def": 523,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13392,
+      "atk": 658,
+      "hp": 5411,
+      "spd": 112,
+      "def": 523,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.03,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14848,
+      "atk": 671,
+      "hp": 5850,
+      "spd": 108,
+      "def": 648,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16961,
+      "atk": 821,
+      "hp": 6796,
+      "spd": 112,
+      "def": 648,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Weak Blow",
+      "soulAcquire": 1,
+      "description": "Attack with a blunt weapon, with a 25% chance to stun for 1 turn. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "nightmare-mask",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.5,
+          "soulburn": 0.5
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "def",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.75,
+          "soulburn": 0.75
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+      "awakenUpgrade": false,
+      "cooldown": 3,
+      "name": "Concuss",
+      "soulAcquire": 2,
+      "description": "Attacks with a shield, with a 80% chance to stun for 1 turn. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "nightmare-mask",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "def",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "Fraudulent Cry",
+      "soulAcquire": 2,
+      "description": "Has a 35% chance to decrease Attack and provoke all enemies for 1 turn. Increases Defense of all allies for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 9000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "nightmare-mask",
+              "qty": 1
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_def_up"
+      ],
+      "debuffs": [
+        "stic_att_dn",
+        "stic_provoke"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Strong Arms",
+    "description": "Uses their buff arms to fight against injustice.",
+    "dispatch": "[Security] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 50,
+      "charm": 83,
+      "politics": 17
+    }
+  },
+  "camping": {
+    "options": [
+      "joyful-memory",
+      "horror-story"
+    ],
+    "reactions": {
+      "advice": 4,
+      "belief": -1,
+      "bizarre-story": 1,
+      "comforting-cheer": 6,
+      "complain": -1,
+      "criticism": -1,
+      "cute-cheer": 4,
+      "dream": 3,
+      "food-story": 3,
+      "gossip": -1,
+      "happy-memory": 5,
+      "heroic-cheer": 8,
+      "heroic-tale": 6,
+      "horror-story": 3,
+      "interesting-story": 2,
+      "joyful-memory": 5,
+      "myth": 2,
+      "occult": -1,
+      "reality-check": 1,
+      "sad-memory": 1,
+      "self-indulgent": 0,
+      "unique-comment": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "def",
+        "increase": 0.024
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "def",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "def",
+        "increase": 0.048
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "def",
+        "increase": 0.06
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "def",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "def",
+        "increase": 0.084
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 5
+        },
+        {
+          "item": "blessing-of-orbis",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "nightmare-mask",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 5,
+    "hunt11": 5,
+    "abyss": 6.5,
+    "raid": 5.5,
+    "average": 5.42
+  },
+  "pvp": {
+    "arenaOffense": 6,
+    "arenaDefense": 7,
+    "gwOffense": 6,
+    "gwDefense": 7,
+    "average": 6.5
+  }
+}

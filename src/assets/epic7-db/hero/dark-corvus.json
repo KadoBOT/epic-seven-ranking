@@ -1,0 +1,710 @@
+{
+  "gameId": "c2012",
+  "name": "Dark Corvus",
+  "rarity": 5,
+  "classType": "warrior",
+  "element": "dark",
+  "zodiac": "capricorn",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Corvus was originally a soldier from Rose Apostles until something caused him to lose his faith and grow disillusioned with the world, and now he only wishes for its destruction. However, he still contains a gentle side within him.",
+  "relations": [
+    {
+      "hero": "corvus",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ras",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "nilgal",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1406,
+      "atk": 81,
+      "hp": 351,
+      "spd": 102,
+      "def": 77,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 12050,
+      "atk": 655,
+      "hp": 4653,
+      "spd": 102,
+      "def": 500,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13730,
+      "atk": 775,
+      "hp": 5551,
+      "spd": 102,
+      "def": 530,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 15038,
+      "atk": 816,
+      "hp": 5850,
+      "spd": 102,
+      "def": 620,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 17484,
+      "atk": 966,
+      "hp": 7323,
+      "spd": 102,
+      "def": 657,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Shield Bash",
+      "soulAcquire": 1,
+      "description": "Attacks with a shield and absorbs some of the damage as Health, with a 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "dragons-wrath",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_provoke"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "hp",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.07,
+          "soulburn": 0.07
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Ruin's Advent",
+      "soulAcquire": 0,
+      "description": "When attacked, the caster has a 70% chance of their skill cooldown being decreased by 1 turn, or 2 turns in the case of a critical hit.",
+      "enhancement": [
+        {
+          "description": "+10% activation chance",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 19000
+            }
+          ]
+        },
+        {
+          "description": "+10% activation chance",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% activation chance",
+          "resources": [
+            {
+              "item": "dragons-wrath",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 130000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 9,
+      "name": "Devil's Descent",
+      "soulAcquire": 3,
+      "description": "Attacks with a lethal hit, absorbing damage dealth as Health. Damage dealt is only affected by the caster's Health and does not trigger critical hit. Begins the battle with a full skill cooldown count.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "dragons-wrath",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "hp",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.2,
+          "soulburn": 0.34
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Siege Destroyer",
+    "description": "Enemies cower when they see him destroy fortress walls.",
+    "dispatch": "[Strong Leader] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 78,
+      "charm": 12,
+      "politics": 92
+    }
+  },
+  "camping": {
+    "options": [
+      "criticism",
+      "belief"
+    ],
+    "reactions": {
+      "advice": -2,
+      "belief": 2,
+      "bizarre-story": 1,
+      "comforting-cheer": 2,
+      "complain": -5,
+      "criticism": 6,
+      "cute-cheer": -2,
+      "dream": 2,
+      "food-story": -2,
+      "gossip": -6,
+      "happy-memory": 3,
+      "heroic-cheer": -1,
+      "heroic-tale": -1,
+      "horror-story": -2,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": -3,
+      "occult": 7,
+      "reality-check": 0,
+      "sad-memory": 1,
+      "self-indulgent": -1,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 0.043
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 0.064
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 0.086
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 0.107
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 0.12
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 6
+        },
+        {
+          "item": "cursed-ashes",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 10
+        },
+        {
+          "item": "dragons-wrath",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 5,
+    "hunt11": 5,
+    "abyss": 6,
+    "raid": 5.5,
+    "average": 5.33
+  },
+  "pvp": {
+    "arenaOffense": 7,
+    "arenaDefense": 7.5,
+    "gwOffense": 7.5,
+    "gwDefense": 8,
+    "average": 7.5
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Abyssal Crown",
+    "rarity": 5,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "May those ruled by the crown walk the road of corruption forever.",
+        "- Witch Reinwood, hung high up on the stake"
+    ],
+    "skillDescription": {
+        "base": "12.0% chance to stun the enemy for 1 turn when attacking.",
+        "max": "24.0% chance to stun the enemy for 1 turn when attacking."
+    },
+    "stats": {
+        "base": {
+            "atk": 15,
+            "hp": 54
+        },
+        "max": {
+            "atk": 195,
+            "hp": 702
+        }
+    }
+}

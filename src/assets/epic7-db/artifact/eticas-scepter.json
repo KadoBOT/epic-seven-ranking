@@ -1,0 +1,24 @@
+{
+    "name": "Etica's Scepter",
+    "rarity": 5,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "When the empire is in its greatest peril, the exiled princess, Etica, will return with the five spirits to take back the royal hall and call down a rain of repentance to save the devastated world."
+    ],
+    "skillDescription": {
+        "base": "25.0% chance to decrease skill cooldown by an additional turn at the beginning of the turn.",
+        "max": "50.0% chance to decrease skill cooldown by an additional turn at the beginning of the turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 43
+        },
+        "max": {
+            "atk": 234,
+            "hp": 559
+        }
+    }
+}

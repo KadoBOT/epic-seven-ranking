@@ -1,0 +1,25 @@
+{
+    "name": "Rhianna & Luciella",
+    "rarity": 5,
+    "exclusive": [
+        "thief"
+    ],
+    "loreDescription": [
+        "You're today's target. I'll let you know now that there's nowhere to run.",
+        "- Moon Assassins, Rhianna and Luciella"
+    ],
+    "skillDescription": {
+        "base": "10.0% chance to be granted an extra turn at the end of the turn. Can be activated once per turn.",
+        "max": "20.0% chance to be granted an extra turn at the end of the turn. Can be activated once per turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

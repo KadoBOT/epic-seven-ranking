@@ -1,0 +1,698 @@
+{
+  "gameId": "c1011",
+  "name": "Karin",
+  "rarity": 4,
+  "classType": "thief",
+  "element": "ice",
+  "zodiac": "leo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Second Lieutenant in the Public Security Club of Reingar, Karin struggles to maintain order in the Magical Academy, a place brimming with dangerous creativity. Many call her the conscience and the real big boss of the Public Security Club.",
+  "relations": [
+    {
+      "hero": "yuna",
+      "relationType": "longing"
+    },
+    {
+      "hero": "azalea",
+      "relationType": "trust"
+    },
+    {
+      "hero": "hazel",
+      "relationType": "rival"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "trust"
+    },
+    {
+      "hero": "rikoris",
+      "relationType": "trust"
+    },
+    {
+      "hero": "ras",
+      "relationType": "trust"
+    },
+    {
+      "hero": "judith",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1182,
+      "atk": 83,
+      "hp": 250,
+      "spd": 113,
+      "def": 59,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10596,
+      "atk": 706,
+      "hp": 3527,
+      "spd": 113,
+      "def": 409,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12189,
+      "atk": 910,
+      "hp": 3867,
+      "spd": 113,
+      "def": 409,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13229,
+      "atk": 880,
+      "hp": 4435,
+      "spd": 113,
+      "def": 508,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15478,
+      "atk": 1188,
+      "hp": 4855,
+      "spd": 113,
+      "def": 508,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Sequential Cutter",
+      "soulAcquire": 1,
+      "description": "Strikes the enemy with a sword. A critical hit will decrease cooldown for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 21000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 7
+            },
+            {
+              "item": "gold",
+              "qty": 33000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 80000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Blade Art: Flash",
+      "soulAcquire": 2,
+      "description": "Slashes the enemy. A critical hit will decrease Defense for 1 turn and grant an extra turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 21000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 7
+            },
+            {
+              "item": "gold",
+              "qty": 33000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 80000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 7,
+      "name": "Blade Art: Thunder",
+      "soulAcquire": 3,
+      "description": "Cuts the enemy with lightning speed. A critical hit will increase Damage.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.85,
+          "soulburn": 0.85
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.6,
+          "soulburn": 2.3
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Protector of Order",
+    "description": "As justice is the root of all order, she performs one heroic exploit after another.",
+    "dispatch": "[Gathering] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 63,
+      "charm": 67,
+      "politics": 24
+    }
+  },
+  "camping": {
+    "options": [
+      "cute-cheer",
+      "food-story"
+    ],
+    "reactions": {
+      "advice": 1,
+      "belief": 3,
+      "bizarre-story": 0,
+      "comforting-cheer": 2,
+      "complain": 2,
+      "criticism": -4,
+      "cute-cheer": 5,
+      "dream": 4,
+      "food-story": 7,
+      "gossip": 2,
+      "happy-memory": 4,
+      "heroic-cheer": 5,
+      "heroic-tale": 5,
+      "horror-story": -4,
+      "interesting-story": 3,
+      "joyful-memory": 6,
+      "myth": 3,
+      "occult": 0,
+      "reality-check": -4,
+      "sad-memory": 3,
+      "self-indulgent": 3,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": false,
+    "east": false,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "chc",
+        "increase": 0.043
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "chc",
+        "increase": 0.065
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "chc",
+        "increase": 0.086
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "chc",
+        "increase": 0.107
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "chc",
+        "increase": 0.129
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "chc",
+        "increase": 0.15
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 5
+        },
+        {
+          "item": "ultra-fang",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "blazing-soul",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9,
+    "hunt11": 9.5,
+    "abyss": 8,
+    "raid": 8.5,
+    "average": 8.83
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 7,
+    "gwOffense": 8,
+    "gwDefense": 7,
+    "average": 7.5
+  }
+}

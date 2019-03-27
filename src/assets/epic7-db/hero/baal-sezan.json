@@ -1,0 +1,694 @@
+{
+  "gameId": "c1015",
+  "name": "Baal & Sezan",
+  "rarity": 5,
+  "classType": "mage",
+  "element": "fire",
+  "zodiac": "gemini",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Sezan was once a dark magician, until her body was destroyed in a forbidden summoning ceremony gone awry. Before her soul also perished, her apprentice Baal placed it inside a doll, and together they have embarked on a long journey to return her soul to a Human body.",
+  "relations": [
+    {
+      "hero": "gloomyrain",
+      "relationType": "trust"
+    },
+    {
+      "hero": "sez",
+      "relationType": "trust"
+    },
+    {
+      "hero": "specter-tenebria",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "charlotte",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1457,
+      "atk": 96,
+      "hp": 249,
+      "spd": 106,
+      "def": 85,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11781,
+      "atk": 771,
+      "hp": 3302,
+      "spd": 106,
+      "def": 551,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13234,
+      "atk": 960,
+      "hp": 3642,
+      "spd": 106,
+      "def": 551,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14685,
+      "atk": 961,
+      "hp": 4152,
+      "spd": 106,
+      "def": 683,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16737,
+      "atk": 1197,
+      "hp": 4572,
+      "spd": 106,
+      "def": 683,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0.15,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Ghost Haunt",
+      "soulAcquire": 1,
+      "description": "Summons an evil spirit to attack the enemy, with a 35% chance to inflict poison for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 19000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 130000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_dot"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Dark Cloud",
+      "soulAcquire": 2,
+      "description": "Summons the Cloud of Darkness to attack all enemies, dealing damage proportional to the number of debuffs inflicted on the enemy. When the enemy is defeated by this attack, the cooldown for Last Requiem is reset.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.85,
+          "soulburn": 1.1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 6,
+      "name": "Last Requiem",
+      "soulAcquire": 3,
+      "description": "Baal & Sezan attack all enemies with Strike Magic, with a 65% chance to decrease Speed and Defense and make them unhealable for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_speed_dn",
+        "stic_def_dn",
+        "stic_heal_impossible"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Necromancer",
+    "description": "Baal & Sezan don't back down easily; something in their hearts just won't let them.",
+    "dispatch": "[Battle] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 65,
+      "charm": 55,
+      "politics": 45
+    }
+  },
+  "camping": {
+    "options": [
+      "joyful-memory",
+      "bizarre-story"
+    ],
+    "reactions": {
+      "advice": 5,
+      "belief": 0,
+      "bizarre-story": 4,
+      "comforting-cheer": 6,
+      "complain": -6,
+      "criticism": 2,
+      "cute-cheer": 1,
+      "dream": 3,
+      "food-story": -1,
+      "gossip": -6,
+      "happy-memory": 0,
+      "heroic-cheer": 2,
+      "heroic-tale": 0,
+      "horror-story": 5,
+      "interesting-story": 1,
+      "joyful-memory": 2,
+      "myth": -2,
+      "occult": 1,
+      "reality-check": 3,
+      "sad-memory": 7,
+      "self-indulgent": -1,
+      "unique-comment": 5
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": true,
+    "east": true,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "eff",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "eff",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "eff",
+        "increase": 0.058
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "eff",
+        "increase": 0.087
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "eff",
+        "increase": 0.116
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "eff",
+        "increase": 0.145
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "eff",
+        "increase": 0.174
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 6
+        },
+        {
+          "item": "small-sun-badge",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 10
+        },
+        {
+          "item": "fused-nerve",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8,
+    "hunt11": 8.5,
+    "abyss": 7.5,
+    "raid": 8,
+    "average": 8.08
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 8,
+    "gwOffense": 8,
+    "gwDefense": 8,
+    "average": 8
+  }
+}

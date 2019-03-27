@@ -1,0 +1,33 @@
+{
+    "name": "Dream Time Circuit",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "Part of the nerves of a Dreamer, that some say can be used as a magical catalyst to manipulate time.",
+    "locations": [
+        {
+            "node": "Normal 6-9",
+            "name": "Red Lily Shelter",
+            "mobcount": 11
+        },
+        {
+            "node": "World 2-10",
+            "name": "Sage Minaret",
+            "mobcount": 6
+        },
+        {
+            "node": "World 5S-7",
+            "name": "Anunka Ruins",
+            "mobcount": 9
+        },
+        {
+            "node": "World 6-9",
+            "name": "Red Lily Shelter",
+            "mobcount": 11
+        },
+        {
+            "node": "World 7-5",
+            "name": "Seabird Gorge",
+            "mobcount": 11
+        }
+    ]
+}

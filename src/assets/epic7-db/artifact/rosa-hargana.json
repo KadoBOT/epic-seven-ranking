@@ -1,0 +1,24 @@
+{
+    "name": "Rosa Hargana",
+    "rarity": 4,
+    "exclusive": [
+        "ranger"
+    ],
+    "loreDescription": [
+        "Gun mage Amber Rose was an expert in lightweight magic and sharpshooting. Her magic bullets never missed, even when aimed at her own lover."
+    ],
+    "skillDescription": {
+        "base": "Increases Dual Attack Chance by 7.0% and increases Attack by 30% when it's not the caster's turn.",
+        "max": "Increases Dual Attack Chance by 14.0% and increases Attack by 30% when it's not the caster's turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

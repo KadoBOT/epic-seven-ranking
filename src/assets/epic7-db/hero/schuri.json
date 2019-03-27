@@ -1,0 +1,690 @@
+{
+  "gameId": "c1020",
+  "name": "Schuri",
+  "rarity": 4,
+  "classType": "ranger",
+  "element": "fire",
+  "zodiac": "leo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "focus",
+  "background": "A master of gunpowder weaponry, Schuri has a strong sense of pride and arrogance, though suffers a complex about his weak physical strength.",
+  "relations": [
+    {
+      "hero": "hazel",
+      "relationType": "trust"
+    },
+    {
+      "hero": "judith",
+      "relationType": "trust"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "rival"
+    },
+    {
+      "hero": "krau",
+      "relationType": "longing"
+    },
+    {
+      "hero": "taranor-royal-guard",
+      "relationType": "longing"
+    },
+    {
+      "hero": "taranor-guard",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1213,
+      "atk": 79,
+      "hp": 271,
+      "spd": 110,
+      "def": 63,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10886,
+      "atk": 677,
+      "hp": 3817,
+      "spd": 110,
+      "def": 432,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12435,
+      "atk": 857,
+      "hp": 4271,
+      "spd": 110,
+      "def": 432,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13584,
+      "atk": 843,
+      "hp": 4799,
+      "spd": 110,
+      "def": 536,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15803,
+      "atk": 1068,
+      "hp": 5650,
+      "spd": 110,
+      "def": 536,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Rapid Fire",
+      "soulAcquire": 1,
+      "description": "Attack the enemy with a pistol, with a 25% chance to inflict poison for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_dot"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Explosive Gentleman",
+      "soulAcquire": 0,
+      "description": "After delivering a critical hit, the caster gains 1 Focus, and the Combat Readiness of all allies except the caster is increased by 15%.",
+      "enhancement": [
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Rifle Shot",
+      "soulAcquire": 2,
+      "description": "Shoots all enemies with a rifle. Enhanced into Full Burst when the number of stacked Focus is more than 3. Full Burst always results in a Critical Hit, decreasing Combat Readiness of all enemies by 30%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "blazing-soul",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Deadly Blow",
+    "description": "Sharp instincts separate truth from falsehood.",
+    "dispatch": "[Unknown Knowledge] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 65,
+      "charm": 80,
+      "politics": 72
+    }
+  },
+  "camping": {
+    "options": [
+      "complain",
+      "horror-story"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 4,
+      "bizarre-story": 0,
+      "comforting-cheer": 3,
+      "complain": -7,
+      "criticism": 5,
+      "cute-cheer": 4,
+      "dream": 6,
+      "food-story": 5,
+      "gossip": -3,
+      "happy-memory": -2,
+      "heroic-cheer": 5,
+      "heroic-tale": 4,
+      "horror-story": -1,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": 4,
+      "occult": 2,
+      "reality-check": 1,
+      "sad-memory": 2,
+      "self-indulgent": -1,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": false,
+    "east": false,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 8
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 10
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 12
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 14
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 5
+        },
+        {
+          "item": "ultra-fang",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "blazing-soul",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9,
+    "hunt11": 8.5,
+    "abyss": 8.5,
+    "raid": 8.5,
+    "average": 8.58
+  },
+  "pvp": {
+    "arenaOffense": 8.5,
+    "arenaDefense": 8,
+    "gwOffense": 8.5,
+    "gwDefense": 8,
+    "average": 8.25
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Cursed Compass",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "Careful, it's a monster. Who knows what could happen if we go in the direction the compass is pointing.",
+        "- Adventurer Laurelai"
+    ],
+    "skillDescription": {
+        "base": "Increases Effectiveness by 25.0% when attacking on the first turn.",
+        "max": "Increases Effectiveness by 50.0% when attacking on the first turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 16,
+            "hp": 14
+        },
+        "max": {
+            "atk": 208,
+            "hp": 182
+        }
+    }
+}

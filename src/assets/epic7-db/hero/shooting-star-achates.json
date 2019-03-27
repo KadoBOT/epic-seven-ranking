@@ -1,0 +1,688 @@
+{
+  "gameId": "c2017",
+  "name": "Shooting Star Achates",
+  "rarity": 4,
+  "classType": "soul-weaver",
+  "element": "dark",
+  "zodiac": "cancer",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "At best, a free spirit, at worst, an irresponsible hedonist. Shooting Star Achates finds a life without stimulus meaningless, and is always on the lookout for trouble.",
+  "relations": [
+    {
+      "hero": "achates",
+      "relationType": "rival"
+    },
+    {
+      "hero": "elson",
+      "relationType": "trust"
+    },
+    {
+      "hero": "celeste",
+      "relationType": "trust"
+    },
+    {
+      "hero": "montmorancy",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1161,
+      "atk": 40,
+      "hp": 253,
+      "spd": 88,
+      "def": 82,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10060,
+      "atk": 342,
+      "hp": 3559,
+      "spd": 88,
+      "def": 565,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11571,
+      "atk": 462,
+      "hp": 4326,
+      "spd": 88,
+      "def": 598,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12547,
+      "atk": 426,
+      "hp": 4475,
+      "spd": 88,
+      "def": 701,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 14709,
+      "atk": 576,
+      "hp": 5700,
+      "spd": 88,
+      "def": 743,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Magic Design",
+      "soulAcquire": 1,
+      "description": "Attacks with staff, with a 50% chance to decrease Hit Chance for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blind"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants and extra turn.",
+      "awakenUpgrade": false,
+      "cooldown": 6,
+      "name": "Resurrection Magic",
+      "soulAcquire": 2,
+      "description": "Revives a dead ally with recovery magic and grants immortality for 1 turn. If the target is not dead, grants immortality and two random buffs for 3 turns.",
+      "enhancement": [
+        {
+          "description": "+2 souls acquired",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 1
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_immortality"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Sparkling Star",
+      "soulAcquire": 2,
+      "description": "Between the caster and the target, heals the ally with the lowest Health to the point their Health matches the other, before healing further on top. Effect is unaffected by Health buffs or debuffs. Health recovered is proportional to the max Health of each ally.",
+      "enhancement": [
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Achates's Cheer",
+    "description": "No matter how desperate the situation may be, she will always root for you.",
+    "dispatch": "All Missions",
+    "enhancement": "EXP Bonus +6%",
+    "stats": {
+      "command": 54,
+      "charm": 70,
+      "politics": 79
+    }
+  },
+  "camping": {
+    "options": [
+      "unique-comment",
+      "interesting-story"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": -1,
+      "bizarre-story": 1,
+      "comforting-cheer": 3,
+      "complain": 2,
+      "criticism": -1,
+      "cute-cheer": 4,
+      "dream": 6,
+      "food-story": 5,
+      "gossip": 2,
+      "happy-memory": 3,
+      "heroic-cheer": 3,
+      "heroic-tale": 2,
+      "horror-story": -4,
+      "interesting-story": 6,
+      "joyful-memory": 3,
+      "myth": 3,
+      "occult": 0,
+      "reality-check": -3,
+      "sad-memory": 3,
+      "self-indulgent": 3,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "efr",
+        "increase": 0.043
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "efr",
+        "increase": 0.065
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "efr",
+        "increase": 0.086
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "efr",
+        "increase": 0.107
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "efr",
+        "increase": 0.129
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "efr",
+        "increase": 0.15
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 5
+        },
+        {
+          "item": "special-alarm-loop",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "the-heart-of-hypocrisy",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7,
+    "hunt11": 6,
+    "abyss": 7.5,
+    "raid": 7.5,
+    "average": 6.92
+  },
+  "pvp": {
+    "arenaOffense": 8,
+    "arenaDefense": 9,
+    "gwOffense": 8,
+    "gwDefense": 9,
+    "average": 8.5
+  }
+}

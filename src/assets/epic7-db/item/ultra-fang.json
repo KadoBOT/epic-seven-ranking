@@ -1,0 +1,23 @@
+{
+    "name": "Ultra Fang",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A kind of bone as durable as a Dragon's tooth.",
+    "locations": [
+        {
+            "node": "Normal 6-1",
+            "name": "Northern Wind Corner",
+            "mobcount": 11
+        },
+        {
+            "node": "World 5-7",
+            "name": "Dun Perenoa",
+            "mobcount": 9
+        },
+        {
+            "node": "World 6-1",
+            "name": "Northern Wind Corner",
+            "mobcount": 11
+        }
+    ]
+}

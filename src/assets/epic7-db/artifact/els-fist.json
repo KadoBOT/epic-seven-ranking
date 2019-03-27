@@ -1,0 +1,25 @@
+{
+    "name": "El's Fist",
+    "rarity": 4,
+    "exclusive": [
+        "warrior"
+    ],
+    "loreDescription": [
+        "While holding this gauntlet, you can destroy anything you touch, as if it had never even existed!",
+        "- Guard Maid, El"
+    ],
+    "skillDescription": {
+        "base": "As Health decreases, Attack and Speed increase by up to 25.0%.",
+        "max": "As Health decreases, Attack and Speed increase by up to 50.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 45
+        },
+        "max": {
+            "atk": 156,
+            "hp": 585
+        }
+    }
+}

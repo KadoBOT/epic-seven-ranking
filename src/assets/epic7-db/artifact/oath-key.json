@@ -1,0 +1,23 @@
+{
+    "name": "Oath Key",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "A key made in honor of the heroes who defeated the ancient monster, Nankuda, engraved with their oath to protect the world.",
+        "- Philosopher Izet"
+    ],
+    "skillDescription": {
+        "base": "Decreases chance of missing by 10.0%.",
+        "max": "Decreases chance of missing by 20.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 28
+        },
+        "max": {
+            "atk": 156,
+            "hp": 364
+        }
+    }
+}

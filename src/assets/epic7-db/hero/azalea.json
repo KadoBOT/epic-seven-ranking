@@ -1,0 +1,677 @@
+{
+  "gameId": "c3031",
+  "name": "Azalea",
+  "rarity": 3,
+  "classType": "warrior",
+  "element": "fire",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "An officer of the Reingar Public Security Club, Azalea is mainly responsible for guarding the library and catching book thieves. Despite being trusted with many leadership duties, she has a history of continuously failing to be appointed to the Student Council.",
+  "relations": [
+    {
+      "hero": "wanda",
+      "relationType": "trust"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "rival"
+    },
+    {
+      "hero": "carrot",
+      "relationType": "rival"
+    },
+    {
+      "hero": "rikoris",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1090,
+      "atk": 70,
+      "hp": 259,
+      "spd": 98,
+      "def": 59,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10510,
+      "atk": 640,
+      "hp": 3881,
+      "spd": 98,
+      "def": 435,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12002,
+      "atk": 779,
+      "hp": 4570,
+      "spd": 98,
+      "def": 461,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13113,
+      "atk": 798,
+      "hp": 4879,
+      "spd": 98,
+      "def": 539,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15162,
+      "atk": 1019,
+      "hp": 5738,
+      "spd": 98,
+      "def": 571,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Persistent Attack",
+      "soulAcquire": 1,
+      "description": "Stabs the enemy with a spear and recovers own Health proportional to max Health.",
+      "enhancement": [
+        {
+          "description": "+10% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1.05,
+          "soulburn": 1.05
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Ignores effect resistance.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Challenging Blow",
+      "soulAcquire": 3,
+      "description": "Attacks the enemy, with a 80% chance each of provoking and making them unable to be healed for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_provoke",
+        "stic_heal_impossible"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1.05,
+          "soulburn": 1.05
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.5,
+          "soulburn": 1.5
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Sweep",
+      "soulAcquire": 2,
+      "description": "Sweeps the enemy with a spear, with a 65% chance to decrease Speed for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "sharp-spearhead",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_speed_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Sharp Insight",
+    "description": "With sharp eyes, she thwarts those that would do evil.",
+    "dispatch": "[Time Limit] attribute mission",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 22,
+      "charm": 60,
+      "politics": 43
+    }
+  },
+  "camping": {
+    "options": [
+      "heroic-tale",
+      "advice"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 2,
+      "bizarre-story": -2,
+      "comforting-cheer": 1,
+      "complain": -5,
+      "criticism": -2,
+      "cute-cheer": 3,
+      "dream": 5,
+      "food-story": 4,
+      "gossip": -2,
+      "happy-memory": 4,
+      "heroic-cheer": 6,
+      "heroic-tale": 5,
+      "horror-story": 2,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": 7,
+      "occult": 2,
+      "reality-check": -3,
+      "sad-memory": 2,
+      "self-indulgent": 1,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 24
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 36
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 48
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 60
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 72
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 84
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 96
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 4
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 6
+        },
+        {
+          "item": "black-curse-powder",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7,
+    "hunt11": 6,
+    "abyss": 5.5,
+    "raid": 6,
+    "average": 6.08
+  },
+  "pvp": {
+    "arenaOffense": 4,
+    "arenaDefense": 4,
+    "gwOffense": 4,
+    "gwDefense": 4,
+    "average": 4
+  }
+}

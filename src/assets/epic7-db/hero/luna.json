@@ -1,0 +1,682 @@
+{
+  "gameId": "c1066",
+  "name": "Luna",
+  "rarity": 5,
+  "classType": "warrior",
+  "element": "ice",
+  "zodiac": "libra",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Luna is a half-Dragon, half-Human knight that has been loyal to Wintenberg since the time of Queen Francesca. Only a few know of the true feelings hidden behind her smile.",
+  "relations": [
+    {
+      "hero": "cecilia",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "yufine",
+      "relationType": "love"
+    },
+    {
+      "hero": "rose",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "nemunas",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1407,
+      "atk": 89,
+      "hp": 322,
+      "spd": 109,
+      "def": 74,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11889,
+      "atk": 713,
+      "hp": 4267,
+      "spd": 109,
+      "def": 477,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13440,
+      "atk": 897,
+      "hp": 4735,
+      "spd": 109,
+      "def": 505,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14842,
+      "atk": 889,
+      "hp": 5364,
+      "spd": 109,
+      "def": 592,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 17097,
+      "atk": 1119,
+      "hp": 6266,
+      "spd": 109,
+      "def": 627,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Infinity Slash",
+      "soulAcquire": 1,
+      "description": "Stabs the target a random number of times. Skill cooldown decreases by 1-3 turns and damage dealt increases according to the number of attacks.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.7,
+          "soulburn": 0.7
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Dragon Knight's Will",
+      "soulAcquire": 0,
+      "description": "Increases Attack and Critical Hit Chance by 20% if the caster's Health is more than 50%, or increases Defense and decreases chance of suffering a critical hit by 20% if the caster's Health is less than 50%.",
+      "enhancement": [
+        {
+          "description": "+1% all stats",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+2% all stats",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+2% all stats",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+2% all stats",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+3% all stats",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 10,
+      "name": "Ragnar Spear",
+      "soulAcquire": 3,
+      "description": "Soars into the air and hits the enemy with a spear, with a 80% chance to decrease Defense for 2 turns. Attacks with a more powerful element.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "mysterious-flash",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1.05,
+          "soulburn": 1.05
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.5,
+          "soulburn": 2.2
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Battle Instinct",
+    "description": "She watches over the endless wars looking for a chance to destroy Wintenberg.",
+    "dispatch": "[War] Category",
+    "enhancement": "Time Required -6%",
+    "stats": {
+      "command": 62,
+      "charm": 82,
+      "politics": 91
+    }
+  },
+  "camping": {
+    "options": [
+      "criticism",
+      "sad-memory"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 2,
+      "bizarre-story": -2,
+      "comforting-cheer": -2,
+      "complain": 0,
+      "criticism": 0,
+      "cute-cheer": 1,
+      "dream": -3,
+      "food-story": 0,
+      "gossip": 1,
+      "happy-memory": 0,
+      "heroic-cheer": 2,
+      "heroic-tale": -1,
+      "horror-story": 2,
+      "interesting-story": 0,
+      "joyful-memory": 1,
+      "myth": -1,
+      "occult": -1,
+      "reality-check": 5,
+      "sad-memory": 0,
+      "self-indulgent": 0,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "chc",
+        "increase": 0.048
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "chc",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "chc",
+        "increase": 0.098
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "chc",
+        "increase": 0.12
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "chc",
+        "increase": 0.144
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 6
+        },
+        {
+          "item": "dream-time-circuit",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 10
+        },
+        {
+          "item": "reingar-student-id",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9.5,
+    "hunt11": 10,
+    "abyss": 9.5,
+    "raid": 9,
+    "average": 9.5
+  },
+  "pvp": {
+    "arenaOffense": 9.5,
+    "arenaDefense": 8.5,
+    "gwOffense": 9.5,
+    "gwDefense": 9,
+    "average": 9.125
+  }
+}

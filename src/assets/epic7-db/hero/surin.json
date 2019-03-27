@@ -1,0 +1,677 @@
+{
+  "gameId": "c1065",
+  "name": "Surin",
+  "rarity": 4,
+  "classType": "thief",
+  "element": "fire",
+  "zodiac": "gemini",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Coming from the East with her sentient weapon Mann, Surin vaguely remembers the journey that brought her to Ritania, but nothing else. Following Mann's voice, she embarks on a journey to find her lost memories.",
+  "relations": [
+    {
+      "hero": "serila",
+      "relationType": "trust"
+    },
+    {
+      "hero": "otillie",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1157,
+      "atk": 74,
+      "hp": 264,
+      "spd": 117,
+      "def": 58,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10476,
+      "atk": 633,
+      "hp": 3720,
+      "spd": 117,
+      "def": 401,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11977,
+      "atk": 809,
+      "hp": 4060,
+      "spd": 117,
+      "def": 401,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.06,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13072,
+      "atk": 789,
+      "hp": 4677,
+      "spd": 117,
+      "def": 497,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15307,
+      "atk": 1010,
+      "hp": 5097,
+      "spd": 117,
+      "def": 497,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.06,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Chain Dagger",
+      "soulAcquire": 1,
+      "description": "Attacks with a chain axe. If the enemy is bleeding, causes two bleeding effects for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blood"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": true,
+      "cooldown": 3,
+      "name": "Edge Smash",
+      "soulAcquire": 2,
+      "description": "Batters the enemy with a chain axe and inflicts two to four bleeding effects for 2 turns, decreasing Attack for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blood",
+        "stic_att_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.4,
+          "soulburn": 1.4
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Implosion",
+      "soulAcquire": 2,
+      "description": "Detonates all the bleeding effects currently inflicted on the enemy. Damage dealt increases proportional to the number of bleeding effects inflicted on the enemy, and debuff duration is extended by 1 turn. Additionally, the caster's Combat Readiness increases by 15% per every bleeding effect inflicted on the enemy. Effect can only be applied up to 5 times.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "fused-nerve",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.8,
+          "soulburn": 0.8
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.8,
+          "soulburn": 1.8
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Sword-Forged Path",
+    "description": "She handles every situation as if she's handling a sword.",
+    "dispatch": "[Intelligence] Type",
+    "enhancement": "Reward Bonus +6%",
+    "stats": {
+      "command": 45,
+      "charm": 66,
+      "politics": 37
+    }
+  },
+  "camping": {
+    "options": [
+      "advice",
+      "sad-memory"
+    ],
+    "reactions": {
+      "advice": 5,
+      "belief": -1,
+      "bizarre-story": 0,
+      "comforting-cheer": 3,
+      "complain": 2,
+      "criticism": -5,
+      "cute-cheer": 6,
+      "dream": 5,
+      "food-story": 3,
+      "gossip": 2,
+      "happy-memory": 5,
+      "heroic-cheer": 5,
+      "heroic-tale": 0,
+      "horror-story": -1,
+      "interesting-story": 3,
+      "joyful-memory": 7,
+      "myth": 2,
+      "occult": 0,
+      "reality-check": -5,
+      "sad-memory": 6,
+      "self-indulgent": -1,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 8
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 10
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 12
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 14
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 5
+        },
+        {
+          "item": "small-sun-badge",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 8
+        },
+        {
+          "item": "fused-nerve",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 8.5,
+    "hunt11": 8,
+    "abyss": 7.5,
+    "raid": 7.5,
+    "average": 7.83
+  },
+  "pvp": {
+    "arenaOffense": 6,
+    "arenaDefense": 6,
+    "gwOffense": 6,
+    "gwDefense": 6,
+    "average": 6
+  }
+}

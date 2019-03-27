@@ -1,0 +1,23 @@
+{
+    "name": "Mysterious Flash",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you feel an unknown power.",
+    "locations": [
+        {
+            "node": "Normal 2-1",
+            "name": "Grey Cliff Forest",
+            "mobcount": 7
+        },
+        {
+            "node": "World 2-1",
+            "name": "Grey Cliff Forest",
+            "mobcount": 7
+        },
+        {
+            "node": "World 9-6",
+            "name": "Fallen Shelter",
+            "mobcount": 7
+        }
+    ]
+}

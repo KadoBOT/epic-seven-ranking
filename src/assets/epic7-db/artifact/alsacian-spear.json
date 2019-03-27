@@ -1,0 +1,22 @@
+{
+    "name": "Alsacian Spear",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "It is said that this spear contains the souls of the spirits who protect the forest, and grants strong protection to those who wield it."
+    ],
+    "skillDescription": {
+        "base": "Decreases Combat Readiness by 2.5% upon Single Attack.",
+        "max": "Decreases Combat Readiness by 5.0% upon Single Attack."
+    },
+    "stats": {
+        "base": {
+            "atk": 4,
+            "hp": 58
+        },
+        "max": {
+            "atk": 52,
+            "hp": 754
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Border Coin",
+    "rarity": 5,
+    "exclusive": [
+        "warrior"
+    ],
+    "event": "",
+    "loreDescription": [
+        "\"Heads, I'll pretend I didn't see anything and let you go free. But tails...\".",
+        "Countless people have had their fortunes rely on this old gold coin."
+    ],
+    "skillDescription": {
+        "base": "Increases Attack by 7.5% when using a non-attack skill. Effect can only stack up to 3 times.",
+        "max": "Increases Attack by 15.0% when using a non-attack skill. Effect can only stack up to 3 times."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Tagehel's Ancient Book",
+    "rarity": 4,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "A book written in the characters of the fallen Kingdom of Tagehel. Researchers are working hard to discover the meaning and principles behind the characters and unlock the mysterious power they hold."
+    ],
+    "skillDescription": {
+        "base": "Receive 10 Souls at the beginning of a stage.",
+        "max": "Receive 20 Souls at the beginning of a stage."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 45
+        },
+        "max": {
+            "atk": 156,
+            "hp": 585
+        }
+    }
+}

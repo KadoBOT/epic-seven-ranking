@@ -1,0 +1,22 @@
+{
+    "name": "Fairy's Grimoire",
+    "rarity": 2,
+    "exclusive": [],
+    "loreDescription": [
+        "Take a good look at that spell book. The glowing letters that you find after a few pages are messages from fairies."
+    ],
+    "skillDescription": {
+        "base": "Increases Effect Resistance by 3.0%.",
+        "max": "Increases Effect Resistance by 6.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 3,
+            "hp": 51
+        },
+        "max": {
+            "atk": 39,
+            "hp": 663
+        }
+    }
+}

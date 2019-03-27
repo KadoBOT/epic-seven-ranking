@@ -1,0 +1,699 @@
+{
+  "gameId": "c4013",
+  "name": "Righteous Thief Roozid",
+  "rarity": 3,
+  "classType": "thief",
+  "element": "earth",
+  "zodiac": "gemini",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "After learning about wicked merchants from Savara bamboozling the Suin, Roozid resolves to restore the riches illicitly taken from them. He goes through intensive training and finally emerges anew.",
+  "relations": [
+    {
+      "hero": "cartuja",
+      "relationType": "longing"
+    },
+    {
+      "hero": "armin",
+      "relationType": "trust"
+    },
+    {
+      "hero": "jecht",
+      "relationType": "trust"
+    },
+    {
+      "hero": "jaiman",
+      "relationType": "grudge"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 913,
+      "atk": 53,
+      "hp": 209,
+      "spd": 106,
+      "def": 51,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 8728,
+      "atk": 487,
+      "hp": 3141,
+      "spd": 106,
+      "def": 373,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 10030,
+      "atk": 650,
+      "hp": 3481,
+      "spd": 106,
+      "def": 373,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.06,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 10892,
+      "atk": 608,
+      "hp": 3950,
+      "spd": 106,
+      "def": 462,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 12777,
+      "atk": 812,
+      "hp": 4370,
+      "spd": 106,
+      "def": 462,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.06,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Hemorrhage",
+      "soulAcquire": 1,
+      "description": "Cuts the enemy, with a 35% chance to decrease Speed for 2 turns. Damage dealt increases proportional to the caster's Speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_dspeed_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.8,
+          "soulburn": 0.8
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.00075,
+          "soulburn": 0.00075
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 3,
+      "name": "Wind Slash",
+      "soulAcquire": 1,
+      "description": "Attacks with a swordstorm, with a 35% chance to decrease Attack for 2 turns. Damage dealt increases proportional to the caster's Speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_att_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.2,
+          "soulburn": 1.2
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.001125,
+          "soulburn": 0.001125
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Moonlight Roar",
+      "soulAcquire": 2,
+      "description": "Increases Combat Readiness by 20% and grants increased Speed ​​for 2 turns to all allies through the power of the moon. Also grants the caster continuous heal for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "ring-of-glory",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_speed_up",
+        "stic_heal"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Food Master",
+    "description": "Not very popular, but a great cook. A self-taught chef from his days leading a group of nomads.",
+    "dispatch": "[Gourmet] attribute mission",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 55,
+      "charm": 75,
+      "politics": 11
+    }
+  },
+  "camping": {
+    "options": [
+      "advice",
+      "belief"
+    ],
+    "reactions": {
+      "advice": 7,
+      "belief": -4,
+      "bizarre-story": -3,
+      "comforting-cheer": 6,
+      "complain": -2,
+      "criticism": -8,
+      "cute-cheer": 4,
+      "dream": 5,
+      "food-story": 2,
+      "gossip": -1,
+      "happy-memory": 6,
+      "heroic-cheer": 5,
+      "heroic-tale": 0,
+      "horror-story": 0,
+      "interesting-story": 2,
+      "joyful-memory": 6,
+      "myth": 4,
+      "occult": -1,
+      "reality-check": -6,
+      "sad-memory": 8,
+      "self-indulgent": -3,
+      "unique-comment": 2
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 2
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 3
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 5
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 7
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 8
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 4
+        },
+        {
+          "item": "small-sun-badge",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 6
+        },
+        {
+          "item": "fused-nerve",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 7,
+    "hunt11": 7.5,
+    "abyss": 6,
+    "raid": 6,
+    "average": 6.67
+  },
+  "pvp": {
+    "arenaOffense": 8.5,
+    "arenaDefense": 8,
+    "gwOffense": 8.5,
+    "gwDefense": 8,
+    "average": 8.25
+  }
+}

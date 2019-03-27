@@ -1,0 +1,24 @@
+{
+    "name": "Moonlight Dreamblade",
+    "rarity": 4,
+    "exclusive": [
+        "thief"
+    ],
+    "loreDescription": [
+        "\"Whether you take the path before you or not, it's all your choice to make,\" the White Shining Blade's voice whispered in my mind."
+    ],
+    "skillDescription": {
+        "base": "Increases Evasion Chance by 10.0%. After successfully evading, the caster is granted increased Attack.",
+        "max": "Increases Evasion Chance by 20.0%. After successfully evading, the caster is granted increased Attack."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

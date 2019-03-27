@@ -1,0 +1,678 @@
+{
+  "gameId": "c3021",
+  "name": "Tieria",
+  "rarity": 3,
+  "classType": "warrior",
+  "element": "fire",
+  "zodiac": "aries",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "An adventurous woman, Tieria always chooses to travel in dangerous locations to satisfy her love for thrills. Her personality is calm and carefree, and she prefers to travel alone instead of dealing with other people. However, her beauty ensures she always attracts plenty of attention.",
+  "relations": [
+    {
+      "hero": "serila",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 2262,
+      "atk": 211,
+      "hp": 690,
+      "spd": 112,
+      "def": 65,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 9982,
+      "atk": 553,
+      "hp": 3720,
+      "spd": 96,
+      "def": 438,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11377,
+      "atk": 673,
+      "hp": 4171,
+      "spd": 100,
+      "def": 477,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12454,
+      "atk": 689,
+      "hp": 4677,
+      "spd": 96,
+      "def": 543,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 14861,
+      "atk": 839,
+      "hp": 5517,
+      "spd": 112,
+      "def": 591,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Demon Cutter",
+      "soulAcquire": 1,
+      "description": "Attacks with an axe, with a 50% chance to decrease Hit Chance for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blind"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1.05,
+          "soulburn": 1.05
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Dance of Sands",
+      "soulAcquire": 0,
+      "description": "Increases the Combat Readiness of allies by 10%.",
+      "enhancement": [
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 22000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Soul Break",
+      "soulAcquire": 2,
+      "description": "Strikes the enemy strongly, dealing damage proportional to the target's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 36000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 6
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.2,
+          "soulburn": 1.8
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "hp",
+          "type": "multiplier",
+          "target": "target",
+          "value": 0.04,
+          "soulburn": 0.06
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Hobby",
+    "description": "She seeks adventure, but treads lightly.",
+    "dispatch": "[Adventure] category mission",
+    "enhancement": "Time Required -6%",
+    "stats": {
+      "command": 45,
+      "charm": 31,
+      "politics": 62
+    }
+  },
+  "camping": {
+    "options": [
+      "happy-memory",
+      "gossip"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 1,
+      "bizarre-story": -2,
+      "comforting-cheer": 2,
+      "complain": 2,
+      "criticism": 2,
+      "cute-cheer": 2,
+      "dream": 2,
+      "food-story": 5,
+      "gossip": -2,
+      "happy-memory": 2,
+      "heroic-cheer": 2,
+      "heroic-tale": 1,
+      "horror-story": -2,
+      "interesting-story": 2,
+      "joyful-memory": 4,
+      "myth": 0,
+      "occult": 0,
+      "reality-check": 2,
+      "sad-memory": 1,
+      "self-indulgent": 0,
+      "unique-comment": 1
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 2
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 3
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 5
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 7
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 8
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 4
+        },
+        {
+          "item": "blessing-of-orbis",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 6
+        },
+        {
+          "item": "nightmare-mask",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 6.5,
+    "hunt11": 6.5,
+    "abyss": 6,
+    "raid": 6,
+    "average": 6.25
+  },
+  "pvp": {
+    "arenaOffense": 5,
+    "arenaDefense": 5,
+    "gwOffense": 5,
+    "gwDefense": 5,
+    "average": 5
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Strak Gauntlet",
+    "rarity": 4,
+    "exclusive": [
+        "warrior"
+    ],
+    "loreDescription": [
+        "When the eclipse began, those small gloves started to spew fire and engulf my whole body. The spirit inside the gloves had woken up, and we were able to defeat the Archdemon.",
+        "- Heir Aki"
+    ],
+    "skillDescription": {
+        "base": "Effect Resistance increases by 30.0% when the caster's Health is above 50%. When Health is below 50%, the effect is halved.",
+        "max": "Effect Resistance increases by 60.0% when the caster's Health is above 50%. When Health is below 50%, the effect is halved."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Black Curse Powder",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A catalyst used by a high-level mage, containing a powerful curse,",
+    "locations": [
+        {
+            "node": "World 10-S2",
+            "name": "Black-Tail Spire",
+            "mobcount": "???"
+        }
+    ]
+}

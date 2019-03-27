@@ -1,0 +1,25 @@
+{
+    "name": "Celestine",
+    "rarity": 5,
+    "exclusive": [
+        "soul-weaver"
+    ],
+    "event": "",
+    "loreDescription": [
+        "A rare ore extracted from near the Sanctuary. Known as the Blessing of Diche, it has the power to infuse the wearer with the energy of life and is carried by royalty and some high-ranking priests."
+    ],
+    "skillDescription": {
+        "base": "Heals the ally with the lowest Health by 8.0% when using a basic skill.",
+        "max": "Heals the ally with the lowest Health by 16.0% when using a basic skill."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 76
+        },
+        "max": {
+            "atk": 117,
+            "hp": 988
+        }
+    }
+}

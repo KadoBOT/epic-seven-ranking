@@ -1,0 +1,24 @@
+{
+    "name": "Elbris Ritual Sword",
+    "rarity": 5,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "A ceremonial sword handed down by the Elves for thousands of years, the blade is infused with several springs of magic. The person who owns this sword becomes the king of Elves."
+    ],
+    "skillDescription": {
+        "base": "10.0% chance to counterattack when an ally is attacked.",
+        "max": "20.0% chance to counterattack when an ally is attacked."
+    },
+    "stats": {
+        "base": {
+            "atk": 15,
+            "hp": 54
+        },
+        "max": {
+            "atk": 195,
+            "hp": 702
+        }
+    }
+}

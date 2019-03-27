@@ -1,0 +1,43 @@
+{
+    "name": "Blazing Rage",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A nucleus found inside the creatures of Dragon Valley. It burns red hot.",
+    "locations": [
+        {
+            "node": "Normal 5-5",
+            "name": "Holy Ground of Repent",
+            "mobcount": 10
+        },
+        {
+            "node": "Normal 5-6",
+            "name": "Wailing Hall",
+            "mobcount": 10
+        },
+        {
+            "node": "World 3-S3",
+            "name": "Red Sand Island",
+            "mobcount": 7
+        },
+        {
+            "node": "World 4-S5",
+            "name": "Rusted Anchor Mountains",
+            "mobcount": 7
+        },
+        {
+            "node": "World 5-5",
+            "name": "Holy Ground of Repent",
+            "mobcount": 11
+        },
+        {
+            "node": "World 5S-3",
+            "name": "Cottonscale Desert",
+            "mobcount": 11
+        },
+        {
+            "node": "World 10-6",
+            "name": "Conqueror's Path",
+            "mobcount": 11
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Mercenary's Medicine",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "There is a rumor that mercenaries use this medicine to gain temporary strength.",
+    "locations": [
+        {
+            "node": "World 3-S2",
+            "name": "Gold Scorpion Dock",
+            "mobcount": "???"
+        }
+    ]
+}

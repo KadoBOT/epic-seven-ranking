@@ -1,0 +1,18 @@
+{
+    "name": "Ring of Glory",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A ring with the Taranor Army coat of arms engraved into it.",
+    "locations": [
+        {
+            "node": "Normal 10-3",
+            "name": "Dalberg Field",
+            "mobcount": 38
+        },
+        {
+            "node": "World 9-1",
+            "name": "Shell Forest",
+            "mobcount": 11
+        }
+    ]
+}

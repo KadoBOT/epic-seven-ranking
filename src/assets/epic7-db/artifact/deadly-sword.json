@@ -1,0 +1,22 @@
+{
+    "name": "Deadly Sword",
+    "rarity": 2,
+    "exclusive": [],
+    "loreDescription": [
+        "If you remove the sword from its sheath, you must kill someone with it. If you fail to do so, you will die."
+    ],
+    "skillDescription": {
+        "base": "Increases Attack by 3.0%.",
+        "max": "Increases Attack by 6.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 19
+        },
+        "max": {
+            "atk": 156,
+            "hp": 247
+        }
+    }
+}

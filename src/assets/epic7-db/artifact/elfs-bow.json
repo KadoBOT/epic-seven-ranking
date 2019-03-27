@@ -1,0 +1,22 @@
+{
+    "name": "Elf's Bow",
+    "rarity": 2,
+    "exclusive": [],
+    "loreDescription": [
+        "A light and sturdy bow used by an elf from Dun Blyraia."
+    ],
+    "skillDescription": {
+        "base": "Increases Critical Hit Chance by 3.0%.",
+        "max": "Increases Critical Hit Chance by 6.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 16,
+            "hp": 6
+        },
+        "max": {
+            "atk": 208,
+            "hp": 78
+        }
+    }
+}

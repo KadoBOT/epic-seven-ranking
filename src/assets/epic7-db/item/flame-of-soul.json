@@ -1,0 +1,23 @@
+{
+    "name": "Flame of Soul",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A fraction of Spirit who was held by dark magic and couldn't leave for the underworld. You can listen to a faint sound of crying.",
+    "locations": [
+        {
+            "node": "Normal 9-7",
+            "name": "Researcher's Defense",
+            "mobcount": 10
+        },
+        {
+            "node": "World 9-9",
+            "name": "Spur Plain",
+            "mobcount": 11
+        },
+        {
+            "node": "World 4-S11",
+            "name": "Black Blood Shadow",
+            "mobcount": 4
+        }
+    ]
+}

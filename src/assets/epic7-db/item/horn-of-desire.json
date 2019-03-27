@@ -1,0 +1,13 @@
+{
+    "name": "Horn of Desire",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "The strange power contained within this devil horn is said to drive people to insanity.",
+    "locations": [
+        {
+            "node": "World 8-S3",
+            "name": "Dawn Crown Gorge",
+            "mobcount": "???"
+        }
+    ]
+}

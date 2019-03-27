@@ -1,0 +1,24 @@
+{
+    "name": "Hilag Lance",
+    "rarity": 4,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "As she lifted her lance, a cry burst out from behind her. She believed she would soon be able to overthrow the Archdemon. \"If I cannot do it, Goddess, give me the power to fight on forever.\""
+    ],
+    "skillDescription": {
+        "base": "Increases Combat Readiness by 5.0% when an ally is attacked by a Single Attack.",
+        "max": "Increases Combat Readiness by 10.0% when an ally is attacked by a Single Attack."
+    },
+    "stats": {
+        "base": {
+            "atk": 10,
+            "hp": 55
+        },
+        "max": {
+            "atk": 130,
+            "hp": 715
+        }
+    }
+}

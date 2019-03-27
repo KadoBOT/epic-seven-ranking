@@ -1,0 +1,117 @@
+{
+    "gameId": "m8042",
+    "name": "Giga-Phantasma",
+    "rarity": 3,
+    "classType": "material",
+    "element": "light",
+    "zodiac": "taurus",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A magical creature that has collected immense power over the course of its eternal life. Hunted down by countless warriors and magicians desperate to posses its concentrated power, it is now extremely hard to find.",
+    "relations": [],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 5786,
+            "atk": 310,
+            "hp": 1960,
+            "spd": 91,
+            "def": 286,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 8377,
+            "atk": 448,
+            "hp": 2888,
+            "spd": 91,
+            "def": 409,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Gnaw",
+            "soulAcquire": 1,
+            "description": "Attacks with sharp teeth.",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Phantasma Seeds",
+            "soulAcquire": 0,
+            "description": "The item will be at max level when you receive it, and earn a bonus 6% EXP in battle.",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {},
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprint": [],
+    "awakening": []
+}

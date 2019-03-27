@@ -1,0 +1,700 @@
+{
+  "gameId": "c1014",
+  "name": "Cidd",
+  "rarity": 4,
+  "classType": "thief",
+  "element": "earth",
+  "zodiac": "aries",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Cidd is the youngest member and mascot of the Wild Dog Company, a group of mercenaries headquartered in an old ruined fortress in Wetheric Moor. Contrary to his cheerful and carefree appearance, he will complete any task assigned to him. He cares for the Wild Dog Company as if they were family.",
+  "relations": [
+    {
+      "hero": "dingo",
+      "relationType": "trust"
+    },
+    {
+      "hero": "otillie",
+      "relationType": "trust"
+    },
+    {
+      "hero": "armin",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1147,
+      "atk": 76,
+      "hp": 264,
+      "spd": 120,
+      "def": 55,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 10433,
+      "atk": 647,
+      "hp": 3720,
+      "spd": 120,
+      "def": 381,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 12012,
+      "atk": 825,
+      "hp": 4060,
+      "spd": 122,
+      "def": 381,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 13030,
+      "atk": 807,
+      "hp": 4677,
+      "spd": 120,
+      "def": 473,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 15168,
+      "atk": 1029,
+      "hp": 5097,
+      "spd": 126,
+      "def": 473,
+      "chc": 0.21,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Relentless Strike",
+      "soulAcquire": 1,
+      "description": "Attacks with a dagger. A critical hit will increase speed of the caster for 2 turns. Damage dealt increases proportional to the caster's speed",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "nightmare-mask",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_spd_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.95,
+          "soulburn": 0.95
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.00075,
+          "soulburn": 0.00075
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Wind's Resolve",
+      "soulAcquire": 0,
+      "description": "Enhances Relentless Strike, increasing Damage dealt, when the caster is granted increased speed, and decreases defense of the enemy for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt by Relentless Strike",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt by Relentless Strike",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt by Relentless Strike",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt by Relentless Strike",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt by Relentless Strike",
+          "resources": [
+            {
+              "item": "nightmare-mask",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_spd_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "soulBurnEffect": "Increases damage dealt",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Hack",
+      "soulAcquire": 2,
+      "description": "Cuts with a dagger, granting an extra turn if they enemy is defeated. Attacks using an adventageous element when the caster is granted increased Speed. Damage dealt increases proportional to caster's speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "path-power-loop",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 35000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "nightmare-mask",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_spd_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.6,
+          "soulburn": 2.2
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.0021,
+          "soulburn": 0.0021
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Animal Instinct",
+    "description": "Oustanding senses of smell and hearing are very helpful when hunting.",
+    "dispatch": "[Adventure] type mission",
+    "enhancement": "Time requiered -6%",
+    "stats": {
+      "command": 45,
+      "charm": 90,
+      "politics": 12
+    }
+  },
+  "camping": {
+    "options": [
+      "complain",
+      "bizarre-story"
+    ],
+    "reactions": {
+      "advice": 0,
+      "belief": 6,
+      "bizarre-story": 0,
+      "comforting-cheer": 0,
+      "complain": -3,
+      "criticism": 3,
+      "cute-cheer": 4,
+      "dream": 4,
+      "food-story": 1,
+      "gossip": -1,
+      "happy-memory": 2,
+      "heroic-cheer": 3,
+      "heroic-tale": 4,
+      "horror-story": 3,
+      "interesting-story": 3,
+      "joyful-memory": 6,
+      "myth": 1,
+      "occult": 4,
+      "reality-check": -3,
+      "sad-memory": 1,
+      "self-indulgent": 3,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 3
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 7
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 9
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 10
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 2
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "life-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-life-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 5
+        },
+        {
+          "item": "blessing-of-orbis",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-life-rune",
+          "qty": 8
+        },
+        {
+          "item": "nightmare-mask",
+          "qty": 8
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 9.5,
+    "hunt11": 9.5,
+    "abyss": 8.5,
+    "raid": 7.5,
+    "average": 8.67
+  },
+  "pvp": {
+    "arenaOffense": 9.5,
+    "arenaDefense": 8.5,
+    "gwOffense": 9.5,
+    "gwDefense": 8.5,
+    "average": 9
+  }
+}

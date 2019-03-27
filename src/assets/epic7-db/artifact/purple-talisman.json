@@ -1,0 +1,25 @@
+{
+    "name": "Purple Talisman",
+    "rarity": 5,
+    "exclusive": [
+        "thief"
+    ],
+    "loreDescription": [
+        "As long as you believe in victory, the light of hope shall never fade. Remember that, my son. Our family's legacy now rests on your shoulders.",
+        "- Violet's Father"
+    ],
+    "skillDescription": {
+        "base": "Increases Attack by 1.5% and Evasion Chance by 1.5% at the beginning of each turn. Each effect can stack up to 10 times, and resets at the beginning of a battle.",
+        "max": "Increases Attack by 3.0% and Evasion Chance by 3.0% at the beginning of each turn. Each effect can stack up to 10 times, and resets at the beginning of a battle."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

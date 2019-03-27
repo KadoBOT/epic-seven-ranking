@@ -1,0 +1,706 @@
+{
+  "gameId": "c3014",
+  "name": "Mirsa",
+  "rarity": 3,
+  "classType": "thief",
+  "element": "light",
+  "zodiac": "pisces",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A mercenary and adventurer constantly going back and forth between Savara and the Great Desert, Mirsa's main business is treasure hunting. A child of nomads, she has no fixed home. Finding old ruins in the desert is one of her favorite things.",
+  "relations": [
+    {
+      "hero": "coli",
+      "relationType": "trust"
+    },
+    {
+      "hero": "gunther",
+      "relationType": "trust"
+    },
+    {
+      "hero": "sven",
+      "relationType": "trust"
+    },
+    {
+      "hero": "helga",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1030,
+      "atk": 65,
+      "hp": 211,
+      "spd": 116,
+      "def": 55,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 9723,
+      "atk": 589,
+      "hp": 3173,
+      "spd": 116,
+      "def": 404,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 11116,
+      "atk": 709,
+      "hp": 3513,
+      "spd": 120,
+      "def": 404,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 12135,
+      "atk": 735,
+      "hp": 3990,
+      "spd": 116,
+      "def": 501,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 14196,
+      "atk": 885,
+      "hp": 4410,
+      "spd": 120,
+      "def": 501,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Double Edge",
+      "soulAcquire": 1,
+      "description": "Attacks with dual-wielded swords, with a 35% chance to decrease Speed for 2 turns. Damage dealt increases proportional to the caster's Speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 6
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_speed_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.00075,
+          "soulburn": 0.00075
+        }
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Brush Off",
+      "soulAcquire": 0,
+      "description": "Increases Evasion. When Health is less than 50%, effect is increased by an extra 15%. After successfully evading, the caster is granted increased Speed for 2 turns, and their cooldown decreases by 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% Evasion Chance",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 14000
+            }
+          ]
+        },
+        {
+          "description": "+5% Evasion Chance",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+5% Evasion Chance",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_speed_up"
+      ],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0,
+          "soulburn": 0
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0,
+          "soulburn": 0
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Raid",
+      "soulAcquire": 2,
+      "description": "Ambushes the target, silencing them for 2 turns. Damage dealt increases proportional to caster's Speed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 4
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "strange-jelly",
+              "qty": 6
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 50000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_silence"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.85,
+          "soulburn": 0.85
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1.8,
+          "soulburn": 2.5
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "multiplicative",
+          "stat": "spd",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.0015,
+          "soulburn": 0.0015
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Basic of Ambush",
+    "description": "She kills her targets quickly and silently.",
+    "dispatch": "[Time Limit] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 34,
+      "charm": 55,
+      "politics": 32
+    }
+  },
+  "camping": {
+    "options": [
+      "gossip",
+      "interesting-story"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 2,
+      "bizarre-story": -2,
+      "comforting-cheer": -2,
+      "complain": 1,
+      "criticism": 5,
+      "cute-cheer": 1,
+      "dream": -3,
+      "food-story": 0,
+      "gossip": 1,
+      "happy-memory": 0,
+      "heroic-cheer": 2,
+      "heroic-tale": -1,
+      "horror-story": 2,
+      "interesting-story": 0,
+      "joyful-memory": 1,
+      "myth": -1,
+      "occult": -1,
+      "reality-check": 5,
+      "sad-memory": 0,
+      "self-indulgent": -1,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "spd",
+        "increase": 2
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "spd",
+        "increase": 3
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "spd",
+        "increase": 4
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "spd",
+        "increase": 5
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "spd",
+        "increase": 6
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "spd",
+        "increase": 7
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "spd",
+        "increase": 8
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 4
+        },
+        {
+          "item": "blood-flaked-bone",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 6
+        },
+        {
+          "item": "ancient-creature-nucleus",
+          "qty": 6
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 5,
+    "hunt11": 4,
+    "abyss": 4,
+    "raid": 4,
+    "average": 4.17
+  },
+  "pvp": {
+    "arenaOffense": 6.5,
+    "arenaDefense": 6,
+    "gwOffense": 6.5,
+    "gwDefense": 6,
+    "average": 6.25
+  }
+}

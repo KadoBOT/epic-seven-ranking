@@ -1,0 +1,24 @@
+{
+    "name": "Bloodstone",
+    "rarity": 5,
+    "exclusive": [
+        "ranger"
+    ],
+    "loreDescription": [
+        "As I took a bite of the fruit, a red liquid spilled out. Instead of the copper smell of blood, the sweet scent of fruit emanated from it."
+    ],
+    "skillDescription": {
+        "base": "Heals the ally with the lowest Health by 13.0% of damage dealt.",
+        "max": "Heals the ally with the lowest Health by 26.0% of damage dealt."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

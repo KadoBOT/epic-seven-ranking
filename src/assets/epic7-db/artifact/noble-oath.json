@@ -1,0 +1,24 @@
+{
+    "name": "Noble Oath",
+    "rarity": 5,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "An emblem given to members of Ezera's Orders after they pledge to dedicate their lives to the Goddess. Those given to knights resemble an escutcheon, while those given to priests resemble a rosary."
+    ],
+    "skillDescription": {
+        "base": "As Health decreases, Defense and Effect Resistance increase by up to 25.0%.",
+        "max": "As Health decreases, Defense and Effect Resistance increase by up to 50.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 76
+        },
+        "max": {
+            "atk": 117,
+            "hp": 988
+        }
+    }
+}

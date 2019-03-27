@@ -1,0 +1,25 @@
+{
+    "name": "Water's Origin",
+    "rarity": 4,
+    "exclusive": [
+        "soul-weaver"
+    ],
+    "loreDescription": [
+        "Wherever this talisman is, I will be too. To bring safety from storms, freedom from illness, life where once there was only ruin.",
+        "- Shaman Cizette"
+    ],
+    "skillDescription": {
+        "base": "If damage taken exceeds 20% of max Health, recovers 8% Health and increases Combat Readiness by 10.0%.",
+        "max": "If damage taken exceeds 20% of max Health, recovers 8% Health and increases Combat Readiness by 20.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}

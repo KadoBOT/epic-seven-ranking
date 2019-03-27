@@ -1,0 +1,25 @@
+{
+    "name": "Holy Sacrifice",
+    "rarity": 5,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "The Statue of Grace is given to whichever knight wins the Goddess's favor and will save them from death once before shattering to pieces.",
+        "Written by Barrett [Treasures of the Holy Kingdom, 15p]"
+    ],
+    "skillDescription": {
+        "base": "50.0% chance to be revived with 25% Health after dying. Can only be activated once per stage.",
+        "max": "100.0% chance to be revived with 25% Health after dying. Can only be activated once per stage."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 76
+        },
+        "max": {
+            "atk": 117,
+            "hp": 988
+        }
+    }
+}

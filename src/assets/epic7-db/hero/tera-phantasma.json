@@ -1,0 +1,117 @@
+{
+    "gameId": "m8043",
+    "name": "Tera-Phantasma",
+    "rarity": 4,
+    "classType": "material",
+    "element": "dark",
+    "zodiac": "taurus",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A magical creature that has lived since before time began, seen by some as a spiritual guardian and others as an omen of catastrophe. They are rumored to share their power with those heroes they judge worthy.",
+    "relations": [],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 7889,
+            "atk": 422,
+            "hp": 2721,
+            "spd": 91,
+            "def": 385,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 8377,
+            "atk": 448,
+            "hp": 2888,
+            "spd": 91,
+            "def": 409,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Gnaw",
+            "soulAcquire": 1,
+            "description": "Attacks with sharp teeth.",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Phantasma Seeds",
+            "soulAcquire": 0,
+            "description": "The item will be at max level when you receive it, and earn a bonus 10% EXP in battle.",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {},
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprint": [],
+    "awakening": []
+}

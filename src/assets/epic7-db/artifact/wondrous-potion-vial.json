@@ -1,0 +1,25 @@
+{
+    "name": "Wondrous Potion Vial",
+    "rarity": 4,
+    "exclusive": [
+        "soul-weaver"
+    ],
+    "loreDescription": [
+        "A potion of love, or a potion of eternal youth. Only one of each exists in this world. Which do you choose?",
+        "- A Senior Fellow of the Alchemy Society, Pei"
+    ],
+    "skillDescription": {
+        "base": "50.0% chance to dispel one debuff from an ally at the beginning of the turn.",
+        "max": "100.0% chance to dispel one debuff from an ally at the beginning of the turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}

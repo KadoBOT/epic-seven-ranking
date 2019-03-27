@@ -1,0 +1,22 @@
+{
+    "name": "Prophetic Candlestick",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "It is said that you can see into the future by lighting a candle, putting it on this candlestick, and looking into the flame."
+    ],
+    "skillDescription": {
+        "base": "20.0% chance to reduce cooldown by 1 turn when attacked. Can be activated once per turn.",
+        "max": "40.0% chance to reduce cooldown by 1 turn when attacked. Can be activated once per turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 14,
+            "hp": 21
+        },
+        "max": {
+            "atk": 182,
+            "hp": 273
+        }
+    }
+}

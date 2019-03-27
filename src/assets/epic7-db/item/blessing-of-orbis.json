@@ -1,0 +1,23 @@
+{
+    "name": "Blessing Of Orbis",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A brightly colored stone containing the life energy of the creatures of Orbis.",
+    "locations": [
+        {
+            "node": "Normal 1-7",
+            "name": "Grimroa Ravine",
+            "mobcount": 9
+        },
+        {
+            "node": "World 1-7",
+            "name": "Grimroa Ravine",
+            "mobcount": 9
+        },
+        {
+            "node": "World 3S-S1",
+            "name": "Perilous Shade",
+            "mobcount": 11
+        }
+    ]
+}

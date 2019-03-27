@@ -1,0 +1,13 @@
+{
+    "name": "Fused Nerve",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A special muscle accidentally created during an experiment of forced fusion.",
+    "locations": [
+        {
+            "node": "World 9-8",
+            "name": "Tomb of the False Soldier",
+            "mobcount": "???"
+        }
+    ]
+}

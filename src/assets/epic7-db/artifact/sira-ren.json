@@ -1,0 +1,24 @@
+{
+    "name": "Sira-Ren",
+    "rarity": 4,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "This rare magical flower blooms from the corpse of a Human who possessed incredible magic power. It quickly withers away unless it is constantly being infused with powerful Mana. Few have been lucky enough to witness such a sight."
+    ],
+    "skillDescription": {
+        "base": "25.0% chance to inflict a random debuff for 1 turn when attacking.",
+        "max": "50.0% chance to inflict a random debuff for 1 turn when attacking."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 45
+        },
+        "max": {
+            "atk": 156,
+            "hp": 585
+        }
+    }
+}

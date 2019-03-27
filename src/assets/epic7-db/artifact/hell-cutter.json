@@ -1,0 +1,25 @@
+{
+    "name": "Hell Cutter",
+    "rarity": 4,
+    "exclusive": [
+        "warrior"
+    ],
+    "loreDescription": [
+        "Look at this saw... isn't it awesome?",
+        "- Notorious Lunatic, Ralakia"
+    ],
+    "skillDescription": {
+        "base": "Caster's Attack and Critical Hit Chance increase by 2.0% whenever somebody's turn ends. Effect is removed after the caster attacks.",
+        "max": "Caster's Attack and Critical Hit Chance increase by 4.0% whenever somebody's turn ends. Effect is removed after the caster attacks."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

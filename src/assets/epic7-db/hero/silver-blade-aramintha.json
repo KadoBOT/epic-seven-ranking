@@ -1,0 +1,667 @@
+{
+    "gameId": "c2048",
+    "name": "Silver Blade Aramintha",
+    "rarity": 5,
+    "classType": "mage",
+    "element": "light",
+    "zodiac": "gemini",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A commander of Savara's legendary Silver Blade Company. At first it started off as a small group of people who had nowhere to return to, then it became bigger and bigger in size due to Aramintha's great leadership.",
+    "relations": [
+        {
+            "hero": "mirsa",
+            "relationType": "trust"
+        },
+        {
+            "hero": "basar",
+            "relationType": "trust"
+        },
+        {
+            "hero": "celeste",
+            "relationType": "trust"
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1457,
+            "atk": 96,
+            "hp": 249,
+            "spd": 106,
+            "def": 85,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 11781,
+            "atk": 771,
+            "hp": 3302,
+            "spd": 106,
+            "def": 551,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13234,
+            "atk": 960,
+            "hp": 3642,
+            "spd": 106,
+            "def": 551,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.09,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14685,
+            "atk": 961,
+            "hp": 4152,
+            "spd": 106,
+            "def": 683,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 16737,
+            "atk": 1197,
+            "hp": 4572,
+            "spd": 106,
+            "def": 683,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.15,
+            "efr": 0.0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Effect Chance increases to 100%, ignores Effect Resistance.",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Flame Friction",
+            "soulAcquire": 1,
+            "description": "Attacks the enemy with an explosion of flame, with a 65% chance to burn for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_blaze"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                }
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Flame Release",
+            "soulAcquire": 0,
+            "description": "Activates Flame Release if the enemy is burned after using Flame Friction.\nFlame Release: Attacks all enemies with mystic fire energy, increasing the caster's Combat Readiness by 30%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.5,
+                    "soulburn": 0.5
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Meteor Fall",
+            "soulAcquire": 2,
+            "description": "Drops a giant meteor to stun all enemies for 1 turn, with a 40% chance each to inflict three burn effects for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_stun",
+                "stic_blaze"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "The Best Ruler",
+        "description": "Her mercenary company follows her every command.",
+        "dispatch": "[Hunt] Type",
+        "enhancement": "Reward Bonus +6%",
+        "stats": {
+            "command": 84,
+            "charm": 73,
+            "politics": 45
+        }
+    },
+    "camping": {
+        "options": [
+            "interesting-story",
+            "comforting-cheer"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": -1,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": 2,
+            "criticism": -5,
+            "cute-cheer": 6,
+            "dream": 5,
+            "food-story": 3,
+            "gossip": 2,
+            "happy-memory": 5,
+            "heroic-cheer": 5,
+            "heroic-tale": 0,
+            "horror-story": -1,
+            "interesting-story": 3,
+            "joyful-memory": 7,
+            "myth": 2,
+            "occult": 0,
+            "reality-check": -5,
+            "sad-memory": 6,
+            "self-indulgent": -1,
+            "unique-comment": 3
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 0.036
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 0.054
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 0.072
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 0.09
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 0.108
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-light-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-light-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "small-sun-badge",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "fused-nerve",
+                    "qty": 10
+                }
+            ]
+        }
+    ]
+}

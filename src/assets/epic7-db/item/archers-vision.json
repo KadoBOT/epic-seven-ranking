@@ -1,0 +1,23 @@
+{
+    "name": "Archers Vision",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A book said to contain the secret behind becoming an ace marksman.",
+    "locations": [
+        {
+            "node": "Normal 4-9",
+            "name": "Imagination's Shade",
+            "mobcount": 5
+        },
+        {
+            "node": "World 7-7",
+            "name": "Winter Dew Ruins",
+            "mobcount": 6
+        },
+        {
+            "node": "World 7-10",
+            "name": "Cloud Forest",
+            "mobcount": 6
+        }
+    ]
+}

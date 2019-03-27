@@ -1,0 +1,22 @@
+{
+    "name": "Envoy's Pipe",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "Look carefully at the smoke that rises from the pipe--you'll see within whether you're destined for paradise or hell."
+    ],
+    "skillDescription": {
+        "base": "Decreases damage received by 10.0% when Health is less than 50%. When this effect is granted more than once, only the strongest effect is applied.",
+        "max": "Decreases damage received by 20.0% when Health is less than 50%. When this effect is granted more than once, only the strongest effect is applied."
+    },
+    "stats": {
+        "base": {
+            "atk": 4,
+            "hp": 58
+        },
+        "max": {
+            "atk": 52,
+            "hp": 754
+        }
+    }
+}

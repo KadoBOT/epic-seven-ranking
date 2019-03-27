@@ -1,0 +1,670 @@
+{
+    "gameId": "c1079",
+    "name": "Cermia",
+    "rarity": 5,
+    "classType": "warrior",
+    "element": "fire",
+    "zodiac": "leo",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A fiercely competitive but also horribly unlucky knight, she is very hot-headed and often gambles and loses everything. Her impulsive nature forced her parents to give all of the inheritance to her sister Carrot, who provides her an allowance to live off of.",
+    "relations": [
+        {
+            "hero": "carrot",
+            "relationType": "love"
+        },
+        {
+            "hero": "purrgis",
+            "relationType": "trust"
+        },
+        {
+            "hero": "achates",
+            "relationType": "trust"
+        },
+        {
+            "hero": "iseria",
+            "relationType": "rival"
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1425,
+            "atk": 102,
+            "hp": 307,
+            "spd": 105,
+            "def": 73,
+            "chc": 0.15,
+            "chd": 1.50,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 12008,
+            "atk": 822,
+            "hp": 4074,
+            "spd": 105,
+            "def": 472,
+            "chc": 0.15,
+            "chd": 1.50,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13617,
+            "atk": 1040,
+            "hp": 4414,
+            "spd": 105,
+            "def": 472,
+            "chc": 0.21,
+            "chd": 1.50,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14982,
+            "atk": 1025,
+            "hp": 5122,
+            "spd": 105,
+            "def": 585,
+            "chc": 0.15,
+            "chd": 1.50,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 17273,
+            "atk": 1359,
+            "hp": 5542,
+            "spd": 105,
+            "def": 585,
+            "chc": 0.21,
+            "chd": 1.50,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Playing with Fire",
+            "soulAcquire": 1,
+            "description": "Attacks with a flaming sword, with a 55% chance to make the target unhealable for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "blazing-soul",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 150000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_heal_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.2,
+                    "soulburn": 1.2
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 5,
+            "name": "Hot Streak!",
+            "soulAcquire": 2,
+            "description": "Shoots fire, granting the caster Increase Attack (Greater), resetting the cooldown of All-in!, and granting an extra turn.",
+            "enhancement": [
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 8
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_att_up2"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "All-In!",
+            "soulAcquire": 3,
+            "description": "Attacks with a blazing inferno, penetrating Defense by 50%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "blazing-soul",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 150000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.15,
+                    "soulburn": 1.65
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Fiery Resolve",
+        "description": "Even if there is no hope of victory, she refuses to give up and tries again.",
+        "dispatch": "[Barron Land] Attribute",
+        "enhancement": "Reward Bonus +10%",
+        "stats": {
+            "command": 86,
+            "charm": 23,
+            "politics": 45
+        }
+    },
+    "camping": {
+        "options": [
+            "heroic-cheer",
+            "complain"
+        ],
+        "reactions": {
+            "advice": -1,
+            "belief": 2,
+            "bizarre-story": 2,
+            "comforting-cheer": -1,
+            "complain": -1,
+            "criticism": 4,
+            "cute-cheer": 4,
+            "dream": 7,
+            "food-story": 3,
+            "gossip": 1,
+            "happy-memory": 2,
+            "heroic-cheer": 4,
+            "heroic-tale": 2,
+            "horror-story": 1,
+            "interesting-story": 6,
+            "joyful-memory": 2,
+            "myth": 5,
+            "occult": 3,
+            "reality-check": -1,
+            "sad-memory": 0,
+            "self-indulgent": 3,
+            "unique-comment": 3
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "chc",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "chc",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "chc",
+                "increase": 0.048
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "chc",
+                "increase": 0.072
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "chc",
+                "increase": 0.096
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "chc",
+                "increase": 0.12
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "chc",
+                "increase": 0.144
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "ultra-fang",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "blazing-soul",
+                    "qty": 10
+                }
+            ]
+        }
+    ]
+}

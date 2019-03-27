@@ -1,0 +1,22 @@
+{
+    "name": "Enhanced Gauntlet",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "A specially reinforced gauntlet that does not break, even after being hit with several attacks."
+    ],
+    "skillDescription": {
+        "base": "Increases Defense by 2.0%.",
+        "max": "Increases Defense by 4.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 2,
+            "hp": 39
+        },
+        "max": {
+            "atk": 26,
+            "hp": 507
+        }
+    }
+}

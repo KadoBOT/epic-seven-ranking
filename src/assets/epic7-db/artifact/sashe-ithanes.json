@@ -1,0 +1,24 @@
+{
+    "name": "Sashe Ithanes",
+    "rarity": 4,
+    "exclusive": [
+        "ranger"
+    ],
+    "loreDescription": [
+        "This is the Sashe Ithanes. It is a flame that will shake the world on its axis, that will destroy people, cities, kingdoms, even dreams. Take it, and in my name bring an end to everything."
+    ],
+    "skillDescription": {
+        "base": "Increases Combat Readiness of all Allies by 15.0% when the enemy is defeated.",
+        "max": "Increases Combat Readiness of all Allies by 30.0% when the enemy is defeated."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

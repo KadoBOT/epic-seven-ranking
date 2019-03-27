@@ -1,0 +1,22 @@
+{
+    "name": "Venus Orb",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "If you keep this orb with you, Venus's blessing will be with you."
+    ],
+    "skillDescription": {
+        "base": "Increases Effectiveness by 2.0%.",
+        "max": "Increases Effectiveness by 4.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 24
+        },
+        "max": {
+            "atk": 91,
+            "hp": 312
+        }
+    }
+}

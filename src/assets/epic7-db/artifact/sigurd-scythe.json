@@ -1,0 +1,24 @@
+{
+    "name": "Sigurd Scythe",
+    "rarity": 5,
+    "exclusive": [
+        "warrior"
+    ],
+    "loreDescription": [
+        "As the moonlight revealed a figure holding a scythe, the astonished onlookers exclaimed, \"the God of Death has descended!\""
+    ],
+    "skillDescription": {
+        "base": "When the caster's Health is less than 50%, increases Attack by 25% and absorbs 25.0% of the damage dealt as Health.",
+        "max": "When the caster's Health is less than 50%, increases Attack by 25% and absorbs 50.0% of the damage dealt as Health."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

@@ -1,0 +1,694 @@
+{
+  "gameId": "c2006",
+  "name": "Judge Kise",
+  "rarity": 5,
+  "classType": "warrior",
+  "element": "light",
+  "zodiac": "virgo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "An Heir of the Sixth World, Kise is leader of the Nocturnes. She fought every battle against the Archdemon alongside the Guardian Kromcruz. Though she can be sluggish and sharp-tongued, she cares greatly for her fellow Heirs.",
+  "relations": [
+    {
+      "hero": "ras",
+      "relationType": "trust"
+    },
+    {
+      "hero": "nilgal",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ruele-of-light",
+      "relationType": "trust"
+    },
+    {
+      "hero": "vildred",
+      "relationType": "trust"
+    },
+    {
+      "hero": "ludwig",
+      "relationType": "love"
+    }
+  ],
+  "stats": {
+    "lv1BaseStarNoAwaken": {
+      "cp": 1415,
+      "atk": 89,
+      "hp": 295,
+      "spd": 111,
+      "def": 77,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarNoAwaken": {
+      "cp": 11777,
+      "atk": 713,
+      "hp": 3913,
+      "spd": 111,
+      "def": 497,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv50FiveStarFullyAwakened": {
+      "cp": 13228,
+      "atk": 833,
+      "hp": 4253,
+      "spd": 115,
+      "def": 497,
+      "chc": 0.18,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarNoAwaken": {
+      "cp": 14700,
+      "atk": 889,
+      "hp": 4920,
+      "spd": 111,
+      "def": 617,
+      "chc": 0.15,
+      "chd": 1.5,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0.05
+    },
+    "lv60SixStarFullyAwakened": {
+      "cp": 16875,
+      "atk": 1039,
+      "hp": 5340,
+      "spd": 115,
+      "def": 617,
+      "chc": 0.24,
+      "chd": 1.5,
+      "eff": 0.09,
+      "efr": 0,
+      "dac": 0.05
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Sever",
+      "soulAcquire": 1,
+      "description": "Attacks with a Scythe, with a 35% chance to decrease Defense for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 31000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 7
+            },
+            {
+              "item": "gold",
+              "qty": 53000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 1,
+          "soulburn": 1
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 3,
+      "name": "End of Evil",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies with Scythe. Damage increases with more enemies.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 31000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 7
+            },
+            {
+              "item": "gold",
+              "qty": 53000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 1,
+          "soulburn": 1
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.9,
+          "soulburn": 1.15
+        }
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 7,
+      "name": "Wave of Light",
+      "soulAcquire": 3,
+      "description": "Attacks all enemies by distorting space and time with a 50% chance to increase skill cooldown three times by 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "flame-of-soul",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "demon-blood-gem",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 150000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [],
+      "damageModifiers": [
+        {
+          "name": "pow",
+          "section": "pow",
+          "value": 0.9,
+          "soulburn": 0.9
+        },
+        {
+          "name": "statModifier",
+          "description": "",
+          "section": "additive",
+          "stat": "atk",
+          "type": "multiplier",
+          "target": "self",
+          "value": 0.9,
+          "soulburn": 0.9
+        }
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Fate Watcher",
+    "description": "Facing her fate, she carries out her duty.",
+    "dispatch": "[Fear] type mission",
+    "enhancement": "Reward bonus +10%",
+    "stats": {
+      "command": 95,
+      "charm": 87,
+      "politics": 78
+    }
+  },
+  "camping": {
+    "options": [
+      "sad-memory",
+      "comforting-cheer"
+    ],
+    "reactions": {
+      "advice": 2,
+      "belief": 2,
+      "bizarre-story": -2,
+      "comforting-cheer": -2,
+      "complain": 0,
+      "criticism": 5,
+      "cute-cheer": 1,
+      "dream": -3,
+      "food-story": 0,
+      "gossip": 1,
+      "happy-memory": 0,
+      "heroic-cheer": 2,
+      "heroic-tale": -1,
+      "horror-story": 2,
+      "interesting-story": 0,
+      "joyful-memory": 1,
+      "myth": -1,
+      "occult": -1,
+      "reality-check": 5,
+      "sad-memory": 0,
+      "self-indulgent": -1,
+      "unique-comment": 3
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "eff",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "eff",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "eff",
+        "increase": 0.048
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "eff",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "eff",
+        "increase": 0.096
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "eff",
+        "increase": 0.12
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "eff",
+        "increase": 0.144
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 6
+        },
+        {
+          "item": "eternal-forest-dust",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 10
+        },
+        {
+          "item": "demon-blood-gem",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "pve": {
+    "hunt10": 6.5,
+    "hunt11": 6,
+    "abyss": 7,
+    "raid": 7.5,
+    "average": 6.75
+  },
+  "pvp": {
+    "arenaOffense": 10,
+    "arenaDefense": 9.5,
+    "gwOffense": 10,
+    "gwDefense": 9.5,
+    "average": 9.75
+  }
+}

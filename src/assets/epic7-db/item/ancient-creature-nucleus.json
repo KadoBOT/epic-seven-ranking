@@ -1,0 +1,13 @@
+{
+    "name": "Ancient Creature Nucleus",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A nucleus with an unknown source of power, some say it can be used to move anything in the world.",
+    "locations": [
+        {
+            "node": "World 7-S6",
+            "name": "Seven Flags Fortress",
+            "mobcount": "???"
+        }
+    ]
+}

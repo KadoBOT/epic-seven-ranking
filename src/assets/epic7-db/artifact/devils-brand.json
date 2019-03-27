@@ -1,0 +1,23 @@
+{
+    "name": "Devil's Brand",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "As long as this brand is with you, the Devil will continue to protect you.",
+        "- Cult Enforcer Ebarak"
+    ],
+    "skillDescription": {
+        "base": "Increases the Effect Resistance of all allies by 2.0% at the beginning of the turn. Effect can only stack up to 5 times.",
+        "max": "Increases the Effect Resistance of all allies by 4.0% at the beginning of the turn. Effect can only stack up to 5 times."
+    },
+    "stats": {
+        "base": {
+            "atk": 4,
+            "hp": 58
+        },
+        "max": {
+            "atk": 52,
+            "hp": 754
+        }
+    }
+}

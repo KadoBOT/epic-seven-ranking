@@ -1,0 +1,18 @@
+{
+    "name": "Special Alarm Loop",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "Circuit set to sound immediately in case of danger. It seems to have originally been developed as an alaram clock.",
+    "locations": [
+        {
+            "node": "Normal 9-4",
+            "name": "Whispering Forest",
+            "mobcount": 12
+        },
+        {
+            "node": "World 2-2",
+            "name": "Arcsoru Library",
+            "mobcount": 5
+        }
+    ]
+}

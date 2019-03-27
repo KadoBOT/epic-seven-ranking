@@ -1,0 +1,24 @@
+{
+    "name": "Kal'adra",
+    "rarity": 4,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "A cursed weapon created by the fallen priest, Sestia. It causes a mental breakdown in the target by reminding them of their most painful memories. Even ages later, when fallen priests have sided with the Covenant, use of this mask is banned."
+    ],
+    "skillDescription": {
+        "base": "If the enemy is debuffed, damage dealt increases by 15.0%.",
+        "max": "If the enemy is debuffed, damage dealt increases by 30.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Order Of The Shield Insignia",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "An insignia to verify the bearer as a knight of the Order of the Shield, one arm of the Four Pointed Star.",
+    "locations": [
+        {
+            "node": "Normal 6-5",
+            "name": "Steel Wall Fortress",
+            "mobcount": 10
+        },
+        {
+            "node": "World 6-2",
+            "name": "Frost Flower Hill",
+            "mobcount": 6
+        },
+        {
+            "node": "World 6-6",
+            "name": "Steel Wall Training Ground",
+            "mobcount": 6
+        }
+    ]
+}

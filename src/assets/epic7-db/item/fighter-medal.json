@@ -1,0 +1,13 @@
+{
+    "name": "Fighter Medal",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A medal given to soldiers who fought like demons in battle.",
+    "locations": [
+        {
+            "node": "World 10-8",
+            "name": "Castle of Wings",
+            "mobcount": "???"
+        }
+    ]
+}

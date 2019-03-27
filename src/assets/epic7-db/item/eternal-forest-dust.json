@@ -1,0 +1,48 @@
+{
+    "name": "Eternal Forest Dust",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "Dust of the Eternal Forest, said to coat the bodies of the people of the forest.",
+    "locations": [
+        {
+            "node": "Normal 5-3",
+            "name": "Levi Roa",
+            "mobcount": 6
+        },
+        {
+            "node": "Normal 5-9",
+            "name": "Peiata Roa",
+            "mobcount": 6
+        },
+        {
+            "node": "Normal 5-10",
+            "name": "Garden of Rest",
+            "mobcount": 6
+        },
+        {
+            "node": "World 4-S2",
+            "name": "Forgotten Nightmare",
+            "mobcount": 5
+        },
+        {
+            "node": "World 5-3",
+            "name": "Levi Roa",
+            "mobcount": 6
+        },
+        {
+            "node": "World 5-8",
+            "name": "Kiri Elien",
+            "mobcount": 6
+        },
+        {
+            "node": "World 5-9",
+            "name": "Peiata Roa",
+            "mobcount": 6
+        },
+        {
+            "node": "World 5-10",
+            "name": "Garden of Rest",
+            "mobcount": 6
+        }
+    ]
+}

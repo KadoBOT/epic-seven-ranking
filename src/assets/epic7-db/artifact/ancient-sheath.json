@@ -1,0 +1,22 @@
+{
+    "name": "Ancient Sheath",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "This magical sheath is said to keep any blade from losing its sharpness."
+    ],
+    "skillDescription": {
+        "base": "Increases damage dealt by basic skill by 8.0%",
+        "max": "Increases damage dealt by basic skill by 16.0%"
+    },
+    "stats": {
+        "base": {
+            "atk": 14,
+            "hp": 21
+        },
+        "max": {
+            "atk": 182,
+            "hp": 273
+        }
+    }
+}

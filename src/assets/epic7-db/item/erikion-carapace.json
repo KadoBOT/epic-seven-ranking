@@ -1,0 +1,23 @@
+{
+    "name": "Erikion Carapace",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A fragment of the shell of an extremely rare insect used as a source of great magical power.",
+    "locations": [
+        {
+            "node": "Normal 3-S4",
+            "name": "Haven",
+            "mobcount": 1
+        },
+        {
+            "node": "World 3-4",
+            "name": "Ki Ruburan",
+            "mobcount": 11
+        },
+        {
+            "node": "World 5-1",
+            "name": "Forest of Meditation",
+            "mobcount": 11
+        }
+    ]
+}

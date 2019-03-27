@@ -1,0 +1,23 @@
+{
+    "name": "Shiny Enchantment",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+    "locations": [
+        {
+            "node": "Normal 5-4",
+            "name": "Silver Monarch Hall",
+            "mobcount": 8
+        },
+        {
+            "node": "World 5-4",
+            "name": "Silver Monarch Hall",
+            "mobcount": 8
+        },
+        {
+            "node": "World 1-8",
+            "name": "Epoch Flower Meadow",
+            "mobcount": 7
+        }
+    ]
+}

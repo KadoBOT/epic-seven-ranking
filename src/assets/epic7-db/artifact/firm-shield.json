@@ -1,0 +1,22 @@
+{
+    "name": "Firm Shield",
+    "rarity": 2,
+    "exclusive": [],
+    "loreDescription": [
+        "They say that the wielder of this shield doesn't back down from any situation, no matter how terrifying."
+    ],
+    "skillDescription": {
+        "base": "Increases Defense by 3.0%.",
+        "max": "Increases Defense by 6.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 2,
+            "hp": 41
+        },
+        "max": {
+            "atk": 26,
+            "hp": 533
+        }
+    }
+}

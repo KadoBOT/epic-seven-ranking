@@ -1,0 +1,22 @@
+{
+    "name": "Ranon's Memorandum",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "A memorandum that contains all the records of magic researched by Ranon, the Mage. However, a spell is cast to show different content every time it's opened, so one must disable the spell to read the real content."
+    ],
+    "skillDescription": {
+        "base": "Increases Speed of the caster by 1.0% when they attack. Can stack up to 10 times.",
+        "max": "Increases Speed of the caster by 2.0% when they attack. Can stack up to 10 times."
+    },
+    "stats": {
+        "base": {
+            "atk": 6,
+            "hp": 51
+        },
+        "max": {
+            "atk": 78,
+            "hp": 663
+        }
+    }
+}

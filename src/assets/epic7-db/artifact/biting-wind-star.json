@@ -1,0 +1,22 @@
+{
+    "name": "Biting Wind Star",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "A throwing star that flies as fast as the wind straight at the enemy's weak point."
+    ],
+    "skillDescription": {
+        "base": "Increases Critical Hit Damage by 2.0%.",
+        "max": "Increases Critical Hit Damage by 4.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 4
+        },
+        "max": {
+            "atk": 156,
+            "hp": 52
+        }
+    }
+}

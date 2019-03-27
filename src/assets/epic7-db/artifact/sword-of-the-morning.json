@@ -1,0 +1,23 @@
+{
+    "name": "Sword of the Morning",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "Only those with the power to control their inner energy can wield this sword.",
+        "- Master Swordsman Rhynos"
+    ],
+    "skillDescription": {
+        "base": "Increases Attack and Speed by 10.0% when Health is less than 50%.",
+        "max": "Increases Attack and Speed by 20.0% when Health is less than 50%."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 28
+        },
+        "max": {
+            "atk": 156,
+            "hp": 364
+        }
+    }
+}

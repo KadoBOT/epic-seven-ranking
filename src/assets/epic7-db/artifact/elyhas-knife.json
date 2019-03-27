@@ -1,0 +1,24 @@
+{
+    "name": "Elyha's Knife",
+    "rarity": 4,
+    "exclusive": [
+        "thief"
+    ],
+    "loreDescription": [
+        "Whenever Elyha, the leader of the Black Fog Company, wielded a knife, it got darker with blood and more brutal every time."
+    ],
+    "skillDescription": {
+        "base": "Penetrates Defense by 10.0% when attacking an enemy not at max Health.",
+        "max": "Penetrates Defense by 20.0% when attacking an enemy not at max Health."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

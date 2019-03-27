@@ -1,0 +1,33 @@
+{
+    "name": "Blood Flaked Bone",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "It is said that when the skeleton's soul was destroyed, the bone fragments were filled with its sheer determination.",
+    "locations": [
+        {
+            "node": "Normal 1-9",
+            "name": "Sanctuary Gate Outskirts",
+            "mobcount": 7
+        },
+        {
+            "node": "Normal 1-10",
+            "name": "Sanctuary Gate Underground",
+            "mobcount": 7
+        },
+        {
+            "node": "World 1-9",
+            "name": "Sanctuary Gate Outskirts",
+            "mobcount": 7
+        },
+        {
+            "node": "World 3-5",
+            "name": "Weeping Vixen Waterway",
+            "mobcount": 7
+        },
+        {
+            "node": "World 9-S4",
+            "name": "Windspirit Stronghold",
+            "mobcount": 7
+        }
+    ]
+}

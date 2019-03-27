@@ -1,0 +1,24 @@
+{
+    "name": "Chatty",
+    "rarity": 5,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "I was once the best mercenary in the world!! Before Serila... No, master trapped my soul inside this lantern."
+    ],
+    "skillDescription": {
+        "base": "50.0% chance to be granted a barrier for 2 turns after being attacked if attack causes Health to fall below 50%. Barrier strength is proportional to Attack. Can be activated once every 2 turns.",
+        "max": "100.0% chance to be granted a barrier for 2 turns after being attacked if attack causes Health to fall below 50%. Barrier strength is proportional to Attack. Can be activated once every 2 turns."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 43
+        },
+        "max": {
+            "atk": 234,
+            "hp": 559
+        }
+    }
+}

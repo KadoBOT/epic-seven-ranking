@@ -1,0 +1,24 @@
+{
+    "name": "Rod of Amaryllis",
+    "rarity": 5,
+    "exclusive": [
+        "soul-weaver"
+    ],
+    "loreDescription": [
+        "Everyone who fights for the salvation of the world will have the divine protection of the goddess."
+    ],
+    "skillDescription": {
+        "base": "Heals the ally with the lowest Health by 12.0% when using a non-attack skill.",
+        "max": "Heals the ally with the lowest Health by 24.0% when using a non-attack skill."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 76
+        },
+        "max": {
+            "atk": 117,
+            "hp": 988
+        }
+    }
+}

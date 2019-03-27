@@ -1,0 +1,25 @@
+{
+    "name": "Sword of Judgment",
+    "rarity": 5,
+    "exclusive": [
+        "ranger"
+    ],
+    "event": "",
+    "loreDescription": [
+        "\"If you're really innocent, the Goddess will save me from your sword.\" It could either be blood that falls or just red flower petals brighter than blood."
+    ],
+    "skillDescription": {
+        "base": "10.0% chance to attack again with a Basic Attack if the target survives a single attack. Can only be activated once per turn.",
+        "max": "20.0% chance to attack again with a Basic Attack if the target survives a single attack. Can only be activated once per turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 21,
+            "hp": 32
+        },
+        "max": {
+            "atk": 273,
+            "hp": 416
+        }
+    }
+}

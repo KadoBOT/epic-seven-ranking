@@ -1,0 +1,22 @@
+{
+    "name": "Butterfly Mandolin",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "A mandolin used by Ludo, a pure-voiced minstrel. If you play it, you can see an illusion of butterflies made of light dancing."
+    ],
+    "skillDescription": {
+        "base": "4.0% chance to be granted an extra turn at the end of the next turn when attacked.",
+        "max": "8.0% chance to be granted an extra turn at the end of the next turn when attacked."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 36
+        },
+        "max": {
+            "atk": 117,
+            "hp": 468
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Ascending Axe",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "The swing of his axe was unstoppable; his enemies becoming an ever-growing pile of corpses.",
+        "Written by Reingar Media Club [Special Edition: Testimony of Ancient Weapons 6, 44p]"
+    ],
+    "skillDescription": {
+        "base": "Increases the Critical Hit Chance of the caster by 5% when an enemy is defeated. Effect can only stack up to 3 times.",
+        "max": "Increases the Critical Hit Chance of the caster by 10% when an enemy is defeated. Effect can only stack up to 3 times."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 7
+        },
+        "max": {
+            "atk": 234,
+            "hp": 91
+        }
+    }
+}

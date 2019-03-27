@@ -1,0 +1,24 @@
+{
+    "name": "Iela Violin",
+    "rarity": 4,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "No matter how much power or darkness one wields, they're just a part of the audience. Iela started to play the violin and her melody touched the hearts of all that heard it. Even the genius mage who was only interested in fighting was moved."
+    ],
+    "skillDescription": {
+        "base": "Has a 40% chance to dispel one buff from the enemy after attacking.",
+        "max": "Has a 80% chance to dispel one buff from the enemy after attacking."
+    },
+    "stats": {
+        "base": {
+            "atk": 14,
+            "hp": 51
+        },
+        "max": {
+            "atk": 182,
+            "hp": 663
+        }
+    }
+}

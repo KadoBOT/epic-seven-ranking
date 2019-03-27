@@ -1,0 +1,28 @@
+{
+    "name": "Path Power Loop",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A circuit used to operate machinery, it has its own energy source connected.",
+    "locations": [
+        {
+            "node": "Normal 2-9",
+            "name": "Hailow Lab Tower",
+            "mobcount": 10
+        },
+        {
+            "node": "World 2-7",
+            "name": "Flying Club Airport",
+            "mobcount": 7
+        },
+        {
+            "node": "World 2-8",
+            "name": "Crystal Sparrow Tower",
+            "mobcount": 7
+        },
+        {
+            "node": "World 9-S6",
+            "name": "Blue Hawk Forst",
+            "mobcount": 5
+        }
+    ]
+}

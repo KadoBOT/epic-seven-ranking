@@ -1,0 +1,24 @@
+{
+    "name": "Magaraha's Tome",
+    "rarity": 4,
+    "exclusive": [
+        "soul-weaver"
+    ],
+    "loreDescription": [
+        "An ancient book written by a great mage. It contains all of Magaraha's magical research. Due to its complicated content and massive volume, even those ambitious enough to try to read it all had to give up after turning only a few pages."
+    ],
+    "skillDescription": {
+        "base": "Increases the caster's Combat Readiness by 15.0% when using a skill that does not attack enemies.",
+        "max": "Increases the caster's Combat Readiness by 30.0% when using a skill that does not attack enemies."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}

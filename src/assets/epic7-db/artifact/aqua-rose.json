@@ -1,0 +1,22 @@
+{
+    "name": "Aqua Rose",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "This rose of eternal beauty grants great magical power to the possessor."
+    ],
+    "skillDescription": {
+        "base": "50% chance to grant a barrier to the caster equivalent to 5.0% of max Health for 1 turn when attacked. Can only grant once every 2 turns.",
+        "max": "50% chance to grant a barrier to the caster equivalent to 10.0% of max Health for 1 turn when attacked. Can only grant once every 2 turns."
+    },
+    "stats": {
+        "base": {
+            "atk": 1,
+            "hp": 65
+        },
+        "max": {
+            "atk": 13,
+            "hp": 845
+        }
+    }
+}

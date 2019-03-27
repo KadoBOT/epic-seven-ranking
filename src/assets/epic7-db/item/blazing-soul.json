@@ -1,0 +1,13 @@
+{
+    "name": "Blazing Soul",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "It is said that the will of a Banshee Queen is often left behind as a tenacious soul.",
+    "locations": [
+        {
+            "node": "World 4-9",
+            "name": "Imagination's Shade",
+            "mobcount": "???"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Small Sun Badge",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "Those who sacrifice above and beyond the call of duty to prove their faith are given a badge with a little sun on it.",
+    "locations": [
+        {
+            "node": "Normal 4-9",
+            "name": "Imagination's Shade",
+            "mobcount": 10
+        },
+        {
+            "node": "World 4-8",
+            "name": "Little Flamingo Grove",
+            "mobcount": 4
+        },
+        {
+            "node": "World 9-5",
+            "name": "Broken Sword Ruins",
+            "mobcount": 4
+        },
+        {
+            "node": "World 9-10",
+            "name": "Klowbe Mountains",
+            "mobcount": 4
+        },
+        {
+            "node": "World 10-7",
+            "name": "Wood of the Reclusive Knight",
+            "mobcount": 4
+        }
+    ]
+}

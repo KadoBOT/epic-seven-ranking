@@ -1,0 +1,24 @@
+{
+    "name": "Durandal",
+    "rarity": 5,
+    "exclusive": [
+        "warrior"
+    ],
+    "loreDescription": [
+        "The soft light emitted by the sword shields its owner from all injuries."
+    ],
+    "skillDescription": {
+        "base": "If the caster's Health is less than 75%, Combat Readiness increases by 8.0% when attacked.",
+        "max": "If the caster's Health is less than 75%, Combat Readiness increases by 16.0% when attacked."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 43
+        },
+        "max": {
+            "atk": 234,
+            "hp": 559
+        }
+    }
+}

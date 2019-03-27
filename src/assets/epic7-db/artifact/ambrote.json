@@ -1,0 +1,25 @@
+{
+    "name": "Ambrote",
+    "rarity": 4,
+    "exclusive": [
+        "ranger"
+    ],
+    "event": "standoff-with-kayron",
+    "loreDescription": [
+        "After a final prayer, she took her bow made from the branches of the World Tree and leaped onto the battlefield full of death, wishing to restore the world in the belief that all things will be born anew."
+    ],
+    "skillDescription": {
+        "base": "Increases damage dealt by basic skill by 10.0%.",
+        "max": "Increases damage dealt by basic skill by 20.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 15,
+            "hp": 36
+        },
+        "max": {
+            "atk": 195,
+            "hp": 468
+        }
+    }
+}

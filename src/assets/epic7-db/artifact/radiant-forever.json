@@ -1,0 +1,25 @@
+{
+    "name": "Radiant Forever",
+    "rarity": 4,
+    "exclusive": [
+        "mage"
+    ],
+    "event": "meet-the-nocturnes",
+    "loreDescription": [
+        "A flash appears with creation; a flare passes by with death. This crystal, created by a consolidation of all light within life, is said to have immense power."
+    ],
+    "skillDescription": {
+        "base": "Increases damage of AoE attacks against boss and elite monsters by 25%.",
+        "max": "Increases damage of AoE attacks against boss and elite monsters by 50%."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

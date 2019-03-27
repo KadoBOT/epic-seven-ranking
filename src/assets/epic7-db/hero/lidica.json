@@ -1,0 +1,680 @@
+{
+    "gameId": "c1046",
+    "name": "Lidica",
+    "rarity": 5,
+    "classType": "ranger",
+    "element": "fire",
+    "zodiac": "virgo",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Expelled from the Rose Apostles, she joined the Phantom CIC to investigate the Land of Death. She wanted to defeat the Unknown and instill faith unto others. However, her rough personality still causes problems within the Phantom CIC.",
+    "relations": [
+        {
+            "hero": "aramintha",
+            "relationType": "longing"
+        },
+        {
+            "hero": "jena",
+            "relationType": "trust"
+        },
+        {
+            "hero": "bellona",
+            "relationType": "trust"
+        },
+        {
+            "hero": "lots",
+            "relationType": "trust"
+        },
+        {
+            "hero": "rin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "sez",
+            "relationType": "rival"
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1366,
+            "atk": 96,
+            "hp": 273,
+            "spd": 120,
+            "def": 67,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 11419,
+            "atk": 771,
+            "hp": 3624,
+            "spd": 120,
+            "def": 432,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12952,
+            "atk": 983,
+            "hp": 3964,
+            "spd": 124,
+            "def": 432,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14249,
+            "atk": 961,
+            "hp": 4556,
+            "spd": 120,
+            "def": 536,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 16448,
+            "atk": 1283,
+            "hp": 4976,
+            "spd": 124,
+            "def": 536,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 0,
+            "name": "Wild Rose",
+            "soulAcquire": 1,
+            "description": "Attacks with a sword, decreasing Combat Readiness by 10%. If the enemy is debuffed, decreases Combat Readiness by an additional 10%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Ignores effect resistance.",
+            "awakenUpgrade": false,
+            "cooldown": 3,
+            "name": "Thornbush",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies, with a 85% chance to decrease Hit Chance for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_blind"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Public Execution",
+            "soulAcquire": 3,
+            "description": "Attacks the enemy with a whip sword and decreases Combat Readiness by 100% and decreases Speed for 2 turns. Grants the caster Skill Nullifier, negating damage received from the next skill attack.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_endure"
+            ],
+            "debuffs": [
+                "stic_speed_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.6,
+                    "soulburn": 1.6
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Hot-Blooded",
+        "description": "She was born to cause trouble all over the place.",
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
+        "stats": {
+            "command": 85,
+            "charm": 41,
+            "politics": 88
+        }
+    },
+    "camping": {
+        "options": [
+            "joyful-memory",
+            "sad-memory"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": 5,
+            "bizarre-story": -1,
+            "comforting-cheer": 3,
+            "complain": 3,
+            "criticism": -5,
+            "cute-cheer": 3,
+            "dream": 4,
+            "food-story": 4,
+            "gossip": 0,
+            "happy-memory": 4,
+            "heroic-cheer": 5,
+            "heroic-tale": 3,
+            "horror-story": 1,
+            "interesting-story": 2,
+            "joyful-memory": 6,
+            "myth": 4,
+            "occult": -2,
+            "reality-check": -2,
+            "sad-memory": 5,
+            "self-indulgent": 1,
+            "unique-comment": 5
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 0.043
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 0.064
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 0.086
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 0.107
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 0.129
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 4
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "eternal-forest-dust",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "demon-blood-gem",
+                    "qty": 10
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Sharp Spearhead",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+    "locations": [
+        {
+            "node": "Normal 4-9",
+            "name": "Imagination's Shade",
+            "mobcount": 10
+        },
+        {
+            "node": "World 1-S3",
+            "name": "Red Mace Camp",
+            "mobcount": 7
+        },
+        {
+            "node": "World 7-7",
+            "name": "Winter Dew Ruins",
+            "mobcount": 6
+        }
+    ]
+}

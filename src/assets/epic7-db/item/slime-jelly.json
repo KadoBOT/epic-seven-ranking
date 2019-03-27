@@ -1,0 +1,23 @@
+{
+    "name": "Slime Jelly",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+    "locations": [
+        {
+            "node": "Normal 4-1",
+            "name": "Sand Vine Marsh",
+            "mobcount": 7
+        },
+        {
+            "node": "World 3-1",
+            "name": "Levulin Harbor",
+            "mobcount": 10
+        },
+        {
+            "node": "World 9-S1",
+            "name": "Black Spider's Post",
+            "mobcount": 11
+        }
+    ]
+}

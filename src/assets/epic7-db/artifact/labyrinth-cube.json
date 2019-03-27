@@ -1,0 +1,22 @@
+{
+    "name": "Labyrinth Cube",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "A strange relic that was found in the mysterious maze of Farche Frontier. With mysterious light emitting from it, it has the power to distort space with impact."
+    ],
+    "skillDescription": {
+        "base": "10.0% chance to increase the caster's Combat Readiness by 15% at the end of the enemy's turn.",
+        "max": "20.0% chance to increase the caster's Combat Readiness by 15% at the end of the enemy's turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 36
+        },
+        "max": {
+            "atk": 117,
+            "hp": 468
+        }
+    }
+}

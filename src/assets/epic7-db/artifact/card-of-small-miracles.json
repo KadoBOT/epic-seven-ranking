@@ -1,0 +1,23 @@
+{
+    "name": "Card of Small Miracles",
+    "rarity": 4,
+    "exclusive": [],
+    "event": "a-small-miracle",
+    "loreDescription": [
+        "A New Year's card with a picture of Arky pulling a sled over a starry sky, on his way to grant the wishes of the people of Ritania. No matter how much time has passed, this card will help you remember your precious memories of that day."
+    ],
+    "skillDescription": {
+        "base": "Increases Attack and Defense of all allies by 2.5%. Does not stack with same effects.",
+        "max": "Increases Attack and Defense of all allies by 5.0%. Does not stack with same effects."
+    },
+    "stats": {
+        "base": {
+            "atk": 12,
+            "hp": 45
+        },
+        "max": {
+            "atk": 156,
+            "hp": 585
+        }
+    }
+}

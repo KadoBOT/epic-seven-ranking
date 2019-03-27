@@ -1,0 +1,22 @@
+{
+    "name": "Exorcist's Tonfa",
+    "rarity": 3,
+    "exclusive": [],
+    "loreDescription": [
+        "A powerful tonfa capable of smashing bones and splitting flesh. They say that when the wielders of this weapon dies, their souls are bound to it."
+    ],
+    "skillDescription": {
+        "base": "Increases damage dealt by 8.0% when the enemy's Health is more than 50%.",
+        "max": "Increases damage dealt by 16.0% when the enemy's Health is more than 50%."
+    },
+    "stats": {
+        "base": {
+            "atk": 16,
+            "hp": 14
+        },
+        "max": {
+            "atk": 208,
+            "hp": 182
+        }
+    }
+}

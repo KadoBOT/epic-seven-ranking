@@ -1,0 +1,25 @@
+{
+    "name": "Adamant Shield",
+    "rarity": 4,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "That damn shield can't be penetrated by anything. I guarantee you, cause even my sword couldn't.",
+        "- Star Fencer Ayla"
+    ],
+    "skillDescription": {
+        "base": "Decreases critical hit damage received by all allies by 8.0%. When this effect is granted more than once, only the strongest effect is applied.",
+        "max": "Decreases critical hit damage received by all allies by 16.0%. When this effect is granted more than once, only the strongest effect is applied."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}

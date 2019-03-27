@@ -1,0 +1,28 @@
+{
+    "name": "Leather Sheath",
+    "type": "catalyst",
+    "rarity": "",
+    "description": "A sheath of tough leather used by soldiers to carry their swords.",
+    "locations": [
+        {
+            "node": "Normal 4-9",
+            "name": "Imagination's Shade",
+            "mobcount": 10
+        },
+        {
+            "node": "World 4-8",
+            "name": "Little Flamingo Grove",
+            "mobcount": 4
+        },
+        {
+            "node": "World 7-9",
+            "name": "Tagehel Ruins",
+            "mobcount": 4
+        },
+        {
+            "node": "World 7-10",
+            "name": "Cloud Forest",
+            "mobcount": 4
+        }
+    ]
+}

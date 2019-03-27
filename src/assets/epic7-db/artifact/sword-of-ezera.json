@@ -1,0 +1,26 @@
+{
+    "name": "Sword of Ezera",
+    "rarity": 5,
+    "exclusive": [
+        "knight"
+    ],
+    "event": "indomitable-knight",
+    "loreDescription": [
+        "\"Because the color and shape is different to the holy sword wielded by the real life Ezeran legend...\"",
+        "The final part of the etching on the sword's hilt has been lost to time, but a mysterious force can still be felt flowing through the blade."
+    ],
+    "skillDescription": {
+        "base": "Decreases damage suffered by the caster from Elite or Boss monsters by 15.0%. When this effect is granted more than once, only the strongest effect is applied.",
+        "max": "Decreases damage suffered by the caster from Elite or Boss monsters by 30.0%. When this effect is granted more than once, only the strongest effect is applied."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 76
+        },
+        "max": {
+            "atk": 117,
+            "hp": 988
+        }
+    }
+}

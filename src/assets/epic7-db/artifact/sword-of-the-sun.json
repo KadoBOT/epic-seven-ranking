@@ -1,0 +1,22 @@
+{
+    "name": "Sword of the Sun",
+    "rarity": 1,
+    "exclusive": [],
+    "loreDescription": [
+        "A mysterious sword containing the power of light that grants its wielder continuous vitality."
+    ],
+    "skillDescription": {
+        "base": "Increases Attack by 2.0%.",
+        "max": "Increases Attack by 4.0%."
+    },
+    "stats": {
+        "base": {
+            "atk": 9,
+            "hp": 15
+        },
+        "max": {
+            "atk": 117,
+            "hp": 195
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Time Matter",
+    "rarity": 5,
+    "exclusive": [
+        "mage"
+    ],
+    "loreDescription": [
+        "A source of power that Guardian Kazran wields that controls time. It can bring forth a time in the past that no one can remember."
+    ],
+    "skillDescription": {
+        "base": "Reduces skill cooldown by 1 turn when an enemy is killed and increases the damage of the next attack by 18.0%. Can only be activated once per skill.",
+        "max": "Reduces skill cooldown by 1 turn when an enemy is killed and increases the damage of the next attack by 36.0%. Can only be activated once per skill."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 43
+        },
+        "max": {
+            "atk": 234,
+            "hp": 559
+        }
+    }
+}

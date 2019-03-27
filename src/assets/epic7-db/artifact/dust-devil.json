@@ -1,0 +1,24 @@
+{
+    "name": "Dust Devil",
+    "rarity": 4,
+    "exclusive": [
+        "thief"
+    ],
+    "loreDescription": [
+        "\"Once this long fight is over, will everything go back to the way it was?\" mused the hero of the Dejurak desert with a deep sigh of anger."
+    ],
+    "skillDescription": {
+        "base": "15.0% chance to attack again with a Basic Attack after attacking with a Basic Attack if the target survives. Can be activated once per turn.",
+        "max": "30.0% chance to attack again with a Basic Attack after attacking with a Basic Attack if the target survives. Can be activated once per turn."
+    },
+    "stats": {
+        "base": {
+            "atk": 18,
+            "hp": 27
+        },
+        "max": {
+            "atk": 234,
+            "hp": 351
+        }
+    }
+}

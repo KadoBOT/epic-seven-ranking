@@ -1,0 +1,24 @@
+{
+    "name": "Aurius",
+    "rarity": 4,
+    "exclusive": [
+        "knight"
+    ],
+    "loreDescription": [
+        "Legendary hero Knight Commander Rowell's tower shield."
+    ],
+    "skillDescription": {
+        "base": "Increases ally's Defense by 10%, and takes 10% of the damage suffered by them. Does not overlap with an Artifact providing the same effect.",
+        "max": "Increases ally's Defense by 10%, and takes 20% of the damage suffered by them. Does not overlap with an Artifact providing the same effect."
+    },
+    "stats": {
+        "base": {
+            "atk": 7,
+            "hp": 63
+        },
+        "max": {
+            "atk": 91,
+            "hp": 819
+        }
+    }
+}
