@@ -35,7 +35,7 @@ import { mapGetters } from 'vuex';
   data() {
     return {
       pve: ['average', 'hunt10', 'hunt11', 'raid', 'abyss'],
-      pvp: ['gwOffense', 'gwDefense', 'arenaOffense', 'arenaDefense', 'average']
+      pvp: ['gwOffense', 'gwDefense', 'arenaOffense', 'arenaDefense', 'average'],
     };
   },
   beforeRouteEnter(to, from, next) {

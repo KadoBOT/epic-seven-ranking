@@ -4,7 +4,7 @@
       <div v-for="hero in filteredHeroes" :key="hero.id">
         <router-link :to="`/hero/${hero.id}`">
           {{ hero.name }}
-          <button v-if="hasHero(hero.id)" @click.prevent="removeHero(hero.id)">Remove Hero</button>
+          <button v-if="[hero.id] in ownedHeroes" @click.prevent="removeHero(hero.id)">Remove Hero</button>
           <button v-else @click.prevent="addHero(hero.id)">Add Hero</button>
         </router-link>
       </div>
@@ -22,13 +22,10 @@ import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
   },
   methods: {
     ...mapActions(['changeInput', 'addHero', 'removeHero']),
-    hasHero(heroId: string) {
-      return this.$store.getters.myHeroes
-        .some(({ id }: { id: string }) => id === heroId);
-    },
   },
   computed: {
-    ...mapGetters(['filteredHeroes']),
+    ...mapState(['ownedHeroes']),
+    ...mapGetters(['filteredHeroes', 'hasHero']),
   },
 })
 export default class Home extends Vue {}

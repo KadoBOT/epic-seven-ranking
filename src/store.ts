@@ -9,10 +9,10 @@ import { IHero } from './db/interfaces/list';
 
 Vue.use(Vuex);
 
-const INCREMENT = 'INCREMENT_BY';
 const SET_HERO = 'SET_HERO';
 const SET_INPUT = 'SET_INPUT';
 const SET_OWNED_HEROES = 'SET_OWNED_HEROES';
+const REMOVE_HERO = 'REMOVE_HERO';
 
 const nameStartsWith = (name: string, input: string): boolean => {
   return name.toLowerCase().split(' ').some((nameSlice) => nameSlice.startsWith(input.toLowerCase()));
@@ -37,12 +37,11 @@ export default new Vuex.Store({
         await list.getAll();
         state.ownedHeroes = list.heroes.reduce((acc, { id }) => {
           return { ...acc, [id]: state.heroes[id] };
-        }, state.ownedHeroes);
+        }, {});
     },
   },
   getters: {
     filteredHeroes: (state) => Object.values(state.heroes).filter(({ name }) => nameStartsWith(name, state.input)),
-    myHeroes: (state) => Object.values(state.ownedHeroes),
     getBestPvp: (state) => (key: IPveEnum) => {
       return Object.values(state.ownedHeroes).sort((a: IHeroDict, b: IHeroDict) => {
         const aPveAverage = a.pvp ? a.pvp[key] : 0;
@@ -63,7 +62,10 @@ export default new Vuex.Store({
         const bAverage = b.pvp && b.pve ? (b.pvp.average + b.pve.average) / 2 : 0;
         return bAverage - aAverage;
       }).slice(0, 10);
-    }
+    },
+    hasHero: (state) => (heroId: string) => {
+      return heroId in state.ownedHeroes;
+    },
   },
   actions: {
     setHero({ commit }, hero) {
